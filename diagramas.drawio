@@ -493,7 +493,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Iev0dwgMZJddHyDEFxUF" name="despliegue">
-    <mxGraphModel dx="5794" dy="2500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3428" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -681,7 +681,7 @@
         <mxCell id="aGz-FBFb1px3UzcEN4xJ-12" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;SeguridadDB&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="210" y="650" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eRqDz2gkFWzS-2CPRolV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aGz-FBFb1px3UzcEN4xJ-13" target="X-JHEquLW1Se5bW3aehA-1">
+        <mxCell id="eRqDz2gkFWzS-2CPRolV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="1" source="aGz-FBFb1px3UzcEN4xJ-13" target="X-JHEquLW1Se5bW3aehA-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-1145" y="30" />
