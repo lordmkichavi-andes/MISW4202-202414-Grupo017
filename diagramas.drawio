@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="2">
   <diagram name="componentes" id="6ea6beEfx3NTblesf1mL">
-    <mxGraphModel dx="1821" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2288" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,12 +147,6 @@
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-150" value="" style="html=1;rounded=0;" vertex="1" parent="HvEhoI65BLa4Ol27kd9m-28">
           <mxGeometry x="850" y="130" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="HvEhoI65BLa4Ol27kd9m-151" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;" edge="1" source="HvEhoI65BLa4Ol27kd9m-150" target="HvEhoI65BLa4Ol27kd9m-152" parent="HvEhoI65BLa4Ol27kd9m-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HvEhoI65BLa4Ol27kd9m-152" value="" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" vertex="1" parent="HvEhoI65BLa4Ol27kd9m-28">
-          <mxGeometry x="902" y="136" width="8" height="8" as="geometry" />
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="HvEhoI65BLa4Ol27kd9m-28">
           <mxGeometry relative="1" as="geometry">
@@ -305,7 +299,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HvEhoI65BLa4Ol27kd9m-90" value="&lt;meta charset=&quot;utf-8&quot;&gt;GestionIncidentes" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" vertex="1" parent="1">
+        <mxCell id="HvEhoI65BLa4Ol27kd9m-90" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;GestionIncidentes" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="708" width="8" height="8" as="geometry" />
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.479;exitY=0.929;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="HvEhoI65BLa4Ol27kd9m-78">
@@ -336,7 +330,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HvEhoI65BLa4Ol27kd9m-120" value="" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" vertex="1" parent="1">
+        <mxCell id="HvEhoI65BLa4Ol27kd9m-120" value="IncidentesMovil" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="736" width="8" height="8" as="geometry" />
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-119" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;" edge="1" source="HvEhoI65BLa4Ol27kd9m-118" target="HvEhoI65BLa4Ol27kd9m-120" parent="1">
@@ -392,7 +386,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HvEhoI65BLa4Ol27kd9m-156" value="" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" vertex="1" parent="1">
+        <mxCell id="HvEhoI65BLa4Ol27kd9m-156" value="ControlAcceso" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" vertex="1" parent="1">
           <mxGeometry x="346" y="1162" width="8" height="8" as="geometry" />
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-155" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;" edge="1" source="HvEhoI65BLa4Ol27kd9m-154" target="HvEhoI65BLa4Ol27kd9m-156" parent="1">
@@ -412,7 +406,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HvEhoI65BLa4Ol27kd9m-163" value="" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" vertex="1" parent="1">
+        <mxCell id="HvEhoI65BLa4Ol27kd9m-163" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SeguridadDatos" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" vertex="1" parent="1">
           <mxGeometry x="676" y="1161" width="8" height="8" as="geometry" />
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-162" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;" edge="1" source="HvEhoI65BLa4Ol27kd9m-161" target="HvEhoI65BLa4Ol27kd9m-163" parent="1">
@@ -484,6 +478,16 @@
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-214" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(254, 250, 250); font-family: ArialMT; font-size: 20px;&quot;&gt;ABCall - Relaciones&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(254, 250, 250); font-family: ArialMT; font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Login - GestorAutenticacion&lt;/div&gt;&lt;div&gt;Estilo: Cliente-Servidor&amp;nbsp;&lt;/div&gt;&lt;div&gt;Comunicación: Síncrona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GestiónIncidentes - ManejadorIncidentes&amp;nbsp;&lt;/div&gt;&lt;div&gt;Estilo: Cliente-Servidor&amp;nbsp;&lt;/div&gt;&lt;div&gt;Comunicación: Síncrona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dashboard&amp;nbsp; - ManejadorAnalitica&amp;nbsp;&lt;/div&gt;&lt;div&gt;Estilo: Cliente-Servidor&amp;nbsp;&lt;/div&gt;&lt;div&gt;Comunicación: Síncrona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GestiónLlamadas - ManejadorLlamadas&amp;nbsp;&lt;/div&gt;&lt;div&gt;Estilo: Cliente-Servidor&lt;/div&gt;&lt;div&gt;Comunicación: Síncrona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;InterfazMóvil - ManejadorIncidentes&lt;/div&gt;&lt;div&gt;Estilo: Cliente-Servidor&amp;nbsp;&lt;/div&gt;&lt;div&gt;Comunicación: Síncrona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GestorAutenticacion - ControlAutorizacion&lt;/div&gt;&lt;div&gt;Estilo: Datos Compartidos&lt;/div&gt;&lt;div&gt;Comunicación: Síncrona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ManejadorIncidentes, ManejadorLlamadas - SeguridadDatos&lt;/div&gt;&lt;div&gt;Estilo: Datos Compartidos&lt;/div&gt;&lt;div&gt;Comunicación: Síncrona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GestorFacturacion - SeguridadDatos&lt;/div&gt;&lt;div&gt;Estilo: Datos Compartidos&amp;nbsp;&lt;/div&gt;&lt;div&gt;Comunicación: Síncrona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MotorAutomatizacion - MonitoreoAuditoria&lt;/div&gt;&lt;div&gt;Estilo: Publicador-Suscriptor&lt;/div&gt;&lt;div&gt;Comunicación: Asíncrona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ManejadorAnalitica - SeguridadDatos&lt;/div&gt;&lt;div&gt;Estilo: Datos Compartidos&lt;/div&gt;&lt;div&gt;Comunicación: Síncrona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MotorAutomatizacion - ManejadorIncidentes&lt;/div&gt;&lt;div&gt;Estilo: Publicador-Suscriptor&amp;nbsp;&lt;/div&gt;&lt;div&gt;Comunicación: Asíncrona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MonitoreoAuditoria - ControlAutorizacion, SeguridadDatos&lt;/div&gt;&lt;div&gt;Estilo: Publicador-Suscriptor&amp;nbsp;&lt;/div&gt;&lt;div&gt;Comunicación: Asíncrona&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="1330" y="520" width="350" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="HvEhoI65BLa4Ol27kd9m-152" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; GestionLlamadas" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="690" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HvEhoI65BLa4Ol27kd9m-151" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;" edge="1" source="HvEhoI65BLa4Ol27kd9m-150" target="HvEhoI65BLa4Ol27kd9m-152" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
