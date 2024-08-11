@@ -493,7 +493,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Iev0dwgMZJddHyDEFxUF" name="despliegue">
-    <mxGraphModel dx="2837" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3724" dy="2419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -824,7 +824,7 @@
         <mxCell id="XlqE3j3Tupyc323d_z_A-3" value="&lt;span style=&quot;font-size: 10px; background-color: rgb(251, 251, 251);&quot;&gt;DashboardAnalitico&lt;/span&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/interface.svg;" vertex="1" parent="1">
           <mxGeometry x="-340" y="432" width="50" height="23.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ja4GzAAtCB5LRmS6rUZ8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;jumpStyle=arc;jumpSize=15;" edge="1" parent="1" source="XlqE3j3Tupyc323d_z_A-7" target="X-JHEquLW1Se5bW3aehA-5">
+        <mxCell id="Ja4GzAAtCB5LRmS6rUZ8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;jumpStyle=arc;jumpSize=15;endArrow=none;endFill=0;" edge="1" parent="1" source="XlqE3j3Tupyc323d_z_A-7" target="X-JHEquLW1Se5bW3aehA-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-970" y="385" />
