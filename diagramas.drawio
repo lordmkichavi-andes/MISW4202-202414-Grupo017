@@ -821,7 +821,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XlqE3j3Tupyc323d_z_A-7" value="&lt;span style=&quot;font-size: 10px; background-color: rgb(251, 251, 251);&quot;&gt;AutenticacionUsuario&lt;/span&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/interface.svg;" vertex="1" parent="1">
+        <mxCell id="XlqE3j3Tupyc323d_z_A-7" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(251, 251, 251);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;GestionLlamadas&lt;/span&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/interface.svg;" vertex="1" parent="1">
           <mxGeometry x="-1160" y="373.25" width="50" height="23.5" as="geometry" />
         </mxCell>
         <mxCell id="Ja4GzAAtCB5LRmS6rUZ8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;strokeWidth=2;jumpStyle=arc;jumpSize=20;" edge="1" parent="1" source="Ja4GzAAtCB5LRmS6rUZ8-6" target="X-JHEquLW1Se5bW3aehA-3">
