@@ -493,7 +493,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Iev0dwgMZJddHyDEFxUF" name="despliegue">
-    <mxGraphModel dx="2511" dy="1686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5794" dy="3669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -961,8 +961,21 @@
         <mxCell id="ul4XsKYNrZ-hmUZl_fC8-1" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(251, 251, 251);&quot;&gt;&amp;nbsp; &amp;nbsp;GestionIncidentes&lt;/span&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/interface.svg;" vertex="1" parent="1">
           <mxGeometry x="-340" y="476.5" width="50" height="23.5" as="geometry" />
         </mxCell>
-        <mxCell id="2rubOkcxbCooebjfeVcI-1" value="&lt;h3&gt;&lt;span style=&quot;font-size: 14.04px;&quot;&gt;Comunicación entre Servidores:&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;font-size: 14.04px;&quot;&gt;Presentación - Lógica de Negocio:&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;font-size: 14.04px; font-weight: normal;&quot;&gt;Protocolo: HTTP/HTTPS (RESTful API)&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;font-size: 14.04px; font-weight: normal;&quot;&gt;Función: Solicitudes y respuestas para autenticación y gestión de datos.&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;font-size: 14.04px;&quot;&gt;L&lt;/span&gt;&lt;span style=&quot;font-size: 14.04px;&quot;&gt;ógica de Negocio - Persistencia:&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Protocolo: SQL&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;font-size: 14.04px; font-weight: normal;&quot;&gt;Función: Consultas y actualizaciones en la base de datos.&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;font-size: 14.04px;&quot;&gt;Lógica de Negocio - Persistencia:&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;font-weight: normal; background-color: initial;&quot;&gt;Protocolo: RESTful APIs (HTTP/HTTPS)&lt;/span&gt;&lt;br&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;font-size: 14.04px; font-weight: normal;&quot;&gt;Función: Manejo de eventos asíncronos para monitoreo y auditoría.&lt;/span&gt;&lt;/h3&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1790" y="560" width="470" height="340" as="geometry" />
+        <mxCell id="2rubOkcxbCooebjfeVcI-1" value="&lt;h3 style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Comunicación entre Servidores:&lt;/font&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Presentación - Lógica de Negocio:&lt;/font&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Protocolo: HTTP/HTTPS (RESTful API)&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Función: Solicitudes y respuestas para autenticación y gestión de datos.&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Lógica de Negocio - Persistencia:&lt;/font&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Protocolo: SQL&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Función: Consultas y actualizaciones en la base de datos.&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Lógica de Negocio - Persistencia:&lt;/font&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-weight: normal; background-color: initial;&quot;&gt;Protocolo: RESTful APIs (HTTP/HTTPS)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Función: Manejo de eventos asíncronos para monitoreo y auditoría.&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1783" y="467.5" width="570" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8uOVuQ8JX6whZB92gyce-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.964;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="GkNsjBBLgBe79CwcEETh-2" target="GkNsjBBLgBe79CwcEETh-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-800" y="800" />
+              <mxPoint x="-800" y="1072" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uOVuQ8JX6whZB92gyce-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;HTTP/HTTPS&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8uOVuQ8JX6whZB92gyce-1">
+          <mxGeometry x="-0.1405" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
