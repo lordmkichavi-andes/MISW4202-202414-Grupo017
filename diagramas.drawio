@@ -493,7 +493,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Iev0dwgMZJddHyDEFxUF" name="despliegue">
-    <mxGraphModel dx="5794" dy="3669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2837" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -582,7 +582,7 @@
         <mxCell id="HThIGT0jmkaF8icC4VFj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="0EmEHA1-FjKYxKpGrEc1-9" target="HThIGT0jmkaF8icC4VFj-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ja4GzAAtCB5LRmS6rUZ8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="0EmEHA1-FjKYxKpGrEc1-9" target="Ja4GzAAtCB5LRmS6rUZ8-6">
+        <mxCell id="Ja4GzAAtCB5LRmS6rUZ8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;strokeWidth=2;" edge="1" parent="1" source="0EmEHA1-FjKYxKpGrEc1-9" target="Ja4GzAAtCB5LRmS6rUZ8-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0EmEHA1-FjKYxKpGrEc1-9" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;InterfazMóvil&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
