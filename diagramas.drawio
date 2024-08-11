@@ -493,17 +493,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Iev0dwgMZJddHyDEFxUF" name="despliegue">
-    <mxGraphModel dx="3115" dy="2051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4759" dy="3044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GkNsjBBLgBe79CwcEETh-1" value="Servidor de Presentación" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="GkNsjBBLgBe79CwcEETh-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Servidor de Presentación&lt;/font&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="-1510" y="60" width="1260" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="GkNsjBBLgBe79CwcEETh-2" value="Servidor de Lógica de Negocio" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="GkNsjBBLgBe79CwcEETh-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Servidor de Lógica de Negocio&lt;/font&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="70" y="60" width="1380" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="GkNsjBBLgBe79CwcEETh-3" value="Servidor de Persistencia" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="GkNsjBBLgBe79CwcEETh-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Servidor de Persistencia&lt;/font&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="-840" y="1070" width="1380" height="500" as="geometry" />
         </mxCell>
         <mxCell id="HThIGT0jmkaF8icC4VFj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="0EmEHA1-FjKYxKpGrEc1-1" target="HThIGT0jmkaF8icC4VFj-1">
