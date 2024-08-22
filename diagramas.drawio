@@ -1705,8 +1705,8 @@
         <mxCell id="8NoQogMkPsuz2lkwPXnM-132" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;carrera.py" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="684.7099999999999" y="273" width="164.32" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8NoQogMkPsuz2lkwPXnM-133" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;carrera-detail.component.html" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="975" y="281" width="230" height="60" as="geometry" />
+        <mxCell id="8NoQogMkPsuz2lkwPXnM-133" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;carreras.py" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1012.5" y="281" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8NoQogMkPsuz2lkwPXnM-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="8NoQogMkPsuz2lkwPXnM-136" target="8NoQogMkPsuz2lkwPXnM-138">
           <mxGeometry relative="1" as="geometry" />
@@ -1719,8 +1719,8 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8NoQogMkPsuz2lkwPXnM-138" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;div&gt;apuesta-list.component.html&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="975" y="493.5" width="260" height="60" as="geometry" />
+        <mxCell id="8NoQogMkPsuz2lkwPXnM-138" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;div&gt;apuesta.py&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1027.5" y="493.5" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8NoQogMkPsuz2lkwPXnM-141" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;usuarios.py" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="355" y="477.5" width="150" height="50" as="geometry" />
