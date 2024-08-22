@@ -1781,7 +1781,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pFlYy4YznauhniiRjmXD" name="componentes 1 sprint">
-    <mxGraphModel dx="2722" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4274" dy="1905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2202,6 +2202,9 @@
               <mxPoint x="400" y="1533" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MOBkOpfYdIqjXFjySyAC-26" value="&lt;h3&gt;&lt;strong&gt;Nota para el Diagrama de Componentes de E-Porra&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;En &lt;strong&gt;E-Porra&lt;/strong&gt;, todas las comunicaciones entre las capas tienen un estilo cliente-Servidor y son síncronas:&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Capa de Presentación y Capa de Lógica de Negocio&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: La capa de presentación (frontend) se comunica con la capa de lógica de negocio a través de &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;HTTP/HTTPS&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Capa de Lógica de Negocio y Capa de Persistencia&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: La capa de lógica de negocio se conecta a la capa de persistencia mediante&lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SQL&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="300" width="310" height="225" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
