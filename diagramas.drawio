@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="6">
   <diagram name="componentes abcall" id="6ea6beEfx3NTblesf1mL">
-    <mxGraphModel dx="2738" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1580" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,7 +212,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-37" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid; font-size: 16px;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px; font-size: 16px;&quot;&gt;MotorAutomatizacion&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fontSize=16;" parent="HvEhoI65BLa4Ol27kd9m-30" vertex="1">
-          <mxGeometry x="750.0020618556701" y="250" width="166.5979381443299" height="72" as="geometry" />
+          <mxGeometry x="750" y="250" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-38" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontSize=16;" parent="HvEhoI65BLa4Ol27kd9m-37" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -220,7 +220,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-39" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid; font-size: 16px;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px; font-size: 16px;&quot;&gt;GestorFacturacion&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fontSize=16;" parent="HvEhoI65BLa4Ol27kd9m-30" vertex="1">
-          <mxGeometry x="406.08" y="256" width="166.6" height="84" as="geometry" />
+          <mxGeometry x="385.26" y="256" width="183.92" height="84" as="geometry" />
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-40" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontSize=16;" parent="HvEhoI65BLa4Ol27kd9m-39" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -263,7 +263,7 @@
           <mxGeometry x="560" y="302" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-184" value="" style="html=1;rounded=0;fontSize=16;" parent="HvEhoI65BLa4Ol27kd9m-30" vertex="1">
-          <mxGeometry x="910" y="288.5" width="20" height="19" as="geometry" />
+          <mxGeometry x="928" y="290.5" width="20" height="19" as="geometry" />
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-194" value="" style="html=1;rounded=0;fontSize=16;" parent="HvEhoI65BLa4Ol27kd9m-30" vertex="1">
           <mxGeometry x="220" y="135" width="20" height="20" as="geometry" />
@@ -445,21 +445,21 @@
         <mxCell id="HvEhoI65BLa4Ol27kd9m-185" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;dashed=1;jumpStyle=arc;jumpSize=13;fontSize=16;" parent="1" source="HvEhoI65BLa4Ol27kd9m-184" target="HvEhoI65BLa4Ol27kd9m-186" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="994" y="1068" />
+              <mxPoint x="1010" y="1070" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;jumpStyle=arc;jumpSize=16;fontSize=16;" parent="1" source="HvEhoI65BLa4Ol27kd9m-186" target="HvEhoI65BLa4Ol27kd9m-187" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="994" y="1210" />
+              <mxPoint x="1010" y="1210" />
               <mxPoint x="710" y="1210" />
               <mxPoint x="710" y="1469" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-186" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; EventosAutomatizacion" style="ellipse;html=1;fontSize=16;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" parent="1" vertex="1">
-          <mxGeometry x="990" y="1190" width="8" height="8" as="geometry" />
+          <mxGeometry x="1005" y="1190" width="8" height="8" as="geometry" />
         </mxCell>
         <mxCell id="HvEhoI65BLa4Ol27kd9m-195" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;fontSize=16;" parent="1" source="HvEhoI65BLa4Ol27kd9m-194" target="HvEhoI65BLa4Ol27kd9m-196" edge="1">
           <mxGeometry relative="1" as="geometry">
