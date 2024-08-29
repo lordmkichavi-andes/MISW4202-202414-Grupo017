@@ -2537,7 +2537,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mELTtRKLDCOne8etxKV3" name="hu experimento arquitectura abcall asincrono">
-    <mxGraphModel dx="1242" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3105" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
