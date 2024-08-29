@@ -2606,8 +2606,8 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqtzQY9Xg6S2N8Q_f75y-6" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=north;fillColor=#f08851;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-1210" y="630" width="360" height="37" as="geometry" />
+        <mxCell id="NqtzQY9Xg6S2N8Q_f75y-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Plataforma Mensajeria&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=north;fillColor=#f08851;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1372.8899999999999" y="650" width="360" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
