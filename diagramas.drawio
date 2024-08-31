@@ -2543,7 +2543,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mELTtRKLDCOne8etxKV3" name="hu experimento arquitectura abcall asincrono">
-    <mxGraphModel dx="3994" dy="1831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3332" dy="1429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2716,6 +2716,12 @@
           <mxGeometry x="-0.1177" y="3" relative="1" as="geometry">
             <mxPoint x="-91" y="3" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xI6n5fx8rhWwcSTef3MC-3" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Nota&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: El ícono indica Autoescalado, lo que permite ajustar recursos automáticamente según la demanda.&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;" vertex="1" parent="1">
+          <mxGeometry x="-1597.95" y="59" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xI6n5fx8rhWwcSTef3MC-4" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.auto_scaling;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-1420.95" y="129" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
