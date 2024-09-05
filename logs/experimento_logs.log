@@ -1,0 +1,26 @@
+2024-09-04 20:41:02,150 - INFO - Servicio api_gateway.py iniciado en el puerto 5000
+2024-09-04 20:41:02,151 - INFO - Servicio manejador_incidentes.py iniciado en el puerto 5001
+2024-09-04 20:41:02,153 - INFO - Servicio manejador_incidentes.py iniciado en el puerto 5002
+2024-09-04 20:41:02,155 - INFO - Servicio manejador_incidentes.py iniciado en el puerto 5003
+2024-09-04 20:41:02,157 - INFO - Servicio validador_incidentes.py iniciado en el puerto 5004
+2024-09-04 20:41:02,157 - INFO - Iniciando iteración 1 del experimento.
+2024-09-04 20:41:02,181 - WARNING - Problema en el monitoreo de servicios: 
+2024-09-04 20:41:02,181 - WARNING - Saltando iteración debido a problemas de salud en los servicios.
+2024-09-04 20:41:12,136 - INFO - Iniciando iteración 2 del experimento.
+2024-09-04 20:41:12,146 - WARNING - Problema en el monitoreo de servicios: 
+2024-09-04 20:41:12,146 - WARNING - Saltando iteración debido a problemas de salud en los servicios.
+2024-09-04 20:41:22,151 - INFO - Iniciando iteración 3 del experimento.
+2024-09-04 20:41:22,161 - WARNING - Problema en el monitoreo de servicios: 
+2024-09-04 20:41:22,161 - WARNING - Saltando iteración debido a problemas de salud en los servicios.
+2024-09-04 20:41:32,167 - INFO - Iniciando iteración 4 del experimento.
+2024-09-04 20:41:32,180 - WARNING - Problema en el monitoreo de servicios: 
+2024-09-04 20:41:32,180 - WARNING - Saltando iteración debido a problemas de salud en los servicios.
+2024-09-04 20:41:42,182 - INFO - Iniciando iteración 5 del experimento.
+2024-09-04 20:41:42,190 - WARNING - Problema en el monitoreo de servicios: 
+2024-09-04 20:41:42,190 - WARNING - Saltando iteración debido a problemas de salud en los servicios.
+2024-09-04 20:41:52,191 - INFO - Iniciando iteración 6 del experimento.
+2024-09-04 20:41:52,199 - WARNING - Problema en el monitoreo de servicios: 
+2024-09-04 20:41:52,199 - WARNING - Saltando iteración debido a problemas de salud en los servicios.
+2024-09-04 20:42:02,203 - INFO - Iniciando iteración 7 del experimento.
+2024-09-04 20:42:02,210 - WARNING - Problema en el monitoreo de servicios: 
+2024-09-04 20:42:02,210 - WARNING - Saltando iteración debido a problemas de salud en los servicios.

@@ -14,6 +14,18 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S'  # Formato de la fecha
 )
 
+MANEJADOR_URLS = [
+    "http://localhost:5001/registrar_incidente",
+    "http://localhost:5002/registrar_incidente",
+    "http://localhost:5003/registrar_incidente"
+]
+VALIDADOR_URL = "http://localhost:5004/validar_incidentes"
+MONITOR_URLS = [
+    "http://localhost:5001/health",
+    "http://localhost:5002/health",
+    "http://localhost:5003/health"
+]
+
 """
    POST /registrar_incidente
    Registrar un nuevo incidente.

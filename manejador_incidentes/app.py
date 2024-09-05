@@ -1,10 +1,10 @@
 from flask import Flask
 from flask_cors import CORS
-from flask_jwt_extended import JWTManager
 from flask_restful import Api
-import json
-from modelo.modelos import db, Incidente, IncidenteSchema
-from vistas import VistaRegistrarIncidente
+
+from manejador_incidentes.vistas import VistaRegistrarIncidente
+from modelo.modelos import db
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///incidentes.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
