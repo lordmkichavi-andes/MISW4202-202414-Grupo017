@@ -3,7 +3,7 @@ import logging
 from flask import Flask, request, jsonify
 import requests
 
-app = Flask._name_
+app = Flask(__name__)
 
 # Configurar el registro de logs
 logging.basicConfig(
@@ -51,8 +51,7 @@ def registrar_incidente():
         return jsonify(registro.json()), 200
     else:
         logging.info(f"Excepción al registrar incident en {MANEJADOR_URLS[puerto]}")
-
-        return {"error": "No se pudo registrar el incidente"}, 400
+    return {"error": "No se pudo registrar el incidente"}, 400
 
 
 @app.route('/validar_incidentes', methods=['POST'])
@@ -104,5 +103,5 @@ def registrar_estado_servicios(status_code: int, servicio: str):
     return {servicio, True}
 
 
-if _name_ == '_main_':
-    app.run(port=5000)
+if __name__ == '__main__':
+    app.run(port=5010)

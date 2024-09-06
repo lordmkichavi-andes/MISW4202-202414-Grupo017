@@ -3,6 +3,7 @@ import sqlite3
 import logging
 import threading
 
+from flask_cors import CORS
 
 logging.basicConfig(
     level=logging.INFO,
@@ -27,6 +28,7 @@ def init_db():
 
 def create_app():
     app = Flask(__name__)
+    CORS(app, resources={r"/*": {"origins": "*"}})
 
     @app.route('/registrar_incidente', methods=['POST'])
     def registrar_incidente():
