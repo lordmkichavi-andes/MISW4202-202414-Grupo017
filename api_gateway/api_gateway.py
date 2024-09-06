@@ -14,11 +14,11 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S'  # Formato de la fecha
 )
 
-MANEJADOR_URLS = [
-    "http://localhost:5001/registrar_incidente",
-    "http://localhost:5002/registrar_incidente",
-    "http://localhost:5003/registrar_incidente"
-]
+MANEJADOR_URLS = {
+    5001: "http://localhost:5001/registrar_incidente",
+    5002: "http://localhost:5002/registrar_incidente",
+    5003: "http://localhost:5003/registrar_incidente"
+}
 VALIDADOR_URL = "http://localhost:5004/validar_incidentes"
 MONITOR_URLS = [
     "http://localhost:5001/health",
@@ -42,24 +42,43 @@ MONITOR_URLS = [
 
 @app.route('/registrar_incidente', methods=['POST'])
 def registrar_incidente():
-    registro = requests.post(f"http://registro:5001/registrar_incidente", request.get_json())
+    incidente = {"descripcion": f"Incidente {request.json['descripcion']}", "severidad": {request.json['severidad']}}
+    puerto = request.json['puerto']
+    registro = requests.post(MANEJADOR_URLS[puerto], incidente)
+
     if registro.status_code == 200:
+        logging.info(f"Incidente registrado correctamente en {MANEJADOR_URLS[puerto]})
+
         return jsonify(registro.json()), 200
     else:
+        logging.info(f"Excepción al registrar incident en {MANEJADOR_URLS[puerto]})
+
         return {"error": "No se pudo registrar el incidente"}, 400
 
+@app.route('/validar_incidentes', methods=['POST'])
+def validar_incidentes():
+    respuesta = requests.post(VALIDADOR_URL, request.get_json())
+    if registro.status_code == 200:
+        logging.info(f"Incidente validado correctamente en {VALIDADOR_URL})
+
+        return jsonify(registro.json()), 200
+    else:
+        logging.info(f"Excepción al validar incident en {VALIDADOR_URL})
+
+        return {"error": "No se pudo validar el incidente"}, 400
 
 @app.route('/monitor', methods=['GET'])
 def monitor_services():
-    services = {
-        {'nombre': 'manejador', 'puerto': 5001, },
-        {'nombre': 'validador', 'puerto': 5002, }
-    }
-    for service in services:
-        registro = requests.post(f"http://registro:{str(service['puerto'])}/health")
+    estado_Servicios = []
+    for manejador in MANEJADOR_URLS:
+        registro = requests.post(f"{manejador}/health")
 
-        if registro.status_code != 200:
-            logging.error(f"Error en el servicio {service['nombre']}.")
+        estado_Servicios.append(registrar_estado_Servicios(registro.status_code,service['nombre']))
+
+    registro = requests.post(f"{VALIDADOR_URL}/health")
+    estado_Servicios.append(registrar_estado_Servicios(registro.status_code, VALIDADOR_URL))
+
+    return jsonify(estado_Servicios), 200
 
 
 @app.route('/health', methods=['GET'])
@@ -67,21 +86,13 @@ def health_check():
     return jsonify({"status": "healthy"}), 200
 
 
-def timer(timer_runs):
-    # (4) El código corre mientras el booleano sea verdadero.
-    while timer_runs.is_set():
-        monitor_services()
-        time.sleep(300)  # 5 minutos.
 
+
+def registrar_estado_Servicios(status_code: int, servicio: str):
+    if status_code != 200:
+        logging.error(f"Error en el servicio {servicio}.")
+        return {manejador, 'Fallando'}
+    return {manejador, 'Funcionando'}
 
 if __name__ == '__main__':
     app.run(port=5000)
-
-    # (1) Creación del booleano que indica si el hilo secundario
-    # debe correr o no.
-    timer_runs = threading.Event()
-    # (2) Iniciarlo con el valor True.
-    timer_runs.set()
-    # (3) Pasarlo como argumento al timer para que pueda leerlo.
-    t = threading.Thread(target=timer, args=(timer_runs,))
-    t.start()

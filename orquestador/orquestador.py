@@ -7,19 +7,21 @@ import subprocess
 from datetime import datetime, timedelta
 
 logging.basicConfig(
-    filename='../logs/experimento_logs.log',
+    filename='../MISW4202-202414-Grupo017/logs/experimento_logs.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
 API_GATEWAY_URL = "http://localhost:5000"
 MANEJADOR_URLS = [
-    "http://localhost:5001/registrar_incidente",
-    "http://localhost:5002/registrar_incidente",
-    "http://localhost:5003/registrar_incidente"
+    {'url': "http://localhost:5001/registrar_incidente", 'puerto': 5001},
+    {'url': "http://localhost:5002/registrar_incidente", 'puerto': 5002},
+    {'url': "http://localhost:5003/registrar_incidente", 'puerto': 5003},
 ]
+
 VALIDADOR_URL = f"{API_GATEWAY_URL}/validar_incidentes"
 MONITOR_URL = f"{API_GATEWAY_URL}/monitor"
+API_GATEWAY_MANEJADOR = API_GATEWAY_URL + "/registrar_incidente"
 
 def iniciar_microservicios():
     servicios = [
@@ -33,7 +35,7 @@ def iniciar_microservicios():
     procesos = []
     for servicio in servicios:
         proceso = subprocess.Popen(
-            ["python3", servicio[1], "--port", servicio[2]], stdout=subprocess.PIPE, stderr=subprocess.PIPE
+            ["python3", servicio[1], "--port", servicio[2]], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True
         )
         procesos.append(proceso)
         logging.info(f"Servicio {servicio[1]} iniciado en el puerto {servicio[2]}")
@@ -60,26 +62,27 @@ def monitorear_servicios():
 
 def registrar_incidente_con_datos(incident_data, es_fallido=False, reintentos=3):
     respuestas = []
-    for url in MANEJADOR_URLS:
+    for manejador in MANEJADOR_URLS:
         intento = 0
         while intento < reintentos:
             if es_fallido:
                 incident_data['descripcion'] = ""
-                logging.info(f"Simulando datos fallidos en {url}")
+                logging.info(f"Simulando datos fallidos en {manejador['url']}")
 
             try:
-                response = requests.post(url, json=incident_data)
+                incident_data['puerto'] = manejador['puerto']
+                response = requests.post(API_GATEWAY_MANEJADOR, json=incident_data)
                 if response.status_code == 200:
-                    logging.info(f"Incidente registrado correctamente en {url}")
+                    logging.info(f"Incidente registrado correctamente en {manejador['url']}")
                     respuestas.append("success")
                     break
                 else:
-                    logging.warning(f"Error al registrar incidente en {url}: {response.text}")
+                    logging.warning(f"Error al registrar incidente en {manejador['url']}: {response.text}")
             except requests.exceptions.RequestException as e:
-                logging.error(f"Excepción al registrar incidente en {url}: {str(e)}")
+                logging.error(f"Excepción al registrar incidente en {manejador['url']}: {str(e)}")
             intento += 1
             if intento < reintentos:
-                logging.info(f"Reintentando registro en {url} (Intento {intento + 1})...")
+                logging.info(f"Reintentando registro en {manejador['url']} (Intento {intento + 1})...")
                 time.sleep(2)
         if intento == reintentos:
             respuestas.append("error")
