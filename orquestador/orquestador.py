@@ -7,7 +7,7 @@ import subprocess
 from datetime import datetime, timedelta
 
 logging.basicConfig(
-    filename='../MISW4202-202414-Grupo017/logs/experimento_logs.log',
+    filename='../logs/experimento_logs.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -35,7 +35,7 @@ def iniciar_microservicios():
     procesos = []
     for servicio in servicios:
         proceso = subprocess.Popen(
-            ["python3", servicio[1], "--port", servicio[2]], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True
+            ["python3", servicio[1], "--port", servicio[2]], stdout=subprocess.PIPE, stderr=subprocess.PIPE
         )
         procesos.append(proceso)
         logging.info(f"Servicio {servicio[1]} iniciado en el puerto {servicio[2]}")
@@ -54,7 +54,7 @@ def monitorear_servicios():
             logging.info(f"Estado de los servicios: {response.json()}")
             return response.json()
         else:
-            logging.warning(f"Problema en el monitoreo de servicios: {response.text}")
+            logging.warning(f"Problema en el monitoreo de servicios: {response}")
             return None
     except requests.exceptions.RequestException as e:
         logging.error(f"Excepción al monitorear servicios: {str(e)}")
@@ -145,5 +145,5 @@ def guardar_resultados(resultados):
     logging.info("Resultados guardados en resultados_experimento.json")
 
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     ejecutar_experimento(repeticiones=60, duracion_minutos=5, probabilidad_fallas=0.3)
