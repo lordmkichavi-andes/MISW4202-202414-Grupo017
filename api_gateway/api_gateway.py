@@ -41,17 +41,19 @@ MONITOR_URLS = [
 
 @app.route('/registrar_incidente', methods=['POST'])
 def registrar_incidente():
-    incidente = {"descripcion": f"Incidente {request.json['descripcion']}", "severidad": {request.json['severidad']}}
+    incidente = {
+        "descripcion": request.json['descripcion'],
+        "severidad": request.json['severidad']
+    }
     puerto = request.json['puerto']
-    registro = requests.post(MANEJADOR_URLS[puerto], incidente)
+    registro = requests.post(MANEJADOR_URLS[puerto], json=incidente)
 
     if registro.status_code == 200:
         logging.info(f"Incidente registrado correctamente en {MANEJADOR_URLS[puerto]}")
-
         return jsonify(registro.json()), 200
     else:
-        logging.info(f"Excepción al registrar incident en {MANEJADOR_URLS[puerto]}")
-    return {"error": "No se pudo registrar el incidente"}, 400
+        logging.info(f"Excepción al registrar incidente en {MANEJADOR_URLS[puerto]}")
+        return {"error": "No se pudo registrar el incidente"}, 400
 
 
 @app.route('/validar_incidentes', methods=['POST'])
