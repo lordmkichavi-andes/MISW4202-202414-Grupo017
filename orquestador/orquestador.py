@@ -24,25 +24,6 @@ VALIDADOR_URL = f"{API_GATEWAY_URL}/validar_incidentes"
 MONITOR_URL = f"{API_GATEWAY_URL}/monitor"
 API_GATEWAY_MANEJADOR = API_GATEWAY_URL + "/registrar_incidente"
 
-def iniciar_microservicios():
-    servicios = [
-        ("python3", "api_gateway.py", "5000"),
-        ("python3", "manejador_incidentes.py", "5001"),
-        ("python3", "manejador_incidentes.py", "5002"),
-        ("python3", "manejador_incidentes.py", "5003"),
-        ("python3", "validador_incidentes.py", "5004")
-    ]
-
-    procesos = []
-    for servicio in servicios:
-        proceso = subprocess.Popen(
-            ["python3", servicio[1], "--port", servicio[2]], stdout=subprocess.PIPE, stderr=subprocess.PIPE
-        )
-        procesos.append(proceso)
-        logging.info(f"Servicio {servicio[1]} iniciado en el puerto {servicio[2]}")
-
-    return procesos
-
 def detener_microservicios(procesos):
     for proceso in procesos:
         proceso.terminate()
@@ -64,11 +45,8 @@ def monitorear_servicios():
 
 def registrar_incidente_con_datos(incident_data, es_fallido=False, reintentos=3):
     respuestas = []
-
     for manejador in MANEJADOR_URLS:
         intento = 0
-        resultado = {}
-
         while intento < reintentos:
             if es_fallido:
                 incident_data['descripcion'] = ""
@@ -78,7 +56,6 @@ def registrar_incidente_con_datos(incident_data, es_fallido=False, reintentos=3)
                 incident_data['puerto'] = manejador['puerto']
 
                 response = requests.post(API_GATEWAY_MANEJADOR, json=incident_data)
-
                 if response.status_code == 200:
                     logging.info(f"Incidente registrado correctamente en {manejador['url']}")
                     resultado = {
@@ -91,13 +68,10 @@ def registrar_incidente_con_datos(incident_data, es_fallido=False, reintentos=3)
                     logging.warning(f"Error al registrar incidente en {manejador['url']}: {response.text}")
             except requests.exceptions.RequestException as e:
                 logging.error(f"Excepción al registrar incidente en {manejador['url']}: {str(e)}")
-
             intento += 1
-
             if intento < reintentos:
                 logging.info(f"Reintentando registro en {manejador['url']} (Intento {intento + 1})...")
                 time.sleep(2)
-
         if intento == reintentos:
             resultado = {
                 "status": "error",
@@ -109,10 +83,10 @@ def registrar_incidente_con_datos(incident_data, es_fallido=False, reintentos=3)
 
 def validar_respuestas(respuestas):
     try:
-        response = requests.post(VALIDADOR_URL, json={"respuestas": respuestas})
+        response = requests.post(VALIDADOR_URL, json={"respuestas": respuestas}, headers={'Content-Type': 'application/json'})
         if response.status_code == 200:
-            resultado = response.json().get("resultado")
-            logging.info(f"Resultado de la validación de incidentes: {resultado}")
+            resultado = response.json().get("status")
+            logging.info(f"Resultado de la validación de incidentes: {response.json()}")
             return resultado
         else:
             logging.error(f"Error en la validación de respuestas: {response.text}")
@@ -149,7 +123,6 @@ def ejecutar_experimento(repeticiones=60, duracion_minutos=5, probabilidad_falla
 
     generar_resumen_experimento(resultados)
     guardar_resultados(resultados)
-   # detener_microservicios(procesos)
 
 def generar_resumen_experimento(resultados):
     total_intentos = len(resultados)
@@ -164,4 +137,6 @@ def guardar_resultados(resultados):
     logging.info("Resultados guardados en resultados_experimento.json")
 
 
-ejecutar_experimento(repeticiones=60, duracion_minutos=5, probabilidad_fallas=0.3)
+ejecutar_experimento(repeticiones=15, duracion_minutos=5, probabilidad_fallas=0.01)
+ejecutar_experimento(repeticiones=30, duracion_minutos=5, probabilidad_fallas=0.5)
+ejecutar_experimento(repeticiones=18, duracion_minutos=5, probabilidad_fallas=0.2)

@@ -59,7 +59,7 @@ def registrar_incidente():
 
 @app.route('/validar_incidentes', methods=['POST'])
 def validar_incidentes():
-    respuesta = requests.post(VALIDADOR_URL, request.get_json())
+    respuesta = requests.post(VALIDADOR_URL, json=request.get_json())
     if respuesta.status_code == 200:
         logging.info(f"Incidente validado correctamente en {VALIDADOR_URL}")
 
