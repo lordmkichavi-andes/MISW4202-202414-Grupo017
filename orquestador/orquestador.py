@@ -140,3 +140,4 @@ def guardar_resultados(resultados):
 #ejecutar_experimento(repeticiones=15, duracion_minutos=5, probabilidad_fallas=0.01)
 #ejecutar_experimento(repeticiones=30, duracion_minutos=5, probabilidad_fallas=0.5)
 #ejecutar_experimento(repeticiones=18, duracion_minutos=5, probabilidad_fallas=0.2)
+
