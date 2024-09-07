@@ -22,7 +22,8 @@ VALIDADOR_URL = "http://localhost:5004/validar_incidentes"
 MONITOR_URLS = [
     "http://localhost:5001/health",
     "http://localhost:5002/health",
-    "http://localhost:5003/health"
+    "http://localhost:5003/health",
+    "http://localhost:5004/health"
 ]
 
 """
@@ -74,23 +75,20 @@ def monitor_services():
     respuesta = {"status": "healthy", "servicios": []}
     estado_servicios = []
     estado_activo = True
-    for manejador in MANEJADOR_URLS:
-        registro = requests.post(f"{manejador}/health")
-        logging.info(f"Estado del servicio {manejador}: {registro.status_code}")
-        estado_servicio = registrar_estado_servicios(registro.status_code, str(manejador))
+    for monitor in MONITOR_URLS:
+        registro = requests.get(f"{monitor}")
+        logging.info(f"Estado del servicio {monitor}: {registro.status_code}")
+        estado_servicio = registrar_estado_servicios(registro.status_code, str(monitor))
         if estado_servicio[1] is False:
             estado_activo = False
         estado_servicios.append(estado_servicio)
-
-    registro = requests.post(f"{VALIDADOR_URL}/health")
-    estado_servicios.append(registrar_estado_servicios(registro.status_code, VALIDADOR_URL))
-    logging.info(f"Estado del servicio {VALIDADOR_URL}: {registro.status_code}")
 
     if estado_activo:
         respuesta["status"] = "healthy"
     else:
         respuesta["status"] = "unhealthy"
-    return jsonify(respuesta    ), 200
+    respuesta["servicios"] = estado_servicios
+    return jsonify(respuesta), 200
 
 
 @app.route('/health', methods=['GET'])
@@ -101,8 +99,8 @@ def health_check():
 def registrar_estado_servicios(status_code: int, servicio: str):
     if status_code != 200:
         logging.error(f"Error en el servicio {servicio}.")
-        return {servicio, False}
-    return {servicio, True}
+        return [servicio, False]
+    return [servicio, True]
 
 
 if __name__ == '__main__':
