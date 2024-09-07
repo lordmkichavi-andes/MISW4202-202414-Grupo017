@@ -60,7 +60,7 @@ def registrar_incidente_con_datos(incident_data, es_fallido=False, reintentos=3)
                     logging.info(f"Incidente registrado correctamente en {manejador['url']}")
                     resultado = {
                         "status": "success",
-                        "incidente": f"Incidente {incident_data.get('descripcion', 'A')}"
+                        "incidente": f"Incidente {incident_data['descripcion']}"
                     }
                     respuestas.append(resultado)
                     break
@@ -75,7 +75,7 @@ def registrar_incidente_con_datos(incident_data, es_fallido=False, reintentos=3)
         if intento == reintentos:
             resultado = {
                 "status": "error",
-                "incidente": f"Incidente {incident_data.get('descripcion', 'A')}"
+                "incidente": f"Incidente {incident_data['descripcion']}"
             }
             respuestas.append(resultado)
 
@@ -137,6 +137,6 @@ def guardar_resultados(resultados):
     logging.info("Resultados guardados en resultados_experimento.json")
 
 
-ejecutar_experimento(repeticiones=15, duracion_minutos=5, probabilidad_fallas=0.01)
-ejecutar_experimento(repeticiones=30, duracion_minutos=5, probabilidad_fallas=0.5)
-ejecutar_experimento(repeticiones=18, duracion_minutos=5, probabilidad_fallas=0.2)
+#ejecutar_experimento(repeticiones=15, duracion_minutos=5, probabilidad_fallas=0.01)
+#ejecutar_experimento(repeticiones=30, duracion_minutos=5, probabilidad_fallas=0.5)
+#ejecutar_experimento(repeticiones=18, duracion_minutos=5, probabilidad_fallas=0.2)
