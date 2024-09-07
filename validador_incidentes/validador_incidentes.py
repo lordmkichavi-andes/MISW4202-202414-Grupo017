@@ -22,7 +22,10 @@ def validar_respuestas(respuestas):
         return {"status": "error", "message": "Todas las respuestas tienen errores", "detalles": respuestas_errores}
 
     if len(respuestas_exitosas) > 1:
-        resultado_mayoritario = max(set(respuestas_exitosas), key=respuestas_exitosas.count)
+        respuestas_mayoritarias = [r['resultado'] for r in respuestas_exitosas]
+        
+        resultado_mayoritario = max(set(respuestas_mayoritarias), key=respuestas_mayoritarias.count)
+        
         return {"status": "success", "message": "Incidente validado por mayoría", "resultado": resultado_mayoritario}
     
 
