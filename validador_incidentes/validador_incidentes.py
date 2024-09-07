@@ -22,7 +22,7 @@ def validar_respuestas(respuestas):
         return {"status": "error", "message": "Todas las respuestas tienen errores", "detalles": respuestas_errores}
 
     if len(respuestas_exitosas) > 1:
-        respuestas_mayoritarias = [r['resultado'] for r in respuestas_exitosas]
+        respuestas_mayoritarias = [r['incidente'] for r in respuestas_exitosas]
         
         resultado_mayoritario = max(set(respuestas_mayoritarias), key=respuestas_mayoritarias.count)
         
@@ -35,7 +35,7 @@ def validar_respuestas(respuestas):
 @app.route('/validar_incidentes', methods=['POST'])
 def validar_incidentes():
     try:
-        respuestas = request.json['respuestas']
+        respuestas = request.json["respuestas"]
 
         resultado = validar_respuestas(respuestas)
 
