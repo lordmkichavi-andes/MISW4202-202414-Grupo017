@@ -1,0 +1,107 @@
+2024-09-07 13:55:47,402 - INFO - Iniciando iteración 1 del experimento.
+2024-09-07 13:55:47,441 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:55:47,447 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:55:47,452 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:55:47,456 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:55:47,460 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 1', 'status': 'success'}
+2024-09-07 13:55:47,460 - INFO - Experimento exitoso en la iteración 1.
+2024-09-07 13:55:57,461 - INFO - Iniciando iteración 2 del experimento.
+2024-09-07 13:55:57,473 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:55:57,478 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:55:57,483 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:55:57,489 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:55:57,494 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 2', 'status': 'success'}
+2024-09-07 13:55:57,494 - INFO - Experimento exitoso en la iteración 2.
+2024-09-07 13:56:07,494 - INFO - Iniciando iteración 3 del experimento.
+2024-09-07 13:56:07,507 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:56:07,512 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:56:07,517 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:56:07,522 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:56:07,527 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 3', 'status': 'success'}
+2024-09-07 13:56:07,527 - INFO - Experimento exitoso en la iteración 3.
+2024-09-07 13:56:17,533 - INFO - Iniciando iteración 4 del experimento.
+2024-09-07 13:56:17,548 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:56:17,553 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:56:17,558 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:56:17,562 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:56:17,567 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 4', 'status': 'success'}
+2024-09-07 13:56:17,567 - INFO - Experimento exitoso en la iteración 4.
+2024-09-07 13:56:27,572 - INFO - Iniciando iteración 5 del experimento.
+2024-09-07 13:56:27,586 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:56:27,591 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:56:27,596 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:56:27,600 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:56:27,604 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 5', 'status': 'success'}
+2024-09-07 13:56:27,604 - INFO - Experimento exitoso en la iteración 5.
+2024-09-07 13:56:37,610 - INFO - Iniciando iteración 6 del experimento.
+2024-09-07 13:56:37,622 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:56:37,627 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:56:37,632 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:56:37,636 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:56:37,640 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 6', 'status': 'success'}
+2024-09-07 13:56:37,641 - INFO - Experimento exitoso en la iteración 6.
+2024-09-07 13:56:47,646 - INFO - Iniciando iteración 7 del experimento.
+2024-09-07 13:56:47,660 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:56:47,665 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:56:47,670 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:56:47,674 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:56:47,679 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 7', 'status': 'success'}
+2024-09-07 13:56:47,679 - INFO - Experimento exitoso en la iteración 7.
+2024-09-07 13:56:57,680 - INFO - Iniciando iteración 8 del experimento.
+2024-09-07 13:56:57,693 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:56:57,699 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:56:57,704 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:56:57,709 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:56:57,713 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 8', 'status': 'success'}
+2024-09-07 13:56:57,713 - INFO - Experimento exitoso en la iteración 8.
+2024-09-07 13:57:07,719 - INFO - Iniciando iteración 9 del experimento.
+2024-09-07 13:57:07,732 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:57:07,737 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:57:07,742 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:57:07,747 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:57:07,750 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 9', 'status': 'success'}
+2024-09-07 13:57:07,751 - INFO - Experimento exitoso en la iteración 9.
+2024-09-07 13:57:17,756 - INFO - Iniciando iteración 10 del experimento.
+2024-09-07 13:57:17,769 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:57:17,774 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:57:17,780 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:57:17,785 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:57:17,789 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 10', 'status': 'success'}
+2024-09-07 13:57:17,789 - INFO - Experimento exitoso en la iteración 10.
+2024-09-07 13:57:27,795 - INFO - Iniciando iteración 11 del experimento.
+2024-09-07 13:57:27,810 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:57:27,815 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:57:27,820 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:57:27,831 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:57:27,839 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 11', 'status': 'success'}
+2024-09-07 13:57:27,839 - INFO - Experimento exitoso en la iteración 11.
+2024-09-07 13:57:37,845 - INFO - Iniciando iteración 12 del experimento.
+2024-09-07 13:57:37,858 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:57:37,863 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:57:37,867 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:57:37,872 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:57:37,877 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 12', 'status': 'success'}
+2024-09-07 13:57:37,877 - INFO - Experimento exitoso en la iteración 12.
+2024-09-07 13:57:47,882 - INFO - Iniciando iteración 13 del experimento.
+2024-09-07 13:57:47,895 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:57:47,900 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:57:47,905 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:57:47,910 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:57:47,914 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 13', 'status': 'success'}
+2024-09-07 13:57:47,915 - INFO - Experimento exitoso en la iteración 13.
+2024-09-07 13:57:57,920 - INFO - Iniciando iteración 14 del experimento.
+2024-09-07 13:57:57,933 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:57:57,938 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:57:57,943 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:57:57,948 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:57:57,952 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 14', 'status': 'success'}
+2024-09-07 13:57:57,952 - INFO - Experimento exitoso en la iteración 14.
+2024-09-07 13:58:07,957 - INFO - Iniciando iteración 15 del experimento.
+2024-09-07 13:58:07,971 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 13:58:07,976 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 13:58:07,980 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 13:58:07,985 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 13:58:07,989 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 15', 'status': 'success'}
+2024-09-07 13:58:07,989 - INFO - Experimento exitoso en la iteración 15.
+2024-09-07 13:58:17,994 - INFO - Resumen del experimento: 15/15 intentos exitosos, 0 fallos.
+2024-09-07 13:58:17,996 - INFO - Resultados guardados en resultados_experimento.json
