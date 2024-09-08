@@ -1,0 +1,782 @@
+2024-09-07 14:09:09,958 - INFO - Iniciando iteración 1 del experimento.
+2024-09-07 14:09:09,978 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:09:09,978 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:09:09,982 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:09:09,982 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:09:11,987 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:09:11,994 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:09:11,994 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:09:13,999 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:09:14,004 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:09:14,004 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:09:14,009 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:09:14,009 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:09:16,014 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:09:16,022 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:09:16,022 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:09:18,027 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:09:18,035 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:09:18,035 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:09:18,039 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:09:18,039 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:09:20,042 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:09:20,048 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:09:20,048 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:09:22,052 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:09:22,057 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:09:22,062 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:09:22,062 - ERROR - Fallos detectados en la iteración 1.
+2024-09-07 14:09:32,067 - INFO - Iniciando iteración 2 del experimento.
+2024-09-07 14:09:32,080 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:09:32,086 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 14:09:32,090 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 14:09:32,094 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 14:09:32,098 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 2', 'status': 'success'}
+2024-09-07 14:09:32,098 - INFO - Experimento exitoso en la iteración 2.
+2024-09-07 14:09:42,103 - INFO - Iniciando iteración 3 del experimento.
+2024-09-07 14:09:42,116 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:09:42,122 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 14:09:42,127 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 14:09:42,133 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 14:09:42,138 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 3', 'status': 'success'}
+2024-09-07 14:09:42,138 - INFO - Experimento exitoso en la iteración 3.
+2024-09-07 14:09:52,143 - INFO - Iniciando iteración 4 del experimento.
+2024-09-07 14:09:52,159 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:09:52,164 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 14:09:52,169 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 14:09:52,173 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 14:09:52,177 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 4', 'status': 'success'}
+2024-09-07 14:09:52,177 - INFO - Experimento exitoso en la iteración 4.
+2024-09-07 14:10:02,182 - INFO - Iniciando iteración 5 del experimento.
+2024-09-07 14:10:02,198 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:10:02,198 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:10:02,201 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:02,202 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:10:04,203 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:10:04,210 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:04,210 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:10:06,215 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:10:06,223 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:06,223 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:10:06,228 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:06,228 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:10:08,233 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:10:08,241 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:08,241 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:10:10,246 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:10:10,255 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:10,255 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:10:10,259 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:10,259 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:10:12,264 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:10:12,271 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:12,271 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:10:14,272 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:10:14,281 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:14,285 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:10:14,285 - ERROR - Fallos detectados en la iteración 5.
+2024-09-07 14:10:24,290 - INFO - Iniciando iteración 6 del experimento.
+2024-09-07 14:10:24,303 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:10:24,303 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:10:24,307 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:24,307 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:10:26,312 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:10:26,317 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:26,317 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:10:28,318 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:10:28,323 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:28,323 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:10:28,328 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:28,328 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:10:30,333 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:10:30,342 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:30,342 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:10:32,348 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:10:32,354 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:32,354 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:10:32,358 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:32,358 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:10:34,363 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:10:34,371 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:34,371 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:10:36,373 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:10:36,378 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:10:36,383 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:10:36,383 - ERROR - Fallos detectados en la iteración 6.
+2024-09-07 14:10:46,388 - INFO - Iniciando iteración 7 del experimento.
+2024-09-07 14:10:46,403 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:10:46,409 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 14:10:46,414 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 14:10:46,419 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 14:10:46,423 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 7', 'status': 'success'}
+2024-09-07 14:10:46,423 - INFO - Experimento exitoso en la iteración 7.
+2024-09-07 14:10:56,428 - INFO - Iniciando iteración 8 del experimento.
+2024-09-07 14:10:56,441 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:10:56,446 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 14:10:56,451 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 14:10:56,455 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 14:10:56,460 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 8', 'status': 'success'}
+2024-09-07 14:10:56,460 - INFO - Experimento exitoso en la iteración 8.
+2024-09-07 14:11:06,465 - INFO - Iniciando iteración 9 del experimento.
+2024-09-07 14:11:06,477 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:11:06,482 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 14:11:06,488 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 14:11:06,493 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 14:11:06,498 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 9', 'status': 'success'}
+2024-09-07 14:11:06,498 - INFO - Experimento exitoso en la iteración 9.
+2024-09-07 14:11:16,504 - INFO - Iniciando iteración 10 del experimento.
+2024-09-07 14:11:16,517 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:11:16,517 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:11:16,521 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:16,521 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:11:18,526 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:11:18,534 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:18,534 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:11:20,540 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:11:20,546 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:20,546 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:11:20,550 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:20,550 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:11:22,555 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:11:22,562 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:22,562 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:11:24,567 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:11:24,575 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:24,575 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:11:24,579 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:24,579 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:11:26,584 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:11:26,592 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:26,593 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:11:28,598 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:11:28,606 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:28,610 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:11:28,610 - ERROR - Fallos detectados en la iteración 10.
+2024-09-07 14:11:38,612 - INFO - Iniciando iteración 11 del experimento.
+2024-09-07 14:11:38,625 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:11:38,625 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:11:38,629 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:38,629 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:11:40,634 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:11:40,641 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:40,641 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:11:42,647 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:11:42,655 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:42,655 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:11:42,659 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:42,659 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:11:44,664 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:11:44,672 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:44,672 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:11:46,677 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:11:46,684 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:46,684 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:11:46,689 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:46,689 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:11:48,694 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:11:48,701 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:48,701 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:11:50,706 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:11:50,714 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:11:50,718 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:11:50,718 - ERROR - Fallos detectados en la iteración 11.
+2024-09-07 14:12:00,723 - INFO - Iniciando iteración 12 del experimento.
+2024-09-07 14:12:00,737 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:12:00,737 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:12:00,741 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:00,741 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:12:02,746 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:12:02,754 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:02,754 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:12:04,759 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:12:04,767 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:04,767 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:12:04,771 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:04,771 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:12:06,776 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:12:06,783 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:06,783 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:12:08,788 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:12:08,795 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:08,795 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:12:08,799 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:08,799 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:12:10,804 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:12:10,811 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:10,811 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:12:12,816 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:12:12,824 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:12,829 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:12:12,829 - ERROR - Fallos detectados en la iteración 12.
+2024-09-07 14:12:22,834 - INFO - Iniciando iteración 13 del experimento.
+2024-09-07 14:12:22,848 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:12:22,848 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:12:22,853 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:22,853 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:12:24,858 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:12:24,865 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:24,865 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:12:26,870 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:12:26,879 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:26,879 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:12:26,883 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:26,883 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:12:28,888 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:12:28,896 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:28,896 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:12:30,901 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:12:30,909 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:30,909 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:12:30,913 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:30,913 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:12:32,914 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:12:32,921 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:32,921 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:12:34,926 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:12:34,933 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:34,937 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:12:34,937 - ERROR - Fallos detectados en la iteración 13.
+2024-09-07 14:12:44,943 - INFO - Iniciando iteración 14 del experimento.
+2024-09-07 14:12:44,957 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:12:44,957 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:12:44,960 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:44,960 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:12:46,966 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:12:46,973 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:46,973 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:12:48,979 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:12:48,987 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:48,987 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:12:48,990 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:48,990 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:12:50,996 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:12:51,002 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:51,002 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:12:53,005 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:12:53,012 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:53,012 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:12:53,016 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:53,016 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:12:55,017 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:12:55,025 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:55,025 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:12:57,031 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:12:57,038 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:12:57,043 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:12:57,043 - ERROR - Fallos detectados en la iteración 14.
+2024-09-07 14:13:07,047 - INFO - Iniciando iteración 15 del experimento.
+2024-09-07 14:13:07,059 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:13:07,065 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 14:13:07,070 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 14:13:07,074 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 14:13:07,079 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 15', 'status': 'success'}
+2024-09-07 14:13:07,079 - INFO - Experimento exitoso en la iteración 15.
+2024-09-07 14:13:17,084 - INFO - Iniciando iteración 16 del experimento.
+2024-09-07 14:13:17,097 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:13:17,102 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 14:13:17,107 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 14:13:17,113 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 14:13:17,117 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 16', 'status': 'success'}
+2024-09-07 14:13:17,117 - INFO - Experimento exitoso en la iteración 16.
+2024-09-07 14:13:27,119 - INFO - Iniciando iteración 17 del experimento.
+2024-09-07 14:13:27,131 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:13:27,131 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:13:27,135 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:13:27,135 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:13:29,140 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:13:29,148 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:13:29,148 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:13:31,153 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:13:31,161 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:13:31,161 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:13:31,165 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:13:31,165 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:13:33,170 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:13:33,178 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:13:33,178 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:13:35,182 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:13:35,190 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:13:35,190 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:13:35,194 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:13:35,194 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:13:37,204 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:13:37,210 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:13:37,210 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:13:39,220 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:13:39,228 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:13:39,234 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:13:39,234 - ERROR - Fallos detectados en la iteración 17.
+2024-09-07 14:14:38,873 - INFO - Iniciando iteración 18 del experimento.
+2024-09-07 14:14:38,894 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:14:38,894 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:14:38,900 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:14:38,900 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:14:40,905 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:14:40,912 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:14:40,913 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:14:42,918 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:14:42,925 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:14:42,925 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:14:42,929 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:14:42,929 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:14:44,934 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:14:44,942 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:14:44,942 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:14:46,947 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:14:46,955 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:14:46,955 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:14:46,960 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:14:46,960 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:14:48,961 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:14:48,969 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:14:48,969 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:14:50,974 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:14:50,982 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:14:50,986 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:14:50,986 - ERROR - Fallos detectados en la iteración 18.
+2024-09-07 14:15:00,991 - INFO - Iniciando iteración 19 del experimento.
+2024-09-07 14:15:01,005 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:15:01,005 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:15:01,009 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:01,009 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:15:03,014 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:15:03,022 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:03,022 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:15:05,027 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:15:05,035 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:05,035 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:15:05,039 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:05,039 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:15:07,044 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:15:07,051 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:07,051 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:15:09,054 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:15:09,059 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:09,059 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:15:09,064 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:09,064 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:15:11,069 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:15:11,075 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:11,075 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:15:13,079 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:15:13,083 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:13,087 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:15:13,087 - ERROR - Fallos detectados en la iteración 19.
+2024-09-07 14:15:23,093 - INFO - Iniciando iteración 20 del experimento.
+2024-09-07 14:15:23,118 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:15:23,118 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:15:23,123 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:23,124 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:15:25,129 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:15:25,136 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:25,136 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:15:27,141 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:15:27,149 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:27,149 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:15:27,154 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:27,154 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:15:29,159 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:15:29,168 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:29,168 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:15:31,173 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:15:31,181 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:31,181 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:15:31,186 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:31,186 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:15:33,191 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:15:33,199 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:33,199 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:15:35,204 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:15:35,211 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:35,215 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:15:35,215 - ERROR - Fallos detectados en la iteración 20.
+2024-09-07 14:15:45,220 - INFO - Iniciando iteración 21 del experimento.
+2024-09-07 14:15:45,231 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:15:45,232 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:15:45,236 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:45,236 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:15:47,241 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:15:47,249 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:47,249 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:15:49,254 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:15:49,261 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:49,261 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:15:49,265 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:49,265 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:15:51,270 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:15:51,278 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:51,278 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:15:53,284 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:15:53,291 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:53,291 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:15:53,295 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:53,295 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:15:55,300 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:15:55,305 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:55,305 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:15:57,311 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:15:57,319 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:15:57,323 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:15:57,324 - ERROR - Fallos detectados en la iteración 21.
+2024-09-07 14:16:07,329 - INFO - Iniciando iteración 22 del experimento.
+2024-09-07 14:16:07,341 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:16:07,341 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:16:07,346 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:07,346 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:16:09,346 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:16:09,354 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:09,354 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:16:11,358 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:16:11,365 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:11,365 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:16:11,370 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:11,370 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:16:13,375 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:16:13,383 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:13,383 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:16:15,388 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:16:15,397 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:15,397 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:16:15,401 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:15,401 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:16:17,406 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:16:17,412 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:17,412 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:16:19,417 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:16:19,425 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:19,430 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:16:19,430 - ERROR - Fallos detectados en la iteración 22.
+2024-09-07 14:16:29,435 - INFO - Iniciando iteración 23 del experimento.
+2024-09-07 14:16:29,450 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:16:29,450 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:16:29,454 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:29,454 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:16:31,459 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:16:31,465 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:31,465 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:16:33,470 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:16:33,478 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:33,478 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:16:33,482 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:33,482 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:16:35,487 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:16:35,492 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:35,492 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:16:37,497 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:16:37,505 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:37,505 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:16:37,509 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:37,509 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:16:39,514 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:16:39,523 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:39,523 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:16:41,529 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:16:41,536 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:16:41,540 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:16:41,540 - ERROR - Fallos detectados en la iteración 23.
+2024-09-07 14:16:51,546 - INFO - Iniciando iteración 24 del experimento.
+2024-09-07 14:16:51,559 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:16:51,564 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 14:16:51,569 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 14:16:51,574 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 14:16:51,578 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 24', 'status': 'success'}
+2024-09-07 14:16:51,579 - INFO - Experimento exitoso en la iteración 24.
+2024-09-07 14:17:01,584 - INFO - Iniciando iteración 25 del experimento.
+2024-09-07 14:17:01,598 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:17:01,598 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:17:01,602 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:01,602 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:17:03,607 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:17:03,614 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:03,614 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:17:05,620 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:17:05,627 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:05,627 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:17:05,632 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:05,632 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:17:07,637 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:17:07,645 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:07,645 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:17:09,650 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:17:09,658 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:09,658 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:17:09,663 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:09,663 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:17:11,668 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:17:11,675 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:11,675 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:17:13,677 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:17:13,684 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:13,689 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:17:13,689 - ERROR - Fallos detectados en la iteración 25.
+2024-09-07 14:17:23,694 - INFO - Iniciando iteración 26 del experimento.
+2024-09-07 14:17:23,707 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:17:23,712 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 14:17:23,717 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 14:17:23,721 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 14:17:23,725 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 26', 'status': 'success'}
+2024-09-07 14:17:23,725 - INFO - Experimento exitoso en la iteración 26.
+2024-09-07 14:17:33,731 - INFO - Iniciando iteración 27 del experimento.
+2024-09-07 14:17:33,745 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:17:33,745 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:17:33,749 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:33,749 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:17:35,754 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:17:35,762 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:35,762 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:17:37,767 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:17:37,774 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:37,774 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:17:37,778 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:37,778 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:17:39,783 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:17:39,790 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:39,790 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:17:41,796 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:17:41,803 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:41,803 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:17:41,808 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:41,808 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:17:43,813 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:17:43,821 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:43,821 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:17:45,826 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:17:45,833 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:45,837 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:17:45,838 - ERROR - Fallos detectados en la iteración 27.
+2024-09-07 14:17:55,843 - INFO - Iniciando iteración 28 del experimento.
+2024-09-07 14:17:55,858 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:17:55,858 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:17:55,862 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:55,862 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:17:57,867 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:17:57,874 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:57,874 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:17:59,880 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:17:59,887 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:59,887 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:17:59,891 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:17:59,891 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:18:01,896 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:18:01,903 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:01,903 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:18:03,909 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:18:03,916 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:03,916 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:18:03,920 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:03,920 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:18:05,925 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:18:05,933 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:05,933 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:18:07,938 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:18:07,945 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:07,950 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:18:07,950 - ERROR - Fallos detectados en la iteración 28.
+2024-09-07 14:18:17,955 - INFO - Iniciando iteración 29 del experimento.
+2024-09-07 14:18:17,967 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:18:17,973 - INFO - Incidente registrado correctamente en http://localhost:5001/registrar_incidente
+2024-09-07 14:18:17,977 - INFO - Incidente registrado correctamente en http://localhost:5002/registrar_incidente
+2024-09-07 14:18:17,982 - INFO - Incidente registrado correctamente en http://localhost:5003/registrar_incidente
+2024-09-07 14:18:17,987 - INFO - Resultado de la validación de incidentes: {'message': 'Incidente validado por mayoría', 'resultado': 'Incidente Incidente 29', 'status': 'success'}
+2024-09-07 14:18:17,987 - INFO - Experimento exitoso en la iteración 29.
+2024-09-07 14:18:27,992 - INFO - Iniciando iteración 30 del experimento.
+2024-09-07 14:18:28,006 - INFO - Estado de los servicios: {'servicios': [['http://localhost:5001/health', True], ['http://localhost:5002/health', True], ['http://localhost:5003/health', True], ['http://localhost:5004/health', True]], 'status': 'healthy'}
+2024-09-07 14:18:28,007 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:18:28,011 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:28,011 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 2)...
+2024-09-07 14:18:30,016 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:18:30,024 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:30,024 - INFO - Reintentando registro en http://localhost:5001/registrar_incidente (Intento 3)...
+2024-09-07 14:18:32,025 - INFO - Simulando datos fallidos en http://localhost:5001/registrar_incidente
+2024-09-07 14:18:32,033 - WARNING - Error al registrar incidente en http://localhost:5001/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:32,033 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:18:32,038 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:32,038 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 2)...
+2024-09-07 14:18:34,043 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:18:34,051 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:34,051 - INFO - Reintentando registro en http://localhost:5002/registrar_incidente (Intento 3)...
+2024-09-07 14:18:36,056 - INFO - Simulando datos fallidos en http://localhost:5002/registrar_incidente
+2024-09-07 14:18:36,063 - WARNING - Error al registrar incidente en http://localhost:5002/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:36,064 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:18:36,067 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:36,067 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 2)...
+2024-09-07 14:18:38,069 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:18:38,076 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:38,076 - INFO - Reintentando registro en http://localhost:5003/registrar_incidente (Intento 3)...
+2024-09-07 14:18:40,078 - INFO - Simulando datos fallidos en http://localhost:5003/registrar_incidente
+2024-09-07 14:18:40,086 - WARNING - Error al registrar incidente en http://localhost:5003/registrar_incidente: {"error":"No se pudo registrar el incidente"}
+
+2024-09-07 14:18:40,090 - INFO - Resultado de la validación de incidentes: {'detalles': [{'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}, {'incidente': 'Incidente ', 'status': 'error'}], 'message': 'Todas las respuestas tienen errores', 'status': 'error'}
+2024-09-07 14:18:40,090 - ERROR - Fallos detectados en la iteración 30.
+2024-09-07 14:18:50,096 - INFO - Resumen del experimento: 11/30 intentos exitosos, 19 fallos.
+2024-09-07 14:18:50,097 - INFO - Resultados guardados en resultados_experimento.json
