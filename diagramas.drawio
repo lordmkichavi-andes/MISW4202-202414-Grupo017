@@ -3273,40 +3273,6 @@
             <mxPoint x="-1102.38" y="459.07" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L8yaEKHsbBTDgQdfXa5a-37" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.auto_scaling;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="460" width="29.07" height="29.07" as="geometry" />
-        </mxCell>
-        <mxCell id="L8yaEKHsbBTDgQdfXa5a-38" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.auto_scaling;" vertex="1" parent="1">
-          <mxGeometry x="-1100" y="460" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="L8yaEKHsbBTDgQdfXa5a-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="L8yaEKHsbBTDgQdfXa5a-43" target="L8yaEKHsbBTDgQdfXa5a-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="L8yaEKHsbBTDgQdfXa5a-43" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.monitor;" vertex="1" parent="1">
-          <mxGeometry x="-980" y="260" width="30" height="19.5" as="geometry" />
-        </mxCell>
-        <mxCell id="L8yaEKHsbBTDgQdfXa5a-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="L8yaEKHsbBTDgQdfXa5a-46">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-840" y="597" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-840" y="690" />
-              <mxPoint x="-840" y="597" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L8yaEKHsbBTDgQdfXa5a-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="L8yaEKHsbBTDgQdfXa5a-46" target="L8yaEKHsbBTDgQdfXa5a-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-1090" y="690" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L8yaEKHsbBTDgQdfXa5a-46" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.monitor;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="680" width="30" height="19.5" as="geometry" />
-        </mxCell>
-        <mxCell id="L8yaEKHsbBTDgQdfXa5a-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="L8yaEKHsbBTDgQdfXa5a-43" target="L8yaEKHsbBTDgQdfXa5a-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
