@@ -3140,10 +3140,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rAepad9hIPD7z9rHuT9K" name="hu experimento 2 despliegue">
-    <mxGraphModel dx="3195" dy="1353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3580" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="m0MEvGyUL80ioeD-D8uo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="L8yaEKHsbBTDgQdfXa5a-1" target="gGjj7rh98oV5B65nTV-S-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-795" y="400" />
+              <mxPoint x="-795" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="L8yaEKHsbBTDgQdfXa5a-1" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Component&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid; font-size: 16px;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px; font-size: 16px;&quot;&gt;GestorAutorizacion&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-900" y="304.07" width="204.33" height="80" as="geometry" />
         </mxCell>
@@ -3216,6 +3224,14 @@
         <mxCell id="L8yaEKHsbBTDgQdfXa5a-17" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontSize=16;" vertex="1" parent="L8yaEKHsbBTDgQdfXa5a-16">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0MEvGyUL80ioeD-D8uo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="L8yaEKHsbBTDgQdfXa5a-18" target="m0MEvGyUL80ioeD-D8uo-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1080" y="410" />
+              <mxPoint x="-1080" y="410" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="L8yaEKHsbBTDgQdfXa5a-18" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid; font-size: 16px;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px; font-size: 16px;&quot;&gt;GestorUsuarios&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
