@@ -3300,6 +3300,9 @@
         <mxCell id="m0MEvGyUL80ioeD-D8uo-7" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;abcall.db&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-450" y="540" width="230" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="m0MEvGyUL80ioeD-D8uo-9" value="&lt;div style=&quot;text-align: justify; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Arquitectura de microservicios con API Gateway, usando &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;HTTPS&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; y &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;SSL&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; para conexiones seguras entre componentes. Cada microservicio y el API Gateway tienen su propio sistema de logging.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="-210" width="440" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
