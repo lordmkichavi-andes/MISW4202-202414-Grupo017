@@ -1,9 +1,13 @@
 import logging
 
 from flask import Flask, request, jsonify
+from flask_jwt_extended import jwt_required, create_access_token
+
 import requests
 
 app = Flask(__name__)
+app.config['JWT_SECRET_KEY'] = 'frase-secreta'
+
 
 # Configurar el registro de logs
 logging.basicConfig(
@@ -25,6 +29,7 @@ MONITOR_URLS = [
     "http://localhost:5003/health",
     "http://localhost:5004/health"
 ]
+AUTENTICADOR_URL = "http://localhost:5001/api/auth/login"
 
 """
    POST /registrar_incidente
@@ -95,6 +100,15 @@ def monitor_services():
 def health_check():
     return jsonify({"status": "healthy"}), 200
 
+@app.route('/api/auth/login', methods=['POST'])
+def login():
+    respuesta = requests.post(AUTENTICADOR_URL, json=request.get_json())
+    if respuesta.status_code == 200:
+        logging.info(f"Usuario creado correctamente en {AUTENTICADOR_URL}")
+        token_de_acceso = create_access_token(identity=respuesta.id)
+        return {"mensaje": "usuario creado exitosamente", "token": token_de_acceso, "id": nuevo_usuario.id}, 201
+    else:
+        return {"mensaje": "Error creando el usuario"}, 400
 
 def registrar_estado_servicios(status_code: int, servicio: str):
     if status_code != 200:

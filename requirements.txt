@@ -42,3 +42,8 @@ virtualenv==20.26.3
 Werkzeug==3.0.3
 zope.event==5.0
 zope.interface==7.0.3
+Werkzeug==3.0.4
+Flask-JWT-Extended==4.6.0
+
+Flask-Cors~=5.0.0
+Flask-RESTful~=0.3.10
