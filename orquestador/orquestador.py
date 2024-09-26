@@ -1,3 +1,4 @@
+import app
 import requests
 import logging
 import time
@@ -12,7 +13,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-API_GATEWAY_URL = "http://localhost:5000"
+API_GATEWAY_URL = "http://localhost:5010"
 MANEJADOR_URLS = [
     {'url': "http://localhost:5001/registrar_incidente", 'puerto': 5001},
     {'url': "http://localhost:5002/registrar_incidente", 'puerto': 5002},
@@ -22,25 +23,6 @@ MANEJADOR_URLS = [
 VALIDADOR_URL = f"{API_GATEWAY_URL}/validar_incidentes"
 MONITOR_URL = f"{API_GATEWAY_URL}/monitor"
 API_GATEWAY_MANEJADOR = API_GATEWAY_URL + "/registrar_incidente"
-
-def iniciar_microservicios():
-    servicios = [
-        ("python3", "api_gateway.py", "5000"),
-        ("python3", "manejador_incidentes.py", "5001"),
-        ("python3", "manejador_incidentes.py", "5002"),
-        ("python3", "manejador_incidentes.py", "5003"),
-        ("python3", "validador_incidentes.py", "5004")
-    ]
-
-    procesos = []
-    for servicio in servicios:
-        proceso = subprocess.Popen(
-            ["python3", servicio[1], "--port", servicio[2]], stdout=subprocess.PIPE, stderr=subprocess.PIPE
-        )
-        procesos.append(proceso)
-        logging.info(f"Servicio {servicio[1]} iniciado en el puerto {servicio[2]}")
-
-    return procesos
 
 def detener_microservicios(procesos):
     for proceso in procesos:
@@ -60,6 +42,7 @@ def monitorear_servicios():
         logging.error(f"Excepción al monitorear servicios: {str(e)}")
         return None
 
+
 def registrar_incidente_con_datos(incident_data, es_fallido=False, reintentos=3):
     respuestas = []
     for manejador in MANEJADOR_URLS:
@@ -71,10 +54,15 @@ def registrar_incidente_con_datos(incident_data, es_fallido=False, reintentos=3)
 
             try:
                 incident_data['puerto'] = manejador['puerto']
+
                 response = requests.post(API_GATEWAY_MANEJADOR, json=incident_data)
                 if response.status_code == 200:
                     logging.info(f"Incidente registrado correctamente en {manejador['url']}")
-                    respuestas.append("success")
+                    resultado = {
+                        "status": "success",
+                        "incidente": f"Incidente {incident_data['descripcion']}"
+                    }
+                    respuestas.append(resultado)
                     break
                 else:
                     logging.warning(f"Error al registrar incidente en {manejador['url']}: {response.text}")
@@ -85,15 +73,20 @@ def registrar_incidente_con_datos(incident_data, es_fallido=False, reintentos=3)
                 logging.info(f"Reintentando registro en {manejador['url']} (Intento {intento + 1})...")
                 time.sleep(2)
         if intento == reintentos:
-            respuestas.append("error")
+            resultado = {
+                "status": "error",
+                "incidente": f"Incidente {incident_data['descripcion']}"
+            }
+            respuestas.append(resultado)
+
     return respuestas
 
 def validar_respuestas(respuestas):
     try:
-        response = requests.post(VALIDADOR_URL, json={"respuestas": respuestas})
+        response = requests.post(VALIDADOR_URL, json={"respuestas": respuestas}, headers={'Content-Type': 'application/json'})
         if response.status_code == 200:
-            resultado = response.json().get("resultado")
-            logging.info(f"Resultado de la validación de incidentes: {resultado}")
+            resultado = response.json().get("status")
+            logging.info(f"Resultado de la validación de incidentes: {response.json()}")
             return resultado
         else:
             logging.error(f"Error en la validación de respuestas: {response.text}")
@@ -103,7 +96,7 @@ def validar_respuestas(respuestas):
         return None
 
 def ejecutar_experimento(repeticiones=60, duracion_minutos=5, probabilidad_fallas=0.3):
-    procesos = iniciar_microservicios()
+ #   procesos = iniciar_microservicios()
     start_time = datetime.now()
     end_time = start_time + timedelta(minutes=duracion_minutos)
     resultados = []
@@ -130,7 +123,6 @@ def ejecutar_experimento(repeticiones=60, duracion_minutos=5, probabilidad_falla
 
     generar_resumen_experimento(resultados)
     guardar_resultados(resultados)
-    detener_microservicios(procesos)
 
 def generar_resumen_experimento(resultados):
     total_intentos = len(resultados)
@@ -145,5 +137,7 @@ def guardar_resultados(resultados):
     logging.info("Resultados guardados en resultados_experimento.json")
 
 
-if _name_ == '_main_':
-    ejecutar_experimento(repeticiones=60, duracion_minutos=5, probabilidad_fallas=0.3)
+#ejecutar_experimento(repeticiones=15, duracion_minutos=5, probabilidad_fallas=0.01)
+#ejecutar_experimento(repeticiones=30, duracion_minutos=5, probabilidad_fallas=0.5)
+#ejecutar_experimento(repeticiones=18, duracion_minutos=5, probabilidad_fallas=0.2)
+

@@ -1,0 +1,99 @@
+2024-09-07 10:01:04 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-09-07 10:01:04 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-07 10:01:04 - INFO -  * Restarting with stat
+2024-09-07 10:01:05 - WARNING -  * Debugger is active!
+2024-09-07 10:01:05 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 10:01:11 - INFO - 127.0.0.1 - - [07/Sep/2024 10:01:11] "[31m[1mGET /validar_incidentes HTTP/1.1[0m" 405 -
+2024-09-07 10:01:19 - ERROR - Error en el proceso de validación: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-09-07 10:01:19 - INFO - 127.0.0.1 - - [07/Sep/2024 10:01:19] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:02:21 - ERROR - Error al validar incidente: No se recibieron respuestas para validar
+2024-09-07 10:02:21 - INFO - 127.0.0.1 - - [07/Sep/2024 10:02:21] "POST /validar_incidentes HTTP/1.1" 200 -
+2024-09-07 10:02:46 - ERROR - Error en el proceso de validación: unhashable type: 'dict'
+2024-09-07 10:02:46 - INFO - 127.0.0.1 - - [07/Sep/2024 10:02:46] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:03:00 - ERROR - Error en el proceso de validación: unhashable type: 'dict'
+2024-09-07 10:03:00 - INFO - 127.0.0.1 - - [07/Sep/2024 10:03:00] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:03:16 - INFO - Incidente validado correctamente: Incidente validado
+2024-09-07 10:03:16 - INFO - 127.0.0.1 - - [07/Sep/2024 10:03:16] "POST /validar_incidentes HTTP/1.1" 200 -
+2024-09-07 10:03:28 - ERROR - Error en el proceso de validación: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 4 column 9 (char 91)
+2024-09-07 10:03:28 - INFO - 127.0.0.1 - - [07/Sep/2024 10:03:28] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:03:33 - ERROR - Error en el proceso de validación: unhashable type: 'dict'
+2024-09-07 10:03:33 - INFO - 127.0.0.1 - - [07/Sep/2024 10:03:33] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:04:59 - INFO -  * Detected change in 'E:\\Usuarios\\M\\MISO\\Ciclo3\\arquitectura\\MISW4202-202414-Grupo017\\validador_incidentes\\validador_incidentes.py', reloading
+2024-09-07 10:04:59 - INFO -  * Restarting with stat
+2024-09-07 10:05:00 - WARNING -  * Debugger is active!
+2024-09-07 10:05:00 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 10:05:02 - ERROR - Error en el proceso de validación: unhashable type: 'dict'
+2024-09-07 10:05:02 - INFO - 127.0.0.1 - - [07/Sep/2024 10:05:02] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:05:27 - INFO -  * Detected change in 'E:\\Usuarios\\M\\MISO\\Ciclo3\\arquitectura\\MISW4202-202414-Grupo017\\validador_incidentes\\validador_incidentes.py', reloading
+2024-09-07 10:05:27 - INFO -  * Restarting with stat
+2024-09-07 10:05:27 - WARNING -  * Debugger is active!
+2024-09-07 10:05:27 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 10:05:35 - ERROR - Error en el proceso de validación: unhashable type: 'dict'
+2024-09-07 10:05:35 - INFO - 127.0.0.1 - - [07/Sep/2024 10:05:35] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:06:21 - INFO -  * Detected change in 'E:\\Usuarios\\M\\MISO\\Ciclo3\\arquitectura\\MISW4202-202414-Grupo017\\validador_incidentes\\validador_incidentes.py', reloading
+2024-09-07 10:06:21 - INFO -  * Restarting with stat
+2024-09-07 10:06:22 - WARNING -  * Debugger is active!
+2024-09-07 10:06:22 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 10:06:27 - ERROR - Error en el proceso de validación: unhashable type: 'dict'
+2024-09-07 10:06:27 - INFO - 127.0.0.1 - - [07/Sep/2024 10:06:27] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:07:14 - INFO -  * Detected change in 'E:\\Usuarios\\M\\MISO\\Ciclo3\\arquitectura\\MISW4202-202414-Grupo017\\validador_incidentes\\validador_incidentes.py', reloading
+2024-09-07 10:07:15 - INFO -  * Restarting with stat
+2024-09-07 10:07:15 - WARNING -  * Debugger is active!
+2024-09-07 10:07:15 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 10:07:19 - ERROR - Error en el proceso de validación: unhashable type: 'dict'
+2024-09-07 10:07:19 - INFO - 127.0.0.1 - - [07/Sep/2024 10:07:19] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:07:51 - ERROR - Todas las respuestas tienen errores
+2024-09-07 10:07:51 - ERROR - Error al validar incidente: Todas las respuestas tienen errores
+2024-09-07 10:07:51 - INFO - 127.0.0.1 - - [07/Sep/2024 10:07:51] "POST /validar_incidentes HTTP/1.1" 200 -
+2024-09-07 10:08:13 - INFO -  * Detected change in 'E:\\Usuarios\\M\\MISO\\Ciclo3\\arquitectura\\MISW4202-202414-Grupo017\\validador_incidentes\\validador_incidentes.py', reloading
+2024-09-07 10:08:14 - INFO -  * Restarting with stat
+2024-09-07 10:08:14 - WARNING -  * Debugger is active!
+2024-09-07 10:08:14 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 10:08:17 - ERROR - Todas las respuestas tienen errores
+2024-09-07 10:08:17 - ERROR - Error al validar incidente: Todas las respuestas tienen errores
+2024-09-07 10:08:17 - INFO - 127.0.0.1 - - [07/Sep/2024 10:08:17] "POST /validar_incidentes HTTP/1.1" 200 -
+2024-09-07 10:08:23 - INFO - Incidente validado correctamente: Incidente validado
+2024-09-07 10:08:23 - INFO - 127.0.0.1 - - [07/Sep/2024 10:08:23] "POST /validar_incidentes HTTP/1.1" 200 -
+2024-09-07 10:08:32 - ERROR - Error en el proceso de validación: unhashable type: 'dict'
+2024-09-07 10:08:32 - INFO - 127.0.0.1 - - [07/Sep/2024 10:08:32] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:09:10 - INFO -  * Detected change in 'E:\\Usuarios\\M\\MISO\\Ciclo3\\arquitectura\\MISW4202-202414-Grupo017\\validador_incidentes\\validador_incidentes.py', reloading
+2024-09-07 10:09:10 - INFO -  * Restarting with stat
+2024-09-07 10:09:11 - WARNING -  * Debugger is active!
+2024-09-07 10:09:11 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 10:09:14 - ERROR - Error en el proceso de validación: unhashable type: 'dict'
+2024-09-07 10:09:14 - INFO - 127.0.0.1 - - [07/Sep/2024 10:09:14] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:09:32 - INFO -  * Detected change in 'E:\\Usuarios\\M\\MISO\\Ciclo3\\arquitectura\\MISW4202-202414-Grupo017\\validador_incidentes\\validador_incidentes.py', reloading
+2024-09-07 10:09:32 - INFO -  * Restarting with stat
+2024-09-07 10:09:32 - WARNING -  * Debugger is active!
+2024-09-07 10:09:32 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 10:09:37 - ERROR - Error en el proceso de validación: unhashable type: 'dict'
+2024-09-07 10:09:37 - INFO - 127.0.0.1 - - [07/Sep/2024 10:09:37] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:09:46 - INFO -  * Detected change in 'E:\\Usuarios\\M\\MISO\\Ciclo3\\arquitectura\\MISW4202-202414-Grupo017\\validador_incidentes\\validador_incidentes.py', reloading
+2024-09-07 10:09:46 - INFO -  * Restarting with stat
+2024-09-07 10:09:47 - WARNING -  * Debugger is active!
+2024-09-07 10:09:47 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 10:09:50 - ERROR - Error en el proceso de validación: unhashable type: 'dict'
+2024-09-07 10:09:50 - INFO - 127.0.0.1 - - [07/Sep/2024 10:09:50] "[35m[1mPOST /validar_incidentes HTTP/1.1[0m" 500 -
+2024-09-07 10:13:42 - INFO -  * Detected change in 'E:\\Usuarios\\M\\MISO\\Ciclo3\\arquitectura\\MISW4202-202414-Grupo017\\validador_incidentes\\validador_incidentes.py', reloading
+2024-09-07 10:13:42 - INFO -  * Restarting with stat
+2024-09-07 10:13:43 - WARNING -  * Debugger is active!
+2024-09-07 10:13:43 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 10:13:47 - INFO - Incidente validado correctamente: Incidente validado por mayoría
+2024-09-07 10:13:47 - INFO - 127.0.0.1 - - [07/Sep/2024 10:13:47] "POST /validar_incidentes HTTP/1.1" 200 -
+2024-09-07 10:14:00 - INFO -  * Detected change in 'E:\\Usuarios\\M\\MISO\\Ciclo3\\arquitectura\\MISW4202-202414-Grupo017\\validador_incidentes\\validador_incidentes.py', reloading
+2024-09-07 10:14:01 - INFO -  * Restarting with stat
+2024-09-07 10:14:01 - WARNING -  * Debugger is active!
+2024-09-07 10:14:01 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 10:14:25 - INFO -  * Detected change in 'E:\\Usuarios\\M\\MISO\\Ciclo3\\arquitectura\\MISW4202-202414-Grupo017\\validador_incidentes\\validador_incidentes.py', reloading
+2024-09-07 10:14:25 - INFO -  * Restarting with stat
+2024-09-07 10:14:26 - WARNING -  * Debugger is active!
+2024-09-07 10:14:26 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 11:41:18 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-09-07 11:41:18 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-07 11:41:18 - INFO -  * Restarting with stat
+2024-09-07 11:41:19 - WARNING -  * Debugger is active!
+2024-09-07 11:41:19 - INFO -  * Debugger PIN: 830-280-171
+2024-09-07 11:43:47 - INFO - Incidente validado correctamente: Incidente validado
+2024-09-07 11:43:47 - INFO - 127.0.0.1 - - [07/Sep/2024 11:43:47] "POST /validar_incidentes HTTP/1.1" 200 -
