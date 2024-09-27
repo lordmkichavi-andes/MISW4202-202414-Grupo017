@@ -1,3 +1,4 @@
+
 import os
 import jwt
 import datetime
@@ -5,21 +6,21 @@ from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 
-app = Flask(__name__)
-db_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'database', 'abcall.db'))
-app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{db_path}'
 
+from database.init import db, Usuario
+
+
+app = Flask(__name__)
+
+
+db_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'database', 'instance', 'abcall.db'))
+print(f"Ruta de la base de datos: {db_path}")
+app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{db_path}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = 'your_secret_key'
 
-db = SQLAlchemy(app)
 
-class Usuario(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(80), unique=True, nullable=False)
-    password_hash = db.Column(db.String(120), nullable=False)
-    nombre= db.Column(db.String(80), nullable=False)
-    direccion= db.Column(db.String(80), nullable=False)
+db.init_app(app)
 
 @app.route('/api/auth/register', methods=['POST'])
 def register():
@@ -72,7 +73,9 @@ def verify_token():
         return jsonify({'message': 'Token inválido!'}), 403
 
 if __name__ == '__main__':
-    base_dir = os.path.abspath(os.path.dirname(__file__))
-    cert_path = os.path.join(base_dir, '..', 'certificados', 'cert.pem')
-    key_path = os.path.join(base_dir, '..', 'certificados', 'key_sin_frase.pem')
-    app.run(ssl_context=(cert_path, key_path), host='0.0.0.0', port=5001)
+
+    with app.app_context():
+        base_dir = os.path.abspath(os.path.dirname(__file__))
+        cert_path = os.path.join(base_dir, '..', 'certificados', 'cert.pem')
+        key_path = os.path.join(base_dir, '..', 'certificados', 'key_sin_frase.pem')
+        app.run(ssl_context=(cert_path, key_path), host='0.0.0.0', port=5001)
