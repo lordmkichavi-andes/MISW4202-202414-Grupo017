@@ -1,4 +1,5 @@
 import logging
+import os
 
 from flask import Flask, request, jsonify
 from flask_jwt_extended import jwt_required, create_access_token
@@ -110,6 +111,7 @@ def login():
     else:
         return {"mensaje": "Error creando el usuario"}, 400
 
+
 def registrar_estado_servicios(status_code: int, servicio: str):
     if status_code != 200:
         logging.error(f"Error en el servicio {servicio}.")
@@ -118,4 +120,9 @@ def registrar_estado_servicios(status_code: int, servicio: str):
 
 
 if __name__ == '__main__':
-    app.run(port=5010)
+    cert_path = os.path.join(os.path.split(os.path.dirname(__file__))[0],
+                             'certificados/cert.pem')
+    key_path = os.path.join(os.path.split(os.path.dirname(__file__))[0],
+                            'certificados/key_sin_frase.pem')
+
+    app.run(ssl_context=(cert_path, key_path), host='0.0.0.0', port=5010)
