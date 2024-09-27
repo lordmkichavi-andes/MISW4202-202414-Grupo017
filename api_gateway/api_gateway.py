@@ -31,6 +31,7 @@ MONITOR_URLS = [
     "http://localhost:5004/health"
 ]
 AUTENTICADOR_URL = "http://localhost:5001/api/auth/login"
+MODIFICADOR_URL = "http://localhost:5002/api/clients/update"
 
 """
    POST /registrar_incidente
@@ -107,9 +108,20 @@ def login():
     if respuesta.status_code == 200:
         logging.info(f"Usuario creado correctamente en {AUTENTICADOR_URL}")
         token_de_acceso = create_access_token(identity=respuesta.id)
-        return {"mensaje": "usuario creado exitosamente", "token": token_de_acceso, "id": nuevo_usuario.id}, 201
+        return {"mensaje": "usuario auntenticado exitosamente", "token": token_de_acceso, "id": nuevo_usuario.id}, 200
     else:
-        return {"mensaje": "Error creando el usuario"}, 400
+        return {"mensaje": "Error autenticando"}, 400
+
+@app.route('/api/clients/update', methods=['PUT'])
+@jwt_required()
+def update():
+    respuesta = requests.put(url, json=datos, headers=request.headers)
+    if respuesta.status_code == 200:
+        logging.info(f"Datos modificados exitosamente {MODIFICADOR_URL}")
+        return {"mensaje": "usuario modificado exitosamente", "id": nuevo_usuario.id}, 200
+    else:
+        return {"mensaje": "Error modificando el usuario"}, 400
+
 
 
 def registrar_estado_servicios(status_code: int, servicio: str):
