@@ -110,7 +110,7 @@ def login():
         respuesta = requests.post(f"{AUTENTICADOR_URL}api/auth/login", json=request.get_json())
         if respuesta.status_code == 200:
             logging.info(f"Usuario auntenticado correctamente en {AUTENTICADOR_URL}api/auth/login")
-            return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta['token'], "id": nuevo_usuario.id}, 200
+            return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta['token']}, 200
         else:
             return {"mensaje": "Error autenticando"}, 400
     else:
@@ -137,10 +137,10 @@ def verify_token():
 @app.route('/api/clients/update', methods=['PUT'])
 @jwt_required()
 def update():
-    respuesta = requests.put(url, json=datos, headers=request.headers)
+    respuesta = requests.put(MODIFICADOR_URL,  json=request.get_json(), headers=request.headers)
     if respuesta.status_code == 200:
         logging.info(f"Datos modificados exitosamente {MODIFICADOR_URL}")
-        return {"mensaje": "usuario modificado exitosamente", "id": nuevo_usuario.id}, 200
+        return {"mensaje": "usuario modificado exitosamente"}, 200
     else:
         return {"mensaje": "Error modificando el usuario"}, 400
 
