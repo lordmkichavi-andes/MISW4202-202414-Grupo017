@@ -144,3 +144,466 @@ Traceback (most recent call last):
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: HTTPSConnectionPool(host='192.168.1.11', port=5001): Max retries exceeded with url: /api/auth/verify (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)')))
 2024-09-28 01:06:12 - INFO - 192.168.1.11 - - [28/Sep/2024 01:06:12] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:06:21 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:06:21 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:07:57 - ERROR - Exception on /api/auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\anfer\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\anfer\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\anfer\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/auth/register (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 117, in register
+    respuesta = requests.post(f"{AUTENTICADOR_URL}api/auth/register", json=request.get_json())
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/auth/register (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)')))
+2024-09-28 12:07:57 - INFO - 127.0.0.1 - - [28/Sep/2024 12:07:57] "[35m[1mPOST /api/auth/register HTTP/1.1[0m" 500 -
+2024-09-28 12:10:31 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:10:31 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:10:38 - INFO - 127.0.0.1 - - [28/Sep/2024 12:10:38] "[31m[1mPOST /api/auth/register HTTP/1.1[0m" 409 -
+2024-09-28 12:11:14 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:11:14 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:11:28 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:11:28 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 111, in login
+    return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta['token']}, 200
+TypeError: 'Response' object is not subscriptable
+2024-09-28 12:11:28 - INFO - 127.0.0.1 - - [28/Sep/2024 12:11:28] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:14:06 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:14:06 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:14:24 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:14:24 - INFO - <Response [200]>
+2024-09-28 12:14:24 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 112, in login
+    return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta['token']}, 200
+TypeError: 'Response' object is not subscriptable
+2024-09-28 12:14:24 - INFO - 127.0.0.1 - - [28/Sep/2024 12:14:24] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:16:53 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:16:53 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:17:01 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:17:01 - INFO - <Response [200]>
+2024-09-28 12:17:01 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 883, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 902, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1174, in make_response
+    raise TypeError(
+TypeError: The view function for 'login' did not return a valid response. The function either returned None or ended without a return statement.
+2024-09-28 12:17:01 - INFO - 127.0.0.1 - - [28/Sep/2024 12:17:01] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:17:52 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:17:52 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:17:58 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:17:58 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 111, in login
+    return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta.json['token']}, 200
+TypeError: 'method' object is not subscriptable
+2024-09-28 12:17:58 - INFO - 127.0.0.1 - - [28/Sep/2024 12:17:58] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:21:02 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:21:02 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:21:11 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:21:11 - INFO - 127.0.0.1 - - [28/Sep/2024 12:21:11] "POST /api/auth/login HTTP/1.1" 200 -
+2024-09-28 12:21:22 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:21:22 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:21:27 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:21:27 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 111, in login
+    return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta.json("token")}, 200
+TypeError: json() takes 1 positional argument but 2 were given
+2024-09-28 12:21:27 - INFO - 127.0.0.1 - - [28/Sep/2024 12:21:27] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:22:29 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:22:29 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:22:35 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:22:35 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 111, in login
+    return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta.json()["token"]}, 200
+TypeError: json() takes 1 positional argument but 2 were given
+2024-09-28 12:22:35 - INFO - 127.0.0.1 - - [28/Sep/2024 12:22:35] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:23:12 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:23:12 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:23:16 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:23:16 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 111, in login
+    return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta.json()["token"][0]}, 200
+TypeError: json() takes 1 positional argument but 2 were given
+2024-09-28 12:23:16 - INFO - 127.0.0.1 - - [28/Sep/2024 12:23:16] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:24:32 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:24:32 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:24:39 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:24:39 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 111, in login
+    return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta.json()['token']}, 200
+TypeError: json() takes 1 positional argument but 2 were given
+2024-09-28 12:24:39 - INFO - 127.0.0.1 - - [28/Sep/2024 12:24:39] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:25:20 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:25:20 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:25:30 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:25:30 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 111, in login
+    logging.info(respuesta.json())
+TypeError: json() takes 1 positional argument but 2 were given
+2024-09-28 12:25:30 - INFO - 127.0.0.1 - - [28/Sep/2024 12:25:30] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:26:16 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:26:16 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:26:21 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:26:21 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 111, in login
+    return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta.json()['token']}, 200
+TypeError: json() takes 1 positional argument but 2 were given
+2024-09-28 12:26:21 - INFO - 127.0.0.1 - - [28/Sep/2024 12:26:21] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:26:37 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:26:37 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:26:43 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:26:43 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 111, in login
+    return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta.json()}, 200
+TypeError: json() takes 1 positional argument but 2 were given
+2024-09-28 12:26:43 - INFO - 127.0.0.1 - - [28/Sep/2024 12:26:43] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:27:04 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:27:04 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:27:11 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:27:11 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:27:16 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:27:16 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 111, in login
+    return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta.get_json()['token']}, 200
+TypeError: json() takes 1 positional argument but 2 were given
+2024-09-28 12:27:16 - INFO - 127.0.0.1 - - [28/Sep/2024 12:27:16] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -
+2024-09-28 12:28:00 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:28:00 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:28:07 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:28:07 - INFO - 127.0.0.1 - - [28/Sep/2024 12:28:07] "POST /api/auth/login HTTP/1.1" 200 -
+2024-09-28 12:31:10 - INFO - Token verificado correctamente en https://localhost:5001/api/auth/verify
+2024-09-28 12:31:10 - ERROR - Exception on /api/auth/verify [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 130, in verify_token
+    return {respuesta.json()}, 200
+TypeError: unhashable type: 'dict'
+2024-09-28 12:31:10 - INFO - 127.0.0.1 - - [28/Sep/2024 12:31:10] "[35m[1mPOST /api/auth/verify HTTP/1.1[0m" 500 -
+2024-09-28 12:32:32 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:32:32 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:32:39 - INFO - Token verificado correctamente en https://localhost:5001/api/auth/verify
+2024-09-28 12:32:39 - INFO - 127.0.0.1 - - [28/Sep/2024 12:32:39] "POST /api/auth/verify HTTP/1.1" 200 -
+2024-09-28 12:37:52 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:37:52 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:38:33 - INFO - Usuario auntenticado correctamente en https://localhost:5001/api/auth/login
+2024-09-28 12:38:33 - INFO - 127.0.0.1 - - [28/Sep/2024 12:38:33] "POST /api/auth/login HTTP/1.1" 200 -
+2024-09-28 12:39:31 - INFO - 127.0.0.1 - - [28/Sep/2024 12:39:31] "[31m[1mPOST /api/clients/update HTTP/1.1[0m" 405 -
+2024-09-28 12:40:01 - ERROR - Exception on /api/clients/update [PUT]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask_jwt_extended\view_decorators.py", line 167, in decorator
+    verify_jwt_in_request(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask_jwt_extended\view_decorators.py", line 94, in verify_jwt_in_request
+    jwt_data, jwt_header, jwt_location = _decode_jwt_from_request(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask_jwt_extended\view_decorators.py", line 310, in _decode_jwt_from_request
+    locations = config.token_location
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask_jwt_extended\config.py", line 44, in token_location
+    locations = current_app.config["JWT_TOKEN_LOCATION"]
+KeyError: 'JWT_TOKEN_LOCATION'
+2024-09-28 12:40:01 - INFO - 127.0.0.1 - - [28/Sep/2024 12:40:01] "[35m[1mPUT /api/clients/update HTTP/1.1[0m" 500 -
+2024-09-28 12:41:29 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:41:29 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:41:42 - INFO - Token verificado correctamente en https://localhost:5001/api/auth/verify
+2024-09-28 12:41:57 - ERROR - Exception on /api/clients/update [PUT]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 136, in update
+    if respuesta_valida_token.status_code == 200:
+AttributeError: 'tuple' object has no attribute 'status_code'
+2024-09-28 12:41:57 - INFO - 127.0.0.1 - - [28/Sep/2024 12:41:57] "[35m[1mPUT /api/clients/update HTTP/1.1[0m" 500 -
+2024-09-28 12:42:29 - INFO - Token verificado correctamente en https://localhost:5001/api/auth/verify
+2024-09-28 12:43:31 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:43:31 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:43:39 - INFO - Token verificado correctamente en https://localhost:5001/api/auth/verify
+2024-09-28 12:43:49 - ERROR - Exception on /api/clients/update [PUT]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 138, in update
+    'id': respuesta_valida_token[0].json()['id'],
+AttributeError: 'dict' object has no attribute 'json'
+2024-09-28 12:43:49 - INFO - 127.0.0.1 - - [28/Sep/2024 12:43:49] "[35m[1mPUT /api/clients/update HTTP/1.1[0m" 500 -
+2024-09-28 12:44:04 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:44:04 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:44:11 - INFO - Token verificado correctamente en https://localhost:5001/api/auth/verify
+2024-09-28 12:44:11 - ERROR - Exception on /api/clients/update [PUT]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 138, in update
+    'id': respuesta_valida_token[0]['id'],
+KeyError: 'id'
+2024-09-28 12:44:11 - INFO - 127.0.0.1 - - [28/Sep/2024 12:44:11] "[35m[1mPUT /api/clients/update HTTP/1.1[0m" 500 -
+2024-09-28 12:44:25 - INFO - Token verificado correctamente en https://localhost:5001/api/auth/verify
+2024-09-28 12:44:43 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:44:43 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:44:49 - INFO - Token verificado correctamente en https://localhost:5001/api/auth/verify
+2024-09-28 12:45:09 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 12:45:09 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 12:45:15 - INFO - Token verificado correctamente en https://localhost:5001/api/auth/verify
+2024-09-28 12:45:23 - INFO - Datos modificados exitosamente https://localhost:5002/api/clients/update
+2024-09-28 12:45:23 - INFO - 127.0.0.1 - - [28/Sep/2024 12:45:23] "PUT /api/clients/update HTTP/1.1" 200 -
