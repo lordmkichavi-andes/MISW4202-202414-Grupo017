@@ -1,0 +1,146 @@
+2024-09-26 22:53:42 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-26 22:53:42 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-26 22:53:50 - ERROR - Exception on /api/auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\anfer\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\anfer\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\anfer\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='192.168.1.11', port=5001): Max retries exceeded with url: /api/auth/register (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 121, in register
+    respuesta = requests.post(f"{AUTENTICADOR_URL}api/auth/register", json=request.get_json())
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='192.168.1.11', port=5001): Max retries exceeded with url: /api/auth/register (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)')))
+2024-09-26 22:53:50 - INFO - 192.168.1.11 - - [26/Sep/2024 22:53:50] "[35m[1mPOST /api/auth/register HTTP/1.1[0m" 500 -
+2024-09-28 01:05:14 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5010
+ * Running on https://192.168.1.11:5010
+2024-09-28 01:05:14 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 01:06:12 - ERROR - Exception on /api/auth/login [POST]
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\anfer\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\anfer\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\anfer\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='192.168.1.11', port=5001): Max retries exceeded with url: /api/auth/verify (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 108, in login
+    respuesta_valida_token = verify_token()
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\api_gateway\api_gateway.py", line 131, in verify_token
+    respuesta = requests.post(f"{AUTENTICADOR_URL}api/auth/verify",headers=request.headers)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\anfer\Documents\Uniandes\Arquitecturas Ágiles\MISW4202-202414-Grupo017\venv\lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='192.168.1.11', port=5001): Max retries exceeded with url: /api/auth/verify (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)')))
+2024-09-28 01:06:12 - INFO - 192.168.1.11 - - [28/Sep/2024 01:06:12] "[35m[1mPOST /api/auth/login HTTP/1.1[0m" 500 -

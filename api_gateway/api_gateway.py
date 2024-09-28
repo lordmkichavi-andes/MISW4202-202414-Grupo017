@@ -1,9 +1,15 @@
 import logging
+import os
 
 from flask import Flask, request, jsonify
+from flask_jwt_extended import jwt_required, create_access_token
+
 import requests
 
 app = Flask(__name__)
+base_dir = os.path.abspath(os.path.dirname(__file__))
+cert_path = os.path.join(base_dir, '..', 'certificados', 'cert.pem')
+key_path = os.path.join(base_dir, '..', 'certificados', 'key_sin_frase.pem')
 
 # Configurar el registro de logs
 logging.basicConfig(
@@ -25,6 +31,8 @@ MONITOR_URLS = [
     "http://localhost:5003/health",
     "http://localhost:5004/health"
 ]
+AUTENTICADOR_URL = "https://192.168.1.11:5001/"
+MODIFICADOR_URL = "https://127.0.0.1:5002/api/clients/update"
 
 """
    POST /registrar_incidente
@@ -95,6 +103,48 @@ def monitor_services():
 def health_check():
     return jsonify({"status": "healthy"}), 200
 
+@app.route('/api/auth/login', methods=['POST'])
+def login():
+    respuesta_valida_token = verify_token()
+    if respuesta_valida_token.status_code == 200:
+        respuesta = requests.post(f"{AUTENTICADOR_URL}api/auth/login", json=request.get_json())
+        if respuesta.status_code == 200:
+            logging.info(f"Usuario auntenticado correctamente en {AUTENTICADOR_URL}api/auth/login")
+            return {"mensaje": "usuario auntenticado exitosamente", "token": respuesta['token']}, 200
+        else:
+            return {"mensaje": "Error autenticando"}, 400
+    else:
+        return {"mensaje": "Token inválido"}, 403
+
+@app.route('/api/auth/register', methods=['POST'])
+def register():
+    respuesta = requests.post(f"{AUTENTICADOR_URL}api/auth/register", json=request.get_json())
+    if respuesta.status_code == 201:
+        logging.info(f"Usuario creado creado en {AUTENTICADOR_URL}api/auth/register")
+        return {"mensaje": "usuario creado exitosamente"}, 201
+    else:
+        return {"mensaje": "Error creando usuario"}, 409
+
+
+@app.route('/api/auth/verify', methods=['POST'])
+def verify_token():
+    respuesta = requests.post(f"{AUTENTICADOR_URL}api/auth/verify",headers=request.headers)
+    if respuesta.status_code == 200:
+        logging.info(f"Token verificado correctamente en {AUTENTICADOR_URL}api/auth/verify")
+        return {respuesta.json()}, 200
+    else:
+        return {"mensaje": "Token inválido"}, 403
+@app.route('/api/clients/update', methods=['PUT'])
+@jwt_required()
+def update():
+    respuesta = requests.put(MODIFICADOR_URL,  json=request.get_json(), headers=request.headers)
+    if respuesta.status_code == 200:
+        logging.info(f"Datos modificados exitosamente {MODIFICADOR_URL}")
+        return {"mensaje": "usuario modificado exitosamente"}, 200
+    else:
+        return {"mensaje": "Error modificando el usuario"}, 400
+
+
 
 def registrar_estado_servicios(status_code: int, servicio: str):
     if status_code != 200:
@@ -104,4 +154,5 @@ def registrar_estado_servicios(status_code: int, servicio: str):
 
 
 if __name__ == '__main__':
-    app.run(port=5010)
+    with app.app_context():
+        app.run(ssl_context=(cert_path, key_path), host='0.0.0.0', port=5010)
