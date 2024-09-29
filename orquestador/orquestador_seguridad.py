@@ -130,15 +130,19 @@ def main():
             'nombre': 'luis gomez',
             'direccion': 'calle 8 sur'
         }
+        datos_alterados = {
+            'nombre': 'carlos melendez',
+            'direccion': 'calle 4 norte'
+        }
         modificar_datos_personales(token, datos_nuevos, API_GATEWAY_URL)
-        intentar_violacion_de_seguridad(token, datos_nuevos, API_GATEWAY_URL)
-        usar_token_expirado(datos_nuevos, API_GATEWAY_URL)
-        usar_token_manipulado(datos_nuevos, API_GATEWAY_URL)
-        modificar_datos_simultaneamente(token, datos_nuevos, API_GATEWAY_URL)
+        intentar_violacion_de_seguridad(token, datos_alterados, API_GATEWAY_URL)
+        usar_token_expirado(datos_alterados, API_GATEWAY_URL)
+        usar_token_manipulado(datos_alterados, API_GATEWAY_URL)
+        modificar_datos_simultaneamente(token, datos_alterados, API_GATEWAY_URL)
         modificar_datos_de_otro_usuario(API_GATEWAY_URL)
-        probar_timeout(token, datos_nuevos)
+        probar_timeout(token, datos_alterados)
         probar_datos_malformados(token, API_GATEWAY_URL)
-        probar_conexion_no_segura(token, datos_nuevos)
+        probar_conexion_no_segura(token, datos_alterados)
 
 if __name__ == '__main__':
     logger.info('Iniciando orquestador...')
