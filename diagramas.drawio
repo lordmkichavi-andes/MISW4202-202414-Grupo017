@@ -3432,8 +3432,8 @@
         <mxCell id="EdjLLlEIoeud2IjYoHpi-22" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;app.py" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-725.0400000000001" y="285" width="124.32" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EdjLLlEIoeud2IjYoHpi-23" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;carrera-detail.component.html" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-455" y="285" width="230" height="60" as="geometry" />
+        <mxCell id="EdjLLlEIoeud2IjYoHpi-23" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;votacion.component.html&lt;div&gt;votacion.component.ts&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-455" y="293" width="230" height="75" as="geometry" />
         </mxCell>
         <mxCell id="EdjLLlEIoeud2IjYoHpi-24" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;subida-videos.component.html&lt;div&gt;subida-videos.component.ts&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-774.58" y="497.5" width="222.88" height="72.5" as="geometry" />
