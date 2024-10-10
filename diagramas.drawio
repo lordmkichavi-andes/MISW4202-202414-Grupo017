@@ -3454,7 +3454,7 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EdjLLlEIoeud2IjYoHpi-40" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;div&gt;tabla&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;carreras&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="EdjLLlEIoeud2IjYoHpi-40" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;div&gt;control_usuarios.py&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-317.5" y="1160" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EdjLLlEIoeud2IjYoHpi-41" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Servidor de Lógica de Negocio&lt;/span&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;strokeWidth=3;fontSize=16;" vertex="1" parent="1">
@@ -3555,7 +3555,7 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EdjLLlEIoeud2IjYoHpi-78" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;div&gt;tabla&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;carreras&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="EdjLLlEIoeud2IjYoHpi-78" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;div&gt;control_videos.py&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="32.5" y="1160" width="165" height="60" as="geometry" />
         </mxCell>
       </root>
