@@ -3526,8 +3526,8 @@
         <mxCell id="EdjLLlEIoeud2IjYoHpi-58" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;carrera.py" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="837.5899999999999" y="265" width="164.32" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EdjLLlEIoeud2IjYoHpi-64" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;usuarios.py" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="507.88" y="469.5" width="150" height="50" as="geometry" />
+        <mxCell id="EdjLLlEIoeud2IjYoHpi-64" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;gestor_clasificacion.py" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="498" y="469.5" width="172.12" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EdjLLlEIoeud2IjYoHpi-65" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;usuarios.py" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="851.91" y="485.5" width="150" height="50" as="geometry" />
