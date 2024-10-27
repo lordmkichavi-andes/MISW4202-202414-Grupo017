@@ -3334,7 +3334,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rJjuBr68Ox3HfLn6_B0Q" name="despliegue drones">
-    <mxGraphModel dx="5098" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4596" dy="1391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3568,7 +3568,7 @@
             <mxPoint x="140" y="1841.67" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3RaznsGbN5W3DgY8eBS_-2" value="&lt;strong style=&quot;font-size: 20px;&quot;&gt;HTTP/HTTPS&lt;/strong&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3RaznsGbN5W3DgY8eBS_-1">
+        <mxCell id="3RaznsGbN5W3DgY8eBS_-2" value="&lt;strong style=&quot;font-size: 20px;&quot;&gt;HTTP&lt;/strong&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3RaznsGbN5W3DgY8eBS_-1">
           <mxGeometry x="-0.0503" y="2" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
@@ -3703,7 +3703,7 @@
         <mxCell id="3RaznsGbN5W3DgY8eBS_-63" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;routes.py" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="827.32" y="1821" width="167.12" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3RaznsGbN5W3DgY8eBS_-69" value="&lt;strong style=&quot;font-size: 20px;&quot;&gt;HTTP/HTTPS&lt;/strong&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+        <mxCell id="3RaznsGbN5W3DgY8eBS_-69" value="&lt;strong style=&quot;font-size: 20px;&quot;&gt;HTTP&lt;/strong&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-60.00111111111187" y="2159.9999999999995" as="geometry" />
         </mxCell>
         <mxCell id="4IED-fGA-P_yLP97O64j-1" value="&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;&lt;/font&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Message Broker&lt;/strong&gt;&lt;span style=&quot;font-size: 16px; background-color: initial;&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;Redis&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=north;fillColor=#f08851;strokeColor=#000000;" vertex="1" parent="1">
