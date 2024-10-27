@@ -3334,7 +3334,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rJjuBr68Ox3HfLn6_B0Q" name="despliegue drones">
-    <mxGraphModel dx="4596" dy="1391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4822" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3562,8 +3562,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="437.1199999999999" y="1841.67" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="200" y="1800" />
-              <mxPoint x="200" y="1800" />
+              <mxPoint x="320" y="1780" />
+              <mxPoint x="320" y="1780" />
             </Array>
             <mxPoint x="140" y="1841.67" as="sourcePoint" />
           </mxGeometry>
