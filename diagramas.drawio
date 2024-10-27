@@ -3558,12 +3558,12 @@
         <mxCell id="EdjLLlEIoeud2IjYoHpi-78" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;div&gt;control_videos.py&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="32.5" y="1160" width="165" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3RaznsGbN5W3DgY8eBS_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=3;" edge="1" parent="1">
+        <mxCell id="3RaznsGbN5W3DgY8eBS_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=3;" edge="1" parent="1" source="3RaznsGbN5W3DgY8eBS_-3" target="3RaznsGbN5W3DgY8eBS_-29">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="437.1199999999999" y="1841.67" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="140" y="1760" />
-              <mxPoint x="437" y="1760" />
+              <mxPoint x="200" y="1800" />
+              <mxPoint x="200" y="1800" />
             </Array>
             <mxPoint x="140" y="1841.67" as="sourcePoint" />
           </mxGeometry>
@@ -3587,7 +3587,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Servidor Worker&lt;/font&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;strokeWidth=3;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="430" y="2160" width="840" height="360" as="geometry" />
+          <mxGeometry x="380" y="2150" width="840" height="360" as="geometry" />
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=16;" edge="1" parent="1" source="3RaznsGbN5W3DgY8eBS_-6" target="3RaznsGbN5W3DgY8eBS_-21">
           <mxGeometry relative="1" as="geometry">
@@ -3615,7 +3615,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-26" value="&lt;p style=&quot;text-align: center; margin: 6px 0px 0px; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Component&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;text-align: center; border-style: solid; font-size: 16px;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px; font-size: 16px;&quot;&gt;Procesamiento Tareas&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="509.9999999999999" y="2250" width="250" height="74" as="geometry" />
+          <mxGeometry x="448.9999999999999" y="2240" width="250" height="74" as="geometry" />
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-27" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontSize=16;" vertex="1" parent="3RaznsGbN5W3DgY8eBS_-26">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -3623,7 +3623,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-28" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;div&gt;task.py&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="552.4999999999999" y="2390" width="165" height="60" as="geometry" />
+          <mxGeometry x="491.4999999999999" y="2380" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4IED-fGA-P_yLP97O64j-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" edge="1" parent="1" source="3RaznsGbN5W3DgY8eBS_-29" target="3RaznsGbN5W3DgY8eBS_-52">
           <mxGeometry relative="1" as="geometry">
@@ -3639,17 +3639,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-29" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Servidor Web Server&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;strokeWidth=3;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="437.12" y="1600" width="572.88" height="350" as="geometry" />
+          <mxGeometry x="498" y="1600" width="572.88" height="350" as="geometry" />
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=16;" edge="1" parent="1" target="3RaznsGbN5W3DgY8eBS_-42">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="565" y="1768" as="sourcePoint" />
-            <mxPoint x="565" y="1801" as="targetPoint" />
+            <mxPoint x="625.88" y="1768" as="sourcePoint" />
+            <mxPoint x="625.88" y="1801" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-31" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Component&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid; font-size: 16px;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px; font-size: 16px;&quot;&gt;GestorUsuarios&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="465" y="1698" width="220" height="70" as="geometry" />
+          <mxGeometry x="525.88" y="1698" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-32" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontSize=16;" vertex="1" parent="3RaznsGbN5W3DgY8eBS_-31">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -3657,7 +3657,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-42" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;routes.py" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="482.88" y="1821" width="167.12" height="50" as="geometry" />
+          <mxGeometry x="543.76" y="1821" width="167.12" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=3;" edge="1" parent="1" source="3RaznsGbN5W3DgY8eBS_-29" target="3RaznsGbN5W3DgY8eBS_-4">
           <mxGeometry relative="1" as="geometry">
@@ -3693,7 +3693,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-61" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Component&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid; font-size: 16px;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px; font-size: 16px;&quot;&gt;GestorTareas&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="740" y="1698" width="220" height="70" as="geometry" />
+          <mxGeometry x="800.88" y="1698" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-62" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontSize=16;" vertex="1" parent="3RaznsGbN5W3DgY8eBS_-61">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -3701,13 +3701,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-63" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;routes.py" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="766.44" y="1821" width="167.12" height="50" as="geometry" />
+          <mxGeometry x="827.32" y="1821" width="167.12" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-69" value="&lt;strong style=&quot;font-size: 20px;&quot;&gt;HTTP/HTTPS&lt;/strong&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-60.00111111111187" y="2159.9999999999995" as="geometry" />
         </mxCell>
         <mxCell id="4IED-fGA-P_yLP97O64j-1" value="&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;&lt;/font&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Message Broker&lt;/strong&gt;&lt;span style=&quot;font-size: 16px; background-color: initial;&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;Plataforma Mensajeria&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=north;fillColor=#f08851;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="830" y="2257" width="380" height="60" as="geometry" />
+          <mxGeometry x="769" y="2247" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_rrTNxMsDBsWkyzuTyir-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;TCP/IP&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1579.3762068965516" y="2170.0044827586207" as="geometry" />
