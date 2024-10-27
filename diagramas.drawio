@@ -3334,7 +3334,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rJjuBr68Ox3HfLn6_B0Q" name="despliegue drones">
-    <mxGraphModel dx="3718" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="5098" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3583,7 +3583,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_rrTNxMsDBsWkyzuTyir-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="3RaznsGbN5W3DgY8eBS_-4" target="3RaznsGbN5W3DgY8eBS_-52">
+        <mxCell id="_rrTNxMsDBsWkyzuTyir-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="3RaznsGbN5W3DgY8eBS_-4" target="3RaznsGbN5W3DgY8eBS_-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3RaznsGbN5W3DgY8eBS_-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Servidor Worker&lt;/font&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;strokeWidth=3;fontSize=16;" vertex="1" parent="1">
