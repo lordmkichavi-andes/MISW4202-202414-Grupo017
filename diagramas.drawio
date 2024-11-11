@@ -3334,7 +3334,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rJjuBr68Ox3HfLn6_B0Q" name="despliegue drones">
-    <mxGraphModel dx="5707" dy="2186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4696" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3781,8 +3781,8 @@
             <mxPoint x="-37.5000000000004" y="3073" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jDkSxyAML0O9SIJ2iSk0-51" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;div&gt;file: /app/uploads&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-131.25" y="3127" width="203.75" height="57" as="geometry" />
+        <mxCell id="jDkSxyAML0O9SIJ2iSk0-51" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;bucket_drones&lt;/div&gt;&lt;div&gt;originales/&lt;/div&gt;&lt;div&gt;procesados/&lt;/div&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-131.25" y="3127" width="203.75" height="103" as="geometry" />
         </mxCell>
         <mxCell id="jDkSxyAML0O9SIJ2iSk0-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="jDkSxyAML0O9SIJ2iSk0-54" target="jDkSxyAML0O9SIJ2iSk0-73">
           <mxGeometry relative="1" as="geometry" />
