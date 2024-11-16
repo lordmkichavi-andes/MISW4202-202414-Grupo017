@@ -3977,8 +3977,7 @@
         <mxCell id="LEIbVINPIyfT5j_gf7xf-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="LEIbVINPIyfT5j_gf7xf-55" target="LEIbVINPIyfT5j_gf7xf-74">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="730" y="5040" />
-              <mxPoint x="1001" y="5040" />
+              <mxPoint x="730" y="4940" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4066,8 +4065,15 @@
         <mxCell id="LEIbVINPIyfT5j_gf7xf-73" value="&lt;strong style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;HTTP&lt;/font&gt;&lt;/strong&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-76.00111111111187" y="4843" as="geometry" />
         </mxCell>
+        <mxCell id="LEIbVINPIyfT5j_gf7xf-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="LEIbVINPIyfT5j_gf7xf-74" target="LEIbVINPIyfT5j_gf7xf-101">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="4940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LEIbVINPIyfT5j_gf7xf-74" value="&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;&lt;/font&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Message Broker&lt;/strong&gt;&lt;span style=&quot;font-size: 16px; background-color: initial;&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;Redis&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=north;fillColor=#f08851;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="891.7599999999999" y="4910" width="219.12" height="60" as="geometry" />
+          <mxGeometry x="759.9999999999999" y="4910" width="219.12" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LEIbVINPIyfT5j_gf7xf-75" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;TCP/IP&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1563.3762068965516" y="4853.004482758621" as="geometry" />
