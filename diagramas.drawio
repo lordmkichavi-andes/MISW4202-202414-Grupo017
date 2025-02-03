@@ -4515,19 +4515,29 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y6ov7kiSCOS9eFIHiKTp" name="almaviva">
-    <mxGraphModel dx="2204" dy="1467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3080" dy="2009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-p2MFHnA8Yq_9nUPhKp1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="-p2MFHnA8Yq_9nUPhKp1-1" target="-p2MFHnA8Yq_9nUPhKp1-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-490" y="281" />
+              <mxPoint x="-490" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-p2MFHnA8Yq_9nUPhKp1-13" value="Inicio sesion /&lt;div&gt;&amp;nbsp;autenticación&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-p2MFHnA8Yq_9nUPhKp1-11">
+          <mxGeometry x="-0.1232" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-p2MFHnA8Yq_9nUPhKp1-1" value="usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-580" y="244" width="30" height="60" as="geometry" />
         </mxCell>
         <UserObject label="" link="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpNdYiEaTJZgLTa2kZEpqf1sPRbFUtTFCg9g&amp;s" id="-p2MFHnA8Yq_9nUPhKp1-2">
           <mxCell style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://crowdforthink.com/assets/uploads/blogs/fcd31986b2edb24fbf4b273363341725.png;" vertex="1" parent="1">
-            <mxGeometry x="-330" y="240" width="120" height="67.46" as="geometry" />
+            <mxGeometry x="-330" y="246.88" width="120" height="67.46" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="-p2MFHnA8Yq_9nUPhKp1-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://nattia.com/wp-content/uploads/2023/06/office_line_sa_power_apps_image-1.png;" vertex="1" parent="1">
