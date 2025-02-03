@@ -4515,7 +4515,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y6ov7kiSCOS9eFIHiKTp" name="almaviva">
-    <mxGraphModel dx="2249" dy="1495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2722" dy="1787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4535,7 +4535,7 @@
         <mxCell id="-p2MFHnA8Yq_9nUPhKp1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-p2MFHnA8Yq_9nUPhKp1-1" target="-p2MFHnA8Yq_9nUPhKp1-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-565" y="59" />
+              <mxPoint x="-565" y="70" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4598,7 +4598,7 @@
           <mxGeometry x="-60" y="240" width="148" height="81.22" as="geometry" />
         </mxCell>
         <mxCell id="-p2MFHnA8Yq_9nUPhKp1-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/document-icons-2/30/647714-excel-128.png" vertex="1" parent="1">
-          <mxGeometry x="-25" y="20" width="78" height="78" as="geometry" />
+          <mxGeometry x="-25" y="30" width="78" height="78" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="Sharepoint Online" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="-p2MFHnA8Yq_9nUPhKp1-6">
           <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
@@ -4635,6 +4635,9 @@
         </mxCell>
         <mxCell id="-p2MFHnA8Yq_9nUPhKp1-18" value="pdf&lt;div&gt;excel&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1280" y="278.39" width="60" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="-p2MFHnA8Yq_9nUPhKp1-31" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-cmlhl.nitrocdn.com/SFwMHuoIUyOXMIZUgrtxdjjtdcANbHzE/assets/images/optimized/rev-2b6e0cc/addendanalytics.com/wp-content/uploads/2021/09/Logo-Power-Automate.png;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="129" height="105.79" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
