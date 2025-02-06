@@ -5025,7 +5025,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IoxEH3M2sVcqJRcQGT33" name="Página-15">
-    <mxGraphModel dx="1461" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2760" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5072,7 +5072,7 @@
           <mxGeometry x="620" y="320" width="400" height="160" as="geometry" />
         </mxCell>
         <mxCell id="6H-ed_1nzl2P0UfBJFY0-15" value="BD Usuarios&#xa;y Roles" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="6H-ed_1nzl2P0UfBJFY0-14">
-          <mxGeometry x="20" y="40" width="140" height="40" as="geometry" />
+          <mxGeometry x="20" y="80" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6H-ed_1nzl2P0UfBJFY0-16" value="BD Plantillas&#xa;Biométricas" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="6H-ed_1nzl2P0UfBJFY0-14">
           <mxGeometry x="180" y="40" width="140" height="40" as="geometry" />
