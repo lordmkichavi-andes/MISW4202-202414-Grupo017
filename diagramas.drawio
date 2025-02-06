@@ -4823,10 +4823,64 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dYyAIAgJourmfkJ3wRw2" name="makro">
-    <mxGraphModel dx="1242" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="731" dy="1279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-1" value="Terceros / Proveedores / Clientes" style="swimlane;childLayout=stackLayout;horizontal=1;resizeParent=1;resizeParentMax=0;resizeParentWidth=1;collapsible=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-230" width="420" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-2" value="SFTP Partner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff" vertex="1" parent="xnIweeG7QJ1sxufNFWOm-1">
+          <mxGeometry y="23" width="140" height="237" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-3" value="Email/Excel Partner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff" vertex="1" parent="xnIweeG7QJ1sxufNFWOm-1">
+          <mxGeometry x="140" y="23" width="140" height="237" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-4" value="API Partner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff" vertex="1" parent="xnIweeG7QJ1sxufNFWOm-1">
+          <mxGeometry x="280" y="23" width="140" height="237" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-5" value="Azure API Management&#xa;(Seguridad, Monitoreo, Tokens)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="230" y="150" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-6" value="Azure Logic Apps / Functions&#xa;(Orquestación, Transformaciones)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="230" y="334" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-7" value="Azure Data Lake / Storage&#xa;(Opcional para IA/BI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f1f1;strokeColor=#999999;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="230" y="540" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-8" style="endArrow=classic;html=1;fontSize=12" edge="1" parent="1" source="xnIweeG7QJ1sxufNFWOm-6" target="xnIweeG7QJ1sxufNFWOm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-9" value="AI / BI Externo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="260" y="690" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-10" style="endArrow=classic;html=1;fontSize=12" edge="1" parent="1" source="xnIweeG7QJ1sxufNFWOm-7" target="xnIweeG7QJ1sxufNFWOm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-11" value="VPN / ExpressRoute" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="585" y="354" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-12" value="Oracle Cloud&#xa;(BD, ERP, Core Servicios)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#f8ab2d;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="800" y="334" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-13" style="endArrow=classic;html=1;fontSize=12" edge="1" parent="1" source="xnIweeG7QJ1sxufNFWOm-2" target="xnIweeG7QJ1sxufNFWOm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-14" style="endArrow=classic;html=1;fontSize=12" edge="1" parent="1" source="xnIweeG7QJ1sxufNFWOm-3" target="xnIweeG7QJ1sxufNFWOm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-15" style="endArrow=classic;html=1;fontSize=12" edge="1" parent="1" source="xnIweeG7QJ1sxufNFWOm-4" target="xnIweeG7QJ1sxufNFWOm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-16" style="endArrow=classic;html=1;fontSize=12" edge="1" parent="1" source="xnIweeG7QJ1sxufNFWOm-5" target="xnIweeG7QJ1sxufNFWOm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-17" style="endArrow=classic;html=1;fontSize=12" edge="1" parent="1" source="xnIweeG7QJ1sxufNFWOm-6" target="xnIweeG7QJ1sxufNFWOm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xnIweeG7QJ1sxufNFWOm-18" style="endArrow=classic;html=1;fontSize=12" edge="1" parent="1" source="xnIweeG7QJ1sxufNFWOm-11" target="xnIweeG7QJ1sxufNFWOm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
