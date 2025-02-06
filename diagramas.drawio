@@ -5417,13 +5417,13 @@
           <mxGeometry x="610" y="-10" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-5" value="Motor de Reconocimiento Facial" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-350" width="200" height="60" as="geometry" />
+          <mxGeometry x="610" y="-280" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-6" value="BD Plantillas Biométricas" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="320" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-7" value="CERTICÁMARA" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="530" width="200" height="60" as="geometry" />
+          <mxGeometry x="1070" y="-10" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-8" value="1) Solicita acceso e inicia validación biométrica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-1" target="PKWk7dSBk6FqM_8vFA_C-2">
           <mxGeometry relative="1" as="geometry" />
@@ -5460,18 +5460,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PKWk7dSBk6FqM_8vFA_C-15" value="6) Solicita validación y emisión de certificado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-7">
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-15" value="6) Solicita validación&amp;nbsp;&lt;div&gt;y emisión de certificado&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1180" y="210" />
+              <mxPoint x="940" y="40" />
+              <mxPoint x="940" y="40" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PKWk7dSBk6FqM_8vFA_C-16" value="6b) Respuesta validación/certificación (OK/Error)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-7" target="PKWk7dSBk6FqM_8vFA_C-4">
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-16" value="6b) Respuesta validación/&lt;div&gt;certificación (OK/Error)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-7" target="PKWk7dSBk6FqM_8vFA_C-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="970" y="560" />
-              <mxPoint x="970" y="230" />
+              <mxPoint x="930" />
+              <mxPoint x="930" />
             </Array>
           </mxGeometry>
         </mxCell>
