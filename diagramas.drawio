@@ -5400,7 +5400,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="J-OJvELoXsPy-8kMYuR4" name="Página-18">
-    <mxGraphModel dx="1242" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5414,10 +5414,10 @@
           <mxGeometry x="400" y="200" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-4" value="Orquestador Biométrico" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="200" width="200" height="60" as="geometry" />
+          <mxGeometry x="610" y="-10" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-5" value="Motor de Reconocimiento Facial" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="320" width="200" height="60" as="geometry" />
+          <mxGeometry x="585" y="580" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-6" value="BD Plantillas Biométricas" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="320" width="160" height="60" as="geometry" />
@@ -5437,14 +5437,23 @@
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-11" value="4) Envía imagen y solicita extracción de rasgos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PKWk7dSBk6FqM_8vFA_C-12" value="4b) Retorna vector facial / score (incluye verif. de liveness)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-5" target="PKWk7dSBk6FqM_8vFA_C-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-12" value="4b) Retorna vector facial / score&amp;nbsp;&lt;div&gt;(incluye verif. de liveness)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-5" target="PKWk7dSBk6FqM_8vFA_C-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="420" />
+              <mxPoint x="770" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-13" value="5) Almacena/consulta plantillas biométricas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-14" value="5b) Retorna coincidencia y datos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-6" target="PKWk7dSBk6FqM_8vFA_C-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="340" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-15" value="6) Solicita validación y emisión de certificado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-7">
           <mxGeometry relative="1" as="geometry">
