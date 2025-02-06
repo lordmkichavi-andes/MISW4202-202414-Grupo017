@@ -4515,7 +4515,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y6ov7kiSCOS9eFIHiKTp" name="almaviva">
-    <mxGraphModel dx="2943" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4691,10 +4691,124 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KgHUBjJwQjwEFum3J_tR" name="certicamara">
-    <mxGraphModel dx="1242" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="828" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BRrihD0if887bqOjuvZB-1" value="Usuario/Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-2" value="Front-End / Portal HU" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="20" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-3" value="Navegador /&#xa;App Móvil /&#xa;Kiosko" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-2">
+          <mxGeometry x="20" y="40" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-4" value="API Gateway / Balanceador" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="20" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-5" value="API Gateway" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-4">
+          <mxGeometry x="20" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-6" value="Microservicios y&#xa;Lógica de Negocio" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="170" width="500" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-7" value="Servicio de Orquestación&#xa;Biométrica" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-6">
+          <mxGeometry x="20" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-8" value="Servicio de Gestión&#xa;de Usuarios" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-6">
+          <mxGeometry x="200" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-9" value="Servicio de Integración&#xa;Certicámara" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-6">
+          <mxGeometry x="20" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-10" value="Servicio de Auditoría / Logs" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-6">
+          <mxGeometry x="200" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-11" value="Motor de&#xa;Reconocimiento Facial" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="170" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-12" value="Módulo de&#xa;Matching Facial" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-11">
+          <mxGeometry x="20" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-13" value="Módulo de&#xa;Detección de Vida (Liveness)" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-11">
+          <mxGeometry x="190" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-14" value="Bases de Datos /&#xa;Almacenamiento" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="400" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-15" value="BD Usuarios&#xa;y Roles" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-14">
+          <mxGeometry x="20" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-16" value="BD Plantillas&#xa;Biométricas" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-14">
+          <mxGeometry x="200" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-17" value="BD Auditoría&#xa;(Logs)" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-14">
+          <mxGeometry x="380" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-18" value="Servicios Externos" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="390" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-19" value="CERTICÁMARA&#xa;(Validación / Cert. Digital)" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-18">
+          <mxGeometry x="30" y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-20" value="1) Solicita acceso /&#xa;Inicia validación biométrica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-1" target="BRrihD0if887bqOjuvZB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-21" value="2) Captura de imagen/video /&#xa;(enviado vía HTTPS)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-3" target="BRrihD0if887bqOjuvZB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-22" value="3) Petición de validación biométrica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-5" target="BRrihD0if887bqOjuvZB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-23" value="4) Envía imagen /&#xa;solicita extracción de rasgos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-7" target="BRrihD0if887bqOjuvZB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-24" value="(Opcional) /&#xa;Verifica si hay detección de vida" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-12" target="BRrihD0if887bqOjuvZB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-25" value="Resultado de liveness" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-13" target="BRrihD0if887bqOjuvZB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-26" value="Retorna vector facial / score" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-12" target="BRrihD0if887bqOjuvZB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-27" value="5a) Almacena /&#xa;consulta plantillas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-7" target="BRrihD0if887bqOjuvZB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-28" value="5b) Retorna coincidencia /&#xa;o datos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-16" target="BRrihD0if887bqOjuvZB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-29" value="6) Requerimiento a Certicámara" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-7" target="BRrihD0if887bqOjuvZB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-30" value="6a) Llamada API /&#xa;(Validación/Certificación)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-9" target="BRrihD0if887bqOjuvZB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-31" value="6b) Respuesta (OK/Error)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-19" target="BRrihD0if887bqOjuvZB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-32" value="6c) Resultado final" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-9" target="BRrihD0if887bqOjuvZB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-33" value="7) Registrar evento" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-7" target="BRrihD0if887bqOjuvZB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-34" value="7a) Guardar logs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-10" target="BRrihD0if887bqOjuvZB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-35" value="8) Actualizar perfil /&#xa;Roles / Estado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-7" target="BRrihD0if887bqOjuvZB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-36" value="8a) Operaciones en BD" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-8" target="BRrihD0if887bqOjuvZB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-37" value="9) Respuesta con resultado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-7" target="BRrihD0if887bqOjuvZB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-38" value="9a) “Validación exitosa” /&#xa;“Identidad verificada” / etc." style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-5" target="BRrihD0if887bqOjuvZB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
