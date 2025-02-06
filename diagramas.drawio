@@ -4691,7 +4691,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KgHUBjJwQjwEFum3J_tR" name="certicamara">
-    <mxGraphModel dx="828" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="994" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4726,13 +4726,13 @@
           <mxGeometry x="200" y="120" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-11" value="Motor de&#xa;Reconocimiento Facial" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="170" width="250" height="120" as="geometry" />
+          <mxGeometry x="850" y="150" width="440" height="150" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-12" value="Módulo de&#xa;Matching Facial" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-11">
-          <mxGeometry x="20" y="40" width="150" height="60" as="geometry" />
+          <mxGeometry x="20" y="50" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-13" value="Módulo de&#xa;Detección de Vida (Liveness)" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-11">
-          <mxGeometry x="190" y="40" width="150" height="60" as="geometry" />
+          <mxGeometry x="190" y="50" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-14" value="Bases de Datos /&#xa;Almacenamiento" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="400" width="500" height="120" as="geometry" />
@@ -4768,7 +4768,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-25" value="Resultado de liveness" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-13" target="BRrihD0if887bqOjuvZB-12">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="1" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-26" value="Retorna vector facial / score" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-12" target="BRrihD0if887bqOjuvZB-7">
           <mxGeometry relative="1" as="geometry" />
