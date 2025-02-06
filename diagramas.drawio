@@ -4753,7 +4753,9 @@
           <mxGeometry x="40" y="60" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-20" value="1) Solicita acceso /&#xa;Inicia validación biométrica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-1" target="BRrihD0if887bqOjuvZB-3">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-0.0833" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-21" value="2) Captura de imagen/video /&#xa;(enviado vía HTTPS)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-3" target="BRrihD0if887bqOjuvZB-5">
           <mxGeometry relative="1" as="geometry" />
