@@ -5400,15 +5400,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="J-OJvELoXsPy-8kMYuR4" name="Página-18">
-    <mxGraphModel dx="1242" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2124" dy="1419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-1" value="Usuario/Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="-90" y="200" width="50" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-2" value="Front-End (Navegador/App)" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="200" width="180" height="60" as="geometry" />
+          <mxGeometry x="-10" y="-140" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-3" value="API Gateway" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="200" width="160" height="60" as="geometry" />
@@ -5420,26 +5420,41 @@
           <mxGeometry x="610" y="-280" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-6" value="BD Plantillas Biométricas" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="320" width="160" height="60" as="geometry" />
+          <mxGeometry x="1009" y="300" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-7" value="CERTICÁMARA" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1070" y="-10" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PKWk7dSBk6FqM_8vFA_C-8" value="1) Solicita acceso e inicia validación biométrica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-1" target="PKWk7dSBk6FqM_8vFA_C-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-8" value="1) Solicita acceso e inicia&lt;div&gt;&amp;nbsp;validación biométrica&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-1" target="PKWk7dSBk6FqM_8vFA_C-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PKWk7dSBk6FqM_8vFA_C-9" value="2) Captura imagen/video y envía solicitud vía HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-2" target="PKWk7dSBk6FqM_8vFA_C-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-9" value="2) Captura imagen/video y&lt;div&gt;&amp;nbsp;envía solicitud vía HTTPS&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-2" target="PKWk7dSBk6FqM_8vFA_C-3">
+          <mxGeometry x="-0.1935" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="-110" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PKWk7dSBk6FqM_8vFA_C-10" value="3) Reenvía petición de validación biométrica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-3" target="PKWk7dSBk6FqM_8vFA_C-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-10" value="3) Reenvía petición de&amp;nbsp;&lt;div&gt;validación biométrica&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-3" target="PKWk7dSBk6FqM_8vFA_C-4">
+          <mxGeometry x="0.7143" y="-20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="250" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-11" value="4) Envía imagen y solicita&amp;nbsp;&lt;div&gt;extracción de rasgos&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-5">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.0053" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="630" y="-150" />
               <mxPoint x="630" y="-150" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-12" value="4b) Retorna vector facial / score&amp;nbsp;&lt;div&gt;(incluye verif. de liveness)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-5" target="PKWk7dSBk6FqM_8vFA_C-4">
@@ -5450,21 +5465,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PKWk7dSBk6FqM_8vFA_C-13" value="5) Almacena/consulta plantillas biométricas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PKWk7dSBk6FqM_8vFA_C-14" value="5b) Retorna coincidencia y datos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-6" target="PKWk7dSBk6FqM_8vFA_C-4">
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-13" value="5) Almacena/consulta&amp;nbsp;&lt;div&gt;plantillas biométricas&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="670" y="340" />
+              <mxPoint x="840" y="40" />
+              <mxPoint x="840" y="190" />
+              <mxPoint x="1089" y="190" />
             </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-14" value="5b) Retorna coincidencia&amp;nbsp;&lt;div&gt;y datos&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-6" target="PKWk7dSBk6FqM_8vFA_C-4">
+          <mxGeometry x="-0.0943" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="340" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-15" value="6) Solicita validación&amp;nbsp;&lt;div&gt;y emisión de certificado&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="940" y="40" />
-              <mxPoint x="940" y="40" />
+              <mxPoint x="870" y="30" />
+              <mxPoint x="870" y="30" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -5476,14 +5499,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PKWk7dSBk6FqM_8vFA_C-17" value="9) Envía respuesta con el resultado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-17" value="9) Envía respuesta&lt;div&gt;&amp;nbsp;con el resultado&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PKWk7dSBk6FqM_8vFA_C-18" value="9a) Devuelve mensaje de validación exitosa/identidad verificada" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-3" target="PKWk7dSBk6FqM_8vFA_C-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-18" value="9a) Devuelve mensaje de validación&lt;div&gt;&amp;nbsp;exitosa/identidad verificada&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-3" target="PKWk7dSBk6FqM_8vFA_C-2">
+          <mxGeometry x="0.4182" y="-20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="230" />
+              <mxPoint x="280" y="-90" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PKWk7dSBk6FqM_8vFA_C-19" value="10) Muestra resultado al usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-2" target="PKWk7dSBk6FqM_8vFA_C-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-19" value="10) Muestra&amp;nbsp;&lt;div&gt;resultado al usuario&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-2" target="PKWk7dSBk6FqM_8vFA_C-1">
+          <mxGeometry x="0.0056" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-70" y="-110" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
