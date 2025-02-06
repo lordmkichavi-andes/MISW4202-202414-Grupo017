@@ -4823,12 +4823,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dYyAIAgJourmfkJ3wRw2" name="makro">
-    <mxGraphModel dx="1380" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1461" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xnIweeG7QJ1sxufNFWOm-1" value="Terceros / Proveedores / Clientes" style="swimlane;childLayout=stackLayout;horizontal=1;resizeParent=1;resizeParentMax=0;resizeParentWidth=1;collapsible=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="-230" width="420" height="260" as="geometry" />
+          <mxGeometry x="140" y="-260" width="420" height="260" as="geometry" />
         </mxCell>
         <mxCell id="xnIweeG7QJ1sxufNFWOm-2" value="SFTP Partner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff" vertex="1" parent="xnIweeG7QJ1sxufNFWOm-1">
           <mxGeometry y="23" width="140" height="237" as="geometry" />
@@ -4861,7 +4861,7 @@
           <mxGeometry x="610" y="354" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xnIweeG7QJ1sxufNFWOm-12" value="Oracle Cloud&#xa;(BD, ERP, Core Servicios)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#f8ab2d;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="890" y="334" width="140" height="80" as="geometry" />
+          <mxGeometry x="850" y="334" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xnIweeG7QJ1sxufNFWOm-13" style="endArrow=classic;html=1;fontSize=12" edge="1" parent="1" source="xnIweeG7QJ1sxufNFWOm-2" target="xnIweeG7QJ1sxufNFWOm-5">
           <mxGeometry relative="1" as="geometry" />
