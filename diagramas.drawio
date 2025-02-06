@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="18">
   <diagram id="Iev0dwgMZJddHyDEFxUF" name="despliegue abcall">
     <mxGraphModel dx="3580" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -5272,7 +5272,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2X7-khmhZ6R3dx-FZpYX" name="Página-17">
-    <mxGraphModel dx="2549" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2124" dy="1419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5297,7 +5297,7 @@
         <mxCell id="wVTrpgKYSSoqyP1KH6Xp-7" value="Certicámara" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="420" y="260" width="115" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wVTrpgKYSSoqyP1KH6Xp-8" value="Inicia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="wVTrpgKYSSoqyP1KH6Xp-1" target="wVTrpgKYSSoqyP1KH6Xp-2">
+        <mxCell id="wVTrpgKYSSoqyP1KH6Xp-8" value="&amp;nbsp;inicia validación biométrica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="wVTrpgKYSSoqyP1KH6Xp-1" target="wVTrpgKYSSoqyP1KH6Xp-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint y="320" />
@@ -5305,15 +5305,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wVTrpgKYSSoqyP1KH6Xp-9" value="Envía req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="wVTrpgKYSSoqyP1KH6Xp-2" target="wVTrpgKYSSoqyP1KH6Xp-3">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="wVTrpgKYSSoqyP1KH6Xp-9" value="captura imagen/video y&amp;nbsp;&lt;div&gt;envía solicitud vía HTTPS&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="wVTrpgKYSSoqyP1KH6Xp-2" target="wVTrpgKYSSoqyP1KH6Xp-3">
+          <mxGeometry y="-10" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="200" y="270" />
               <mxPoint x="200" y="270" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wVTrpgKYSSoqyP1KH6Xp-10" value="Valida" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="wVTrpgKYSSoqyP1KH6Xp-3" target="wVTrpgKYSSoqyP1KH6Xp-4">
+        <mxCell id="wVTrpgKYSSoqyP1KH6Xp-10" value="reenvía petición de&amp;nbsp;&lt;div&gt;validación biométrica&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="wVTrpgKYSSoqyP1KH6Xp-3" target="wVTrpgKYSSoqyP1KH6Xp-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="320" y="140" />
@@ -5373,8 +5374,8 @@
         <mxCell id="wVTrpgKYSSoqyP1KH6Xp-17" value="Responde" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="wVTrpgKYSSoqyP1KH6Xp-4" target="wVTrpgKYSSoqyP1KH6Xp-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="160" />
-              <mxPoint x="320" y="160" />
+              <mxPoint x="320" y="170" />
+              <mxPoint x="320" y="170" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -5394,6 +5395,71 @@
               <mxPoint y="350" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="J-OJvELoXsPy-8kMYuR4" name="Página-18">
+    <mxGraphModel dx="1242" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-1" value="Usuario/Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-2" value="Front-End (Navegador/App)" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-3" value="API Gateway" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-4" value="Orquestador Biométrico" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-5" value="Motor de Reconocimiento Facial" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-6" value="BD Plantillas Biométricas" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-7" value="CERTICÁMARA" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-8" value="1) Solicita acceso e inicia validación biométrica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-1" target="PKWk7dSBk6FqM_8vFA_C-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-9" value="2) Captura imagen/video y envía solicitud vía HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-2" target="PKWk7dSBk6FqM_8vFA_C-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-10" value="3) Reenvía petición de validación biométrica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-3" target="PKWk7dSBk6FqM_8vFA_C-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-11" value="4) Envía imagen y solicita extracción de rasgos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-12" value="4b) Retorna vector facial / score (incluye verif. de liveness)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-5" target="PKWk7dSBk6FqM_8vFA_C-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-13" value="5) Almacena/consulta plantillas biométricas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-14" value="5b) Retorna coincidencia y datos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-6" target="PKWk7dSBk6FqM_8vFA_C-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-15" value="6) Solicita validación y emisión de certificado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-16" value="6b) Respuesta validación/certificación (OK/Error)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-7" target="PKWk7dSBk6FqM_8vFA_C-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-17" value="9) Envía respuesta con el resultado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-18" value="9a) Devuelve mensaje de validación exitosa/identidad verificada" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-3" target="PKWk7dSBk6FqM_8vFA_C-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-19" value="10) Muestra resultado al usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-2" target="PKWk7dSBk6FqM_8vFA_C-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
