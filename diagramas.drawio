@@ -4691,7 +4691,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KgHUBjJwQjwEFum3J_tR" name="certicamara">
-    <mxGraphModel dx="2070" dy="1283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1553" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4735,22 +4735,22 @@
           <mxGeometry x="450" y="60" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-14" value="Bases de Datos /&#xa;Almacenamiento" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="400" width="500" height="120" as="geometry" />
+          <mxGeometry x="150" y="400" width="560" height="160" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-15" value="BD Usuarios&#xa;y Roles" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-14">
           <mxGeometry x="20" y="40" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-16" value="BD Plantillas&#xa;Biométricas" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-14">
-          <mxGeometry x="200" y="40" width="150" height="60" as="geometry" />
+          <mxGeometry x="205" y="60" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-17" value="BD Auditoría&#xa;(Logs)" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-14">
-          <mxGeometry x="380" y="40" width="150" height="60" as="geometry" />
+          <mxGeometry x="390" y="60" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-18" value="Servicios Externos" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="390" width="200" height="120" as="geometry" />
+          <mxGeometry x="860" y="400" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-19" value="CERTICÁMARA&#xa;(Validación / Cert. Digital)" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-18">
-          <mxGeometry x="30" y="50" width="160" height="60" as="geometry" />
+          <mxGeometry x="40" y="60" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-20" value="1) Solicita acceso /&#xa;Inicia validación biométrica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-1" target="BRrihD0if887bqOjuvZB-3">
           <mxGeometry relative="1" as="geometry" />
@@ -4795,10 +4795,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-30" value="6a) Llamada API /&#xa;(Validación/Certificación)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-9" target="BRrihD0if887bqOjuvZB-19">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="380" />
+              <mxPoint x="980" y="380" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-31" value="6b) Respuesta (OK/Error)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-19" target="BRrihD0if887bqOjuvZB-9">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="580" />
+              <mxPoint x="100" y="580" />
+              <mxPoint x="100" y="320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-32" value="6c) Resultado final" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-9" target="BRrihD0if887bqOjuvZB-7">
           <mxGeometry relative="1" as="geometry" />
@@ -4820,6 +4831,14 @@
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-38" value="9a) “Validación exitosa” /&#xa;“Identidad verificada” / etc." style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-5" target="BRrihD0if887bqOjuvZB-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRrihD0if887bqOjuvZB-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BRrihD0if887bqOjuvZB-9" target="BRrihD0if887bqOjuvZB-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="330" />
+              <mxPoint x="120" y="470" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
