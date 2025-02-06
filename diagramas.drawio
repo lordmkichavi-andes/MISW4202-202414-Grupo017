@@ -5025,7 +5025,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IoxEH3M2sVcqJRcQGT33" name="Página-15">
-    <mxGraphModel dx="3427" dy="2227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2026" dy="1358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5045,19 +5045,19 @@
           <mxGeometry x="20" y="55" width="180" height="55" as="geometry" />
         </mxCell>
         <mxCell id="6H-ed_1nzl2P0UfBJFY0-6" value="Microservicios y&#xa;Lógica de Negocio" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="-370" width="400" height="290" as="geometry" />
+          <mxGeometry x="800" y="-420" width="510" height="370" as="geometry" />
         </mxCell>
         <mxCell id="6H-ed_1nzl2P0UfBJFY0-7" value="Servicio de Orquestación&#xa;Biométrica" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="6H-ed_1nzl2P0UfBJFY0-6">
           <mxGeometry x="20" y="80" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6H-ed_1nzl2P0UfBJFY0-8" value="Servicio de Gestión&#xa;de Usuarios" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="6H-ed_1nzl2P0UfBJFY0-6">
-          <mxGeometry x="210" y="40" width="170" height="50" as="geometry" />
+          <mxGeometry x="310" y="80" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6H-ed_1nzl2P0UfBJFY0-9" value="Servicio de Integración&#xa;Certicámara" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="6H-ed_1nzl2P0UfBJFY0-6">
           <mxGeometry x="20" y="190" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6H-ed_1nzl2P0UfBJFY0-10" value="Servicio de Auditoría / Logs" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="6H-ed_1nzl2P0UfBJFY0-6">
-          <mxGeometry x="210" y="130" width="170" height="50" as="geometry" />
+          <mxGeometry x="290" y="240" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6H-ed_1nzl2P0UfBJFY0-11" value="Motor de&#xa;Reconocimiento Facial" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="1430" y="20" width="220" height="250" as="geometry" />
@@ -5107,7 +5107,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6H-ed_1nzl2P0UfBJFY0-23" value="4) Envía imagen /&#xa;Extrae rasgos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="6H-ed_1nzl2P0UfBJFY0-7" target="6H-ed_1nzl2P0UfBJFY0-12">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="905" y="-360" />
+              <mxPoint x="1535" y="-360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="6H-ed_1nzl2P0UfBJFY0-24" value="(Opcional) /&#xa;Verifica vida" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="6H-ed_1nzl2P0UfBJFY0-12" target="6H-ed_1nzl2P0UfBJFY0-13">
           <mxGeometry relative="1" as="geometry">
@@ -5169,7 +5174,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6H-ed_1nzl2P0UfBJFY0-33" value="7) Registrar evento" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="6H-ed_1nzl2P0UfBJFY0-7" target="6H-ed_1nzl2P0UfBJFY0-10">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="-315" />
+              <mxPoint x="1030" y="-200" />
+              <mxPoint x="1175" y="-200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="6H-ed_1nzl2P0UfBJFY0-34" value="7a) Guardar logs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="6H-ed_1nzl2P0UfBJFY0-10" target="6H-ed_1nzl2P0UfBJFY0-17">
           <mxGeometry relative="1" as="geometry">
