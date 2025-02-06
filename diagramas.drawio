@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10" pages="12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10" pages="13">
   <diagram id="Iev0dwgMZJddHyDEFxUF" name="despliegue abcall">
     <mxGraphModel dx="3580" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -4515,7 +4515,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y6ov7kiSCOS9eFIHiKTp" name="almaviva">
-    <mxGraphModel dx="2722" dy="1787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2943" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4622,7 +4622,7 @@
           <mxGeometry x="300" y="237.03" width="108" height="108.36" as="geometry" />
         </mxCell>
         <mxCell id="-p2MFHnA8Yq_9nUPhKp1-12" value="PROCESAMIENTO DE PDFs CON POWER PLATFORM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=32;fontStyle=1;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="-260" width="930" height="110" as="geometry" />
+          <mxGeometry x="-640" y="-270" width="930" height="110" as="geometry" />
         </mxCell>
         <mxCell id="-p2MFHnA8Yq_9nUPhKp1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="-p2MFHnA8Yq_9nUPhKp1-18" target="-p2MFHnA8Yq_9nUPhKp1-8">
           <mxGeometry relative="1" as="geometry">
@@ -4687,6 +4687,14 @@
         <mxCell id="-p2MFHnA8Yq_9nUPhKp1-31" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-cmlhl.nitrocdn.com/SFwMHuoIUyOXMIZUgrtxdjjtdcANbHzE/assets/images/optimized/rev-2b6e0cc/addendanalytics.com/wp-content/uploads/2021/09/Logo-Power-Automate.png;" vertex="1" parent="1">
           <mxGeometry x="20" y="50" width="109.75" height="90" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KgHUBjJwQjwEFum3J_tR" name="certicamara">
+    <mxGraphModel dx="1242" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
