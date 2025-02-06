@@ -5417,7 +5417,7 @@
           <mxGeometry x="610" y="-10" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-5" value="Motor de Reconocimiento Facial" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="585" y="580" width="200" height="60" as="geometry" />
+          <mxGeometry x="610" y="-350" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-6" value="BD Plantillas Biométricas" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="320" width="160" height="60" as="geometry" />
@@ -5434,14 +5434,19 @@
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-10" value="3) Reenvía petición de validación biométrica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-3" target="PKWk7dSBk6FqM_8vFA_C-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PKWk7dSBk6FqM_8vFA_C-11" value="4) Envía imagen y solicita extracción de rasgos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PKWk7dSBk6FqM_8vFA_C-11" value="4) Envía imagen y solicita&amp;nbsp;&lt;div&gt;extracción de rasgos&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-4" target="PKWk7dSBk6FqM_8vFA_C-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="-150" />
+              <mxPoint x="630" y="-150" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="PKWk7dSBk6FqM_8vFA_C-12" value="4b) Retorna vector facial / score&amp;nbsp;&lt;div&gt;(incluye verif. de liveness)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1d6295;endArrow=block;html=1;" edge="1" parent="1" source="PKWk7dSBk6FqM_8vFA_C-5" target="PKWk7dSBk6FqM_8vFA_C-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="770" y="420" />
-              <mxPoint x="770" y="420" />
+              <mxPoint x="790" y="-150" />
+              <mxPoint x="790" y="-150" />
             </Array>
           </mxGeometry>
         </mxCell>
