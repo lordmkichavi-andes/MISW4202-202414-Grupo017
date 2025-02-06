@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="15">
   <diagram id="Iev0dwgMZJddHyDEFxUF" name="despliegue abcall">
     <mxGraphModel dx="3580" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -4823,7 +4823,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dYyAIAgJourmfkJ3wRw2" name="makro">
-    <mxGraphModel dx="1461" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="955" dy="1418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4879,6 +4879,68 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xnIweeG7QJ1sxufNFWOm-18" style="endArrow=classic;html=1;fontSize=12" edge="1" parent="1" source="xnIweeG7QJ1sxufNFWOm-11" target="xnIweeG7QJ1sxufNFWOm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WZfZ5rp-ZLAgg0CpXZIy" name="Página-15">
+    <mxGraphModel dx="2411" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-1" value="Terceros / Proveedores / Clientes (SFTP, Email/Excel, API)" style="swimlane;childLayout=stackLayout;horizontal=1;resizeParent=1;collapsible=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;whiteSpace=wrap;html=1" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="450" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-2" value="SFTP Partner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;fontSize=10" vertex="1" parent="h1xQwWitcwFd9g4WWRwU-1">
+          <mxGeometry y="23" width="150" height="267" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-3" value="Email/Excel Partner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;fontSize=10" vertex="1" parent="h1xQwWitcwFd9g4WWRwU-1">
+          <mxGeometry x="150" y="23" width="150" height="267" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-4" value="API Partner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;fontSize=10" vertex="1" parent="h1xQwWitcwFd9g4WWRwU-1">
+          <mxGeometry x="300" y="23" width="150" height="267" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-5" value="(2) Azure API Management (Seguridad, Monitoreo, Tokens)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-6" value="(3) Azure Logic Apps / Functions (Orquestación, Transformaciones)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-7" value="(5) Azure Data Lake / Storage (Opcional para IA/BI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f1f1;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="160" y="880" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-8" value="(6) AI / BI Externo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="800" y="295" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-9" value="(7) VPN / ExpressRoute" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-380" y="680" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-10" value="(8) Oracle Cloud (BD, ERP, Core)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#f8ab2d;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="970" y="160" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-11" value="(1) SFTP → API Mgmt" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="h1xQwWitcwFd9g4WWRwU-2" target="h1xQwWitcwFd9g4WWRwU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-12" value="(1&#39;) Email/Excel → API Mgmt" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="h1xQwWitcwFd9g4WWRwU-3" target="h1xQwWitcwFd9g4WWRwU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-13" value="(1&#39;&#39;) API Partner → API Mgmt" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="h1xQwWitcwFd9g4WWRwU-4" target="h1xQwWitcwFd9g4WWRwU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-14" value="(4) API Mgmt → Logic Apps/Functions" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="h1xQwWitcwFd9g4WWRwU-5" target="h1xQwWitcwFd9g4WWRwU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-15" value="(5&#39;) Logic Apps → Data Lake (para almacenar/exportar datos)" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=9" edge="1" parent="1" source="h1xQwWitcwFd9g4WWRwU-6" target="h1xQwWitcwFd9g4WWRwU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-16" value="(6&#39;) Data Lake → AI/BI Externo" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=9" edge="1" parent="1" source="h1xQwWitcwFd9g4WWRwU-7" target="h1xQwWitcwFd9g4WWRwU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-17" value="(7&#39;) Logic Apps → VPN" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="h1xQwWitcwFd9g4WWRwU-6" target="h1xQwWitcwFd9g4WWRwU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1xQwWitcwFd9g4WWRwU-18" value="(8&#39;) VPN → Oracle Cloud" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="h1xQwWitcwFd9g4WWRwU-9" target="h1xQwWitcwFd9g4WWRwU-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
