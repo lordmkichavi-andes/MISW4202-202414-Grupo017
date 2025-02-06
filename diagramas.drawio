@@ -4726,13 +4726,13 @@
           <mxGeometry x="200" y="120" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-11" value="Motor de&#xa;Reconocimiento Facial" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="150" width="440" height="150" as="geometry" />
+          <mxGeometry x="940" y="40" width="630" height="170" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-12" value="Módulo de&#xa;Matching Facial" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-11">
-          <mxGeometry x="20" y="50" width="150" height="60" as="geometry" />
+          <mxGeometry x="30" y="55" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-13" value="Módulo de&#xa;Detección de Vida (Liveness)" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="BRrihD0if887bqOjuvZB-11">
-          <mxGeometry x="190" y="50" width="150" height="60" as="geometry" />
+          <mxGeometry x="450" y="60" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRrihD0if887bqOjuvZB-14" value="Bases de Datos /&#xa;Almacenamiento" style="shape=swimlane;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="400" width="500" height="120" as="geometry" />
