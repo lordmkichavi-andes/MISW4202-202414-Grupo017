@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="17">
   <diagram id="Iev0dwgMZJddHyDEFxUF" name="despliegue abcall">
     <mxGraphModel dx="3580" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -4967,78 +4967,86 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="XonbDNMzeMt4cwaOnY5W" name="Página-16">
-    <mxGraphModel dx="994" dy="1441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram id="XonbDNMzeMt4cwaOnY5W" name="makro 3">
+    <mxGraphModel dx="1242" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="k0CDX9RFpXXewYKV512n-1" value="Proveedores / Aliados / Clientes&#xa;(Rappi, Instaleap, Zubale, etc.)" style="swimlane;childLayout=stackLayout;horizontal=1;resizeParent=1;collapsible=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;whiteSpace=wrap;html=1;startSize=60;" vertex="1" parent="1">
+        <mxCell id="k0CDX9RFpXXewYKV512n-1" value="Proveedores / Aliados / Clientes&#xa;(Rappi, Instaleap, Zubale, etc.)" style="swimlane;childLayout=stackLayout;horizontal=1;resizeParent=1;collapsible=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;whiteSpace=wrap;html=1;startSize=60;" parent="1" vertex="1">
           <mxGeometry x="340" y="-380" width="180" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-2" value="Integraciones:&#xa;- SFTP (masivo)&#xa;- Excel (correo)&#xa;- REST (API)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-1">
+        <mxCell id="k0CDX9RFpXXewYKV512n-2" value="Integraciones:&#xa;- SFTP (masivo)&#xa;- Excel (correo)&#xa;- REST (API)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;fontSize=11" parent="k0CDX9RFpXXewYKV512n-1" vertex="1">
           <mxGeometry y="60" width="180" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-3" value="Oracle Cloud&#xa;(Bases de Datos, ERP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#f8ab2d;fontSize=12" vertex="1" parent="1">
+        <mxCell id="k0CDX9RFpXXewYKV512n-3" value="Oracle Cloud&#xa;(Bases de Datos, ERP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#f8ab2d;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="860" y="610" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-4" value="Azure&#xa;(Servicios adicionales, serverless...)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+        <mxCell id="k0CDX9RFpXXewYKV512n-4" value="Azure&#xa;(Servicios adicionales, serverless...)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="1230" y="610" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-5" value="VPN / Conexión Privada" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=11" edge="1" parent="1" source="k0CDX9RFpXXewYKV512n-3" target="k0CDX9RFpXXewYKV512n-4">
+        <mxCell id="k0CDX9RFpXXewYKV512n-5" value="VPN / Conexión Privada" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=11" parent="1" source="k0CDX9RFpXXewYKV512n-3" target="k0CDX9RFpXXewYKV512n-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-6" value="Capa Middleware&#xa;(Orquestación, Integración)" style="swimlane;childLayout=stackLayout;horizontal=0;resizeParent=1;collapsible=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
+        <mxCell id="k0CDX9RFpXXewYKV512n-6" value="Capa Middleware&#xa;(Orquestación, Integración)" style="swimlane;childLayout=stackLayout;horizontal=0;resizeParent=1;collapsible=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;whiteSpace=wrap;html=1;startSize=50;" parent="1" vertex="1">
           <mxGeometry x="340" y="120" width="1060" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-7" value="Autenticación Terceros" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-6">
+        <mxCell id="k0CDX9RFpXXewYKV512n-7" value="Autenticación Terceros" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" parent="k0CDX9RFpXXewYKV512n-6" vertex="1">
           <mxGeometry x="50" width="160" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-8" value="Plantilla JSON" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-6">
+        <mxCell id="k0CDX9RFpXXewYKV512n-8" value="Plantilla JSON" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" parent="k0CDX9RFpXXewYKV512n-6" vertex="1">
           <mxGeometry x="210" width="160" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-9" value="I/O Datos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-6">
+        <mxCell id="k0CDX9RFpXXewYKV512n-9" value="I/O Datos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" parent="k0CDX9RFpXXewYKV512n-6" vertex="1">
           <mxGeometry x="370" width="160" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-10" value="Logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-6">
+        <mxCell id="k0CDX9RFpXXewYKV512n-10" value="Logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" parent="k0CDX9RFpXXewYKV512n-6" vertex="1">
           <mxGeometry x="530" width="160" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-11" value="Gestión" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-6">
+        <mxCell id="k0CDX9RFpXXewYKV512n-11" value="Gestión" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" parent="k0CDX9RFpXXewYKV512n-6" vertex="1">
           <mxGeometry x="690" width="160" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-12" value="Módulos de Negocio Internos:&#xa;- Catálogo Productos&#xa;- Pedidos, Entregas&#xa;- Registro Clientes&#xa;- Promociones, Donaciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-6">
+        <mxCell id="k0CDX9RFpXXewYKV512n-12" value="Módulos de Negocio Internos:&#xa;- Catálogo Productos&#xa;- Pedidos, Entregas&#xa;- Registro Clientes&#xa;- Promociones, Donaciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11" parent="k0CDX9RFpXXewYKV512n-6" vertex="1">
           <mxGeometry x="850" width="210" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-13" value="Orquestación / Transformación" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="k0CDX9RFpXXewYKV512n-6" source="k0CDX9RFpXXewYKV512n-9" target="k0CDX9RFpXXewYKV512n-12">
+        <mxCell id="k0CDX9RFpXXewYKV512n-13" value="Orquestación / Transformación" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" parent="k0CDX9RFpXXewYKV512n-6" source="k0CDX9RFpXXewYKV512n-9" target="k0CDX9RFpXXewYKV512n-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="720" y="-70" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-14" value="Envío/Recepción&#xa; (SFTP, Excel, APIs, etc.)" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=11" edge="1" parent="1" source="k0CDX9RFpXXewYKV512n-2" target="k0CDX9RFpXXewYKV512n-6">
+        <mxCell id="k0CDX9RFpXXewYKV512n-14" value="Envío/Recepción&#xa; (SFTP, Excel, APIs, etc.)" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=11" parent="1" source="k0CDX9RFpXXewYKV512n-2" target="k0CDX9RFpXXewYKV512n-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-15" value="Consulta / Actualiza&#xa; BD, ERP" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=11" edge="1" parent="1" source="k0CDX9RFpXXewYKV512n-6" target="k0CDX9RFpXXewYKV512n-3">
+        <mxCell id="k0CDX9RFpXXewYKV512n-15" value="Consulta / Actualiza&#xa; BD, ERP" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=11" parent="1" source="k0CDX9RFpXXewYKV512n-6" target="k0CDX9RFpXXewYKV512n-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-16" value="Integraciones / Servicios Adicionales" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=11" edge="1" parent="1" source="k0CDX9RFpXXewYKV512n-6" target="k0CDX9RFpXXewYKV512n-4">
+        <mxCell id="k0CDX9RFpXXewYKV512n-16" value="Integraciones / Servicios Adicionales" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=11" parent="1" source="k0CDX9RFpXXewYKV512n-6" target="k0CDX9RFpXXewYKV512n-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-17" value="IA Externa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
+        <mxCell id="k0CDX9RFpXXewYKV512n-17" value="IA Externa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" parent="1" vertex="1">
           <mxGeometry x="410" y="630" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-18" value="BI Externa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
+        <mxCell id="k0CDX9RFpXXewYKV512n-18" value="BI Externa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" parent="1" vertex="1">
           <mxGeometry x="630" y="-230" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-19" value="Envío/Retrieval&#xa; para análisis avanzado" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="k0CDX9RFpXXewYKV512n-6" target="k0CDX9RFpXXewYKV512n-17">
+        <mxCell id="k0CDX9RFpXXewYKV512n-19" value="Envío/Retrieval&#xa; para análisis avanzado" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" parent="1" source="k0CDX9RFpXXewYKV512n-6" target="k0CDX9RFpXXewYKV512n-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-20" value="Envío de datos / dashboards" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="k0CDX9RFpXXewYKV512n-6" target="k0CDX9RFpXXewYKV512n-18">
+        <mxCell id="k0CDX9RFpXXewYKV512n-20" value="Envío de datos / dashboards" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" parent="1" source="k0CDX9RFpXXewYKV512n-6" target="k0CDX9RFpXXewYKV512n-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-21" value="Este diagrama de alto nivel muestra:&#xa;&#xa;• Middleware que unifica integraciones de SFTP, Excel, APIs.&#xa;• Conexión VPN entre Oracle y Azure.&#xa;• Bloques clave: Autenticación, Plantillas JSON, I/O, Logs, Gestión.&#xa;• Módulos de negocio (Pedidos, Catálogo, Clientes, etc.) conectados.&#xa;• IA/BI externas para analítica y servicios avanzados." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=0;align=left;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="k0CDX9RFpXXewYKV512n-21" value="Este diagrama de alto nivel muestra:&#xa;&#xa;• Middleware que unifica integraciones de SFTP, Excel, APIs.&#xa;• Conexión VPN entre Oracle y Azure.&#xa;• Bloques clave: Autenticación, Plantillas JSON, I/O, Logs, Gestión.&#xa;• Módulos de negocio (Pedidos, Catálogo, Clientes, etc.) conectados.&#xa;• IA/BI externas para analítica y servicios avanzados." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=0;align=left;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1100" y="-360" width="300" height="180" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bcuNfwoYMrL7c47SyAJK" name="Página-17">
+    <mxGraphModel dx="1242" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
