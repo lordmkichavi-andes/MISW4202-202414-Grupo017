@@ -5104,15 +5104,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cPCs64Twhios9F0GVno5" name="Página-20">
-    <mxGraphModel dx="2411" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2722" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-1" value="Proveedores / Aliados / Clientes (Rappi, Instaleap, Zubale, etc.)" style="swimlane;childLayout=stackLayout;horizontal=1;resizeParent=1;collapsible=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="-340" width="220" height="300" as="geometry" />
+          <mxGeometry x="-30" y="-340" width="200" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-2" value="• SFTP masivo&#xa;• Excel/Correo&#xa;• APIs (REST)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;fontSize=11" vertex="1" parent="3CsJsC3SwKj8XoAtsAgY-1">
-          <mxGeometry y="50" width="200" height="250" as="geometry" />
+          <mxGeometry y="50" width="180" height="250" as="geometry" />
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-3" value="Capa Middleware&#xa;(Orquestación, Integración, Contratos)" style="swimlane;childLayout=stackLayout;horizontal=0;resizeParent=1;collapsible=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
           <mxGeometry x="300" y="100" width="1130" height="310" as="geometry" />
@@ -5145,9 +5145,9 @@
           <mxGeometry x="-180" y="100" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-11" value="Azure&#xa;(API Mgmt, Logic Apps, etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="830" y="580" width="200" height="80" as="geometry" />
+          <mxGeometry x="-180" y="280" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-12" value="(2) Llamadas / Actualizaciones" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10;" edge="1" parent="1" target="3CsJsC3SwKj8XoAtsAgY-10">
+        <mxCell id="3CsJsC3SwKj8XoAtsAgY-12" value="(2) Llamadas / Actualizaciones&lt;div&gt;VPN / ExpressRoute&lt;/div&gt;" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10;" edge="1" parent="1" target="3CsJsC3SwKj8XoAtsAgY-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300.0000000000002" y="141" as="sourcePoint" />
             <mxPoint x="20" y="16" as="targetPoint" />
@@ -5158,13 +5158,6 @@
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-13" value="(3) Complementos / Microservicios" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="3CsJsC3SwKj8XoAtsAgY-3" target="3CsJsC3SwKj8XoAtsAgY-11">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-14" value="VPN / ExpressRoute" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="3CsJsC3SwKj8XoAtsAgY-10" target="3CsJsC3SwKj8XoAtsAgY-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-80" y="530" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-15" value="IA / BI Externos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
           <mxGeometry x="620" y="610" width="160" height="60" as="geometry" />
