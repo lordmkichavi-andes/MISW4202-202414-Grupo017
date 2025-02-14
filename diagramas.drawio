@@ -5142,13 +5142,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-10" value="Oracle Cloud&#xa;(BD, ERP, etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#f8ab2d;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="-190" y="400" width="200" height="80" as="geometry" />
+          <mxGeometry x="-180" y="90" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-11" value="Azure&#xa;(API Mgmt, Logic Apps, etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="830" y="580" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-12" value="(2) Llamadas / Actualizaciones" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="3CsJsC3SwKj8XoAtsAgY-3" target="3CsJsC3SwKj8XoAtsAgY-10">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3CsJsC3SwKj8XoAtsAgY-12" value="(2) Llamadas / Actualizaciones" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10;exitX=0.009;exitY=0.097;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3CsJsC3SwKj8XoAtsAgY-3" target="3CsJsC3SwKj8XoAtsAgY-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="175" as="sourcePoint" />
+            <mxPoint x="20" y="30" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-13" value="(3) Complementos / Microservicios" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="3CsJsC3SwKj8XoAtsAgY-3" target="3CsJsC3SwKj8XoAtsAgY-11">
           <mxGeometry relative="1" as="geometry" />
