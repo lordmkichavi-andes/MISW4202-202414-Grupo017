@@ -5109,7 +5109,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-1" value="Proveedores / Aliados / Clientes (Rappi, Instaleap, Zubale, etc.)" style="swimlane;childLayout=stackLayout;horizontal=1;resizeParent=1;collapsible=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="-40" width="220" height="300" as="geometry" />
+          <mxGeometry x="-30" y="-340" width="220" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-2" value="• SFTP masivo&#xa;• Excel/Correo&#xa;• APIs (REST)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;fontSize=11" vertex="1" parent="3CsJsC3SwKj8XoAtsAgY-1">
           <mxGeometry y="50" width="200" height="250" as="geometry" />
@@ -5132,17 +5132,17 @@
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-8" value="Módulos de Negocio&#xa;- Pedidos / Entregas&#xa;- Catálogo / Clientes&#xa;- Promociones / Donaciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11" vertex="1" parent="3CsJsC3SwKj8XoAtsAgY-3">
           <mxGeometry x="920" width="210" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-9" value="(1) Integraciones: SFTP, Excel, APIs" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10;" edge="1" parent="1" source="3CsJsC3SwKj8XoAtsAgY-2">
+        <mxCell id="3CsJsC3SwKj8XoAtsAgY-9" value="(1) Integraciones: SFTP, Excel, APIs" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10;" edge="1" parent="1" source="3CsJsC3SwKj8XoAtsAgY-1" target="3CsJsC3SwKj8XoAtsAgY-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="290" as="sourcePoint" />
             <mxPoint x="290" y="140" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="210" y="270" />
+              <mxPoint x="320" y="-310" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-10" value="Oracle Cloud&#xa;(BD, ERP, etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#f8ab2d;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="1120" y="630" width="200" height="80" as="geometry" />
+          <mxGeometry x="-190" y="400" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-11" value="Azure&#xa;(API Mgmt, Logic Apps, etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="830" y="580" width="200" height="80" as="geometry" />
@@ -5154,7 +5154,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-14" value="VPN / ExpressRoute" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="3CsJsC3SwKj8XoAtsAgY-10" target="3CsJsC3SwKj8XoAtsAgY-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-80" y="530" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-15" value="IA / BI Externos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
           <mxGeometry x="620" y="610" width="160" height="60" as="geometry" />
