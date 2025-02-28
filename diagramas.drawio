@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.13" pages="20">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16" pages="21">
   <diagram id="Iev0dwgMZJddHyDEFxUF" name="despliegue abcall">
     <mxGraphModel dx="3580" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -5164,6 +5164,49 @@
         </mxCell>
         <mxCell id="3CsJsC3SwKj8XoAtsAgY-16" value="(4) Envío de datos / análisis" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="3CsJsC3SwKj8XoAtsAgY-3" target="3CsJsC3SwKj8XoAtsAgY-15">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jpb65FowBre1kKXBzvRg" name="Página-21">
+    <mxGraphModel dx="1242" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YO3Cmsotg6LcLenEVa88-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-1" target="YO3Cmsotg6LcLenEVa88-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="250" />
+              <mxPoint x="520" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-1" value="Solicitud de PR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-2" target="YO3Cmsotg6LcLenEVa88-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-2" value="Codigo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=0;endArrow=none;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-4" target="YO3Cmsotg6LcLenEVa88-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-4" value="Evaluador Arquitectura" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-5" value="Diagrama en lenguaje Plant,mermaid -&amp;gt; estandar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-6" value="CI/CD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-7" value="Analisis de la arquitectura" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-8" value="Decision si se aprueba o denniega" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="550" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
