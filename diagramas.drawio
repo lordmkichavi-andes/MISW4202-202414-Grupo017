@@ -5173,40 +5173,72 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YO3Cmsotg6LcLenEVa88-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-1" target="YO3Cmsotg6LcLenEVa88-4">
+        <mxCell id="YO3Cmsotg6LcLenEVa88-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-2" target="YO3Cmsotg6LcLenEVa88-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="520" y="250" />
-              <mxPoint x="520" y="250" />
+              <mxPoint x="530" y="230" />
+              <mxPoint x="530" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YO3Cmsotg6LcLenEVa88-1" value="Solicitud de PR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YO3Cmsotg6LcLenEVa88-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-2" target="YO3Cmsotg6LcLenEVa88-1">
+        <mxCell id="YO3Cmsotg6LcLenEVa88-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-1" target="YO3Cmsotg6LcLenEVa88-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YO3Cmsotg6LcLenEVa88-2" value="Codigo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="YO3Cmsotg6LcLenEVa88-1" value="Solicitud de PR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YO3Cmsotg6LcLenEVa88-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=0;endArrow=none;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-4" target="YO3Cmsotg6LcLenEVa88-5">
+        <mxCell id="YO3Cmsotg6LcLenEVa88-2" value="Codigo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-4" target="YO3Cmsotg6LcLenEVa88-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-4" value="Evaluador Arquitectura" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="465" y="280" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-5" target="YO3Cmsotg6LcLenEVa88-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-5" value="Diagrama en lenguaje Plant,mermaid -&amp;gt; estandar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="280" width="140" height="60" as="geometry" />
+          <mxGeometry x="750" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-20" target="YO3Cmsotg6LcLenEVa88-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="710" />
+              <mxPoint x="690" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-6" target="YO3Cmsotg6LcLenEVa88-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-6" target="YO3Cmsotg6LcLenEVa88-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-6" value="CI/CD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="465" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-7" target="YO3Cmsotg6LcLenEVa88-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-7" value="Analisis de la arquitectura" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="384" width="120" height="60" as="geometry" />
+          <mxGeometry x="465" y="413.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YO3Cmsotg6LcLenEVa88-8" value="Decision si se aprueba o denniega" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="550" width="120" height="60" as="geometry" />
+        <mxCell id="YO3Cmsotg6LcLenEVa88-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-18" target="YO3Cmsotg6LcLenEVa88-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-18" value="Se podrian definir modelos de evaluación&lt;div&gt;(back, front)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="260" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-20" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="680" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-23" target="YO3Cmsotg6LcLenEVa88-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-23" value="informe html, entre otros" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="414" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
