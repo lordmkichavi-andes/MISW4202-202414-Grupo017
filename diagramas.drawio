@@ -5254,17 +5254,27 @@
         <mxCell id="YO3Cmsotg6LcLenEVa88-27" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;" vertex="1" parent="1">
           <mxGeometry x="770" y="550" width="30" height="16.5" as="geometry" />
         </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-28" target="YO3Cmsotg6LcLenEVa88-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-28" target="YO3Cmsotg6LcLenEVa88-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-28" value="Modelo IA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="490" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YO3Cmsotg6LcLenEVa88-29" value="OPEN IA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-32" value="Open IA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1190" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-33" value="Dokkie" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1190" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-36" value="Diagrama" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
