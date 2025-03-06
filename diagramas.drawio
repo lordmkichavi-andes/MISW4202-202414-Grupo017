@@ -5231,7 +5231,7 @@
         <mxCell id="YO3Cmsotg6LcLenEVa88-18" value="Se podrian definir modelos de evaluación&lt;div&gt;(back, front)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;" vertex="1" parent="1">
           <mxGeometry x="1020" y="260" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="YO3Cmsotg6LcLenEVa88-20" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="YO3Cmsotg6LcLenEVa88-20" value="Lider tecnico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="680" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-23" target="YO3Cmsotg6LcLenEVa88-7">
