@@ -5169,7 +5169,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jpb65FowBre1kKXBzvRg" name="Página-21">
-    <mxGraphModel dx="920" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1380" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5200,7 +5200,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-5" value="Diagrama en lenguaje Plant,mermaid -&amp;gt; estandar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="280" width="140" height="60" as="geometry" />
+          <mxGeometry x="760" y="220" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-20" target="YO3Cmsotg6LcLenEVa88-2">
           <mxGeometry relative="1" as="geometry">
@@ -5237,7 +5237,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-18" value="Se podrian definir modelos de evaluación&lt;div&gt;(back, front)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="260" width="80" height="100" as="geometry" />
+          <mxGeometry x="1020" y="200" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-20" value="Lider tecnico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="680" width="30" height="60" as="geometry" />
@@ -5253,6 +5253,18 @@
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-27" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;" vertex="1" parent="1">
           <mxGeometry x="770" y="550" width="30" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-28" value="Modelo IA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-29" value="OPEN IA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-32" value="Open IA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-33" value="Dokkie" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
