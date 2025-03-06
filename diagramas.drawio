@@ -5169,7 +5169,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jpb65FowBre1kKXBzvRg" name="Página-21">
-    <mxGraphModel dx="1242" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5210,7 +5210,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YO3Cmsotg6LcLenEVa88-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-6" target="YO3Cmsotg6LcLenEVa88-1">
+        <mxCell id="YO3Cmsotg6LcLenEVa88-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-20" target="YO3Cmsotg6LcLenEVa88-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-6" target="YO3Cmsotg6LcLenEVa88-20">
@@ -5221,6 +5221,14 @@
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-7" target="YO3Cmsotg6LcLenEVa88-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YO3Cmsotg6LcLenEVa88-7" target="YO3Cmsotg6LcLenEVa88-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="460" />
+              <mxPoint x="720" y="580" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-7" value="Analisis de la arquitectura" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="465" y="413.5" width="120" height="60" as="geometry" />
@@ -5238,7 +5246,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YO3Cmsotg6LcLenEVa88-23" value="informe html, entre otros" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="414" width="140" height="60" as="geometry" />
+          <mxGeometry x="750" y="360" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-25" value="Desarrollador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="550" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO3Cmsotg6LcLenEVa88-27" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;" vertex="1" parent="1">
+          <mxGeometry x="770" y="550" width="30" height="16.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
