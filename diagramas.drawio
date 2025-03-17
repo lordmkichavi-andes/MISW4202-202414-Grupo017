@@ -5349,10 +5349,22 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TyC_eBvCt-nRP11g3xxu" name="Página-20">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="621" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cMUJ-GSW8dFncvMhjCYg-3" value="Proveedores" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="440" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cMUJ-GSW8dFncvMhjCYg-5" value="Rappi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-3">
+          <mxGeometry x="20" y="40" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cMUJ-GSW8dFncvMhjCYg-6" value="Didi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-3">
+          <mxGeometry x="100" y="40" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cMUJ-GSW8dFncvMhjCYg-7" value="Excel / SFTP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-3">
+          <mxGeometry x="180" y="40" width="70" height="35" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
