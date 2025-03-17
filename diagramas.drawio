@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16" pages="22">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16" pages="20">
   <diagram id="Iev0dwgMZJddHyDEFxUF" name="despliegue abcall">
     <mxGraphModel dx="3580" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -5012,162 +5012,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="XonbDNMzeMt4cwaOnY5W" name="makro 3">
-    <mxGraphModel dx="1911" dy="2009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="k0CDX9RFpXXewYKV512n-1" value="Proveedores / Aliados / Clientes&#xa;(Rappi, Instaleap, Zubale, etc.)" style="swimlane;childLayout=stackLayout;horizontal=1;resizeParent=1;collapsible=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;whiteSpace=wrap;html=1;startSize=60;" vertex="1" parent="1">
-          <mxGeometry x="340" y="-380" width="180" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-2" value="Integraciones:&#xa;- SFTP (masivo)&#xa;- Excel (correo)&#xa;- REST (API)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-1">
-          <mxGeometry y="60" width="180" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-3" value="Oracle Cloud&#xa;(Bases de Datos, ERP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#f8ab2d;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="860" y="610" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-4" value="Azure&#xa;(Servicios adicionales, serverless...)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="1230" y="610" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-5" value="VPN / Conexión Privada" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=11" edge="1" parent="1" source="k0CDX9RFpXXewYKV512n-3" target="k0CDX9RFpXXewYKV512n-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-6" value="Capa Middleware&#xa;(Orquestación, Integración)" style="swimlane;childLayout=stackLayout;horizontal=0;resizeParent=1;collapsible=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="340" y="120" width="1060" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-7" value="Autenticación Terceros" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-6">
-          <mxGeometry x="50" width="160" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-8" value="Plantilla JSON" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-6">
-          <mxGeometry x="210" width="160" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-9" value="I/O Datos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-6">
-          <mxGeometry x="370" width="160" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-10" value="Logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-6">
-          <mxGeometry x="530" width="160" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-11" value="Gestión" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-6">
-          <mxGeometry x="690" width="160" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-12" value="Módulos de Negocio Internos:&#xa;- Catálogo Productos&#xa;- Pedidos, Entregas&#xa;- Registro Clientes&#xa;- Promociones, Donaciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11" vertex="1" parent="k0CDX9RFpXXewYKV512n-6">
-          <mxGeometry x="850" width="210" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-13" value="Orquestación / Transformación" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="k0CDX9RFpXXewYKV512n-6" source="k0CDX9RFpXXewYKV512n-9" target="k0CDX9RFpXXewYKV512n-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="720" y="-70" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-14" value="Envío/Recepción&#xa; (SFTP, Excel, APIs, etc.)" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=11" edge="1" parent="1" source="k0CDX9RFpXXewYKV512n-2" target="k0CDX9RFpXXewYKV512n-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-15" value="Consulta / Actualiza&#xa; BD, ERP" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=11" edge="1" parent="1" source="k0CDX9RFpXXewYKV512n-6" target="k0CDX9RFpXXewYKV512n-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-16" value="Integraciones / Servicios Adicionales" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=11" edge="1" parent="1" source="k0CDX9RFpXXewYKV512n-6" target="k0CDX9RFpXXewYKV512n-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-17" value="IA Externa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
-          <mxGeometry x="410" y="630" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-18" value="BI Externa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
-          <mxGeometry x="630" y="-230" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-19" value="Envío/Retrieval&#xa; para análisis avanzado" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="k0CDX9RFpXXewYKV512n-6" target="k0CDX9RFpXXewYKV512n-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-20" value="Envío de datos / dashboards" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="k0CDX9RFpXXewYKV512n-6" target="k0CDX9RFpXXewYKV512n-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="k0CDX9RFpXXewYKV512n-21" value="Este diagrama de alto nivel muestra:&#xa;&#xa;• Middleware que unifica integraciones de SFTP, Excel, APIs.&#xa;• Conexión VPN entre Oracle y Azure.&#xa;• Bloques clave: Autenticación, Plantillas JSON, I/O, Logs, Gestión.&#xa;• Módulos de negocio (Pedidos, Catálogo, Clientes, etc.) conectados.&#xa;• IA/BI externas para analítica y servicios avanzados." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=0;align=left;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="-360" width="300" height="180" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="bcuNfwoYMrL7c47SyAJK" name="Página-17">
-    <mxGraphModel dx="1242" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="rdwuyV_qQu4a17Wu5mft" name="Página-18">
-    <mxGraphModel dx="1242" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="cPCs64Twhios9F0GVno5" name="Página-20">
-    <mxGraphModel dx="2722" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-1" value="Proveedores / Aliados / Clientes (Rappi, Instaleap, Zubale, etc.)" style="swimlane;childLayout=stackLayout;horizontal=1;resizeParent=1;collapsible=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="-340" width="200" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-2" value="• SFTP masivo&#xa;• Excel/Correo&#xa;• APIs (REST)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;fontSize=11" vertex="1" parent="3CsJsC3SwKj8XoAtsAgY-1">
-          <mxGeometry y="50" width="180" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-3" value="Capa Middleware&#xa;(Orquestación, Integración, Contratos)" style="swimlane;childLayout=stackLayout;horizontal=0;resizeParent=1;collapsible=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="300" y="100" width="1130" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-4" value="Contratos / Versionado&#xa;Múltiples endpoints o versiones (v1, v2)&#xa;Campos adicionales sin romper integraciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10" vertex="1" parent="3CsJsC3SwKj8XoAtsAgY-3">
-          <mxGeometry x="40" width="220" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-5" value="Autenticación / Seguridad&#xa;• OAuth2, Tokens&#xa;• OWASP, cifrado" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10" vertex="1" parent="3CsJsC3SwKj8XoAtsAgY-3">
-          <mxGeometry x="260" width="220" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-6" value="Orquestación / Logs&#xa;• Flujos, auditoría&#xa;• Monitoreo centralizado" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10" vertex="1" parent="3CsJsC3SwKj8XoAtsAgY-3">
-          <mxGeometry x="480" width="220" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-7" value="Transformaciones / Plantillas JSON&#xa;• CSV/Excel ↔ JSON&#xa;• Validaciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10" vertex="1" parent="3CsJsC3SwKj8XoAtsAgY-3">
-          <mxGeometry x="700" width="220" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-8" value="Módulos de Negocio&#xa;- Pedidos / Entregas&#xa;- Catálogo / Clientes&#xa;- Promociones / Donaciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11" vertex="1" parent="3CsJsC3SwKj8XoAtsAgY-3">
-          <mxGeometry x="920" width="210" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-9" value="(1) Integraciones: SFTP, Excel, APIs" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10;" edge="1" parent="1" source="3CsJsC3SwKj8XoAtsAgY-1" target="3CsJsC3SwKj8XoAtsAgY-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="290" as="sourcePoint" />
-            <mxPoint x="290" y="140" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="320" y="-310" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-10" value="Oracle Cloud&#xa;(BD, ERP, etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#f8ab2d;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="-180" y="100" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-11" value="Azure&#xa;(API Mgmt, Logic Apps, etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="-180" y="280" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-12" value="(2) Llamadas / Actualizaciones&lt;div&gt;VPN / ExpressRoute&lt;/div&gt;" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10;" edge="1" parent="1" target="3CsJsC3SwKj8XoAtsAgY-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300.0000000000002" y="141" as="sourcePoint" />
-            <mxPoint x="20" y="16" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="210" y="140" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-13" value="(3) Complementos / Microservicios" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="3CsJsC3SwKj8XoAtsAgY-3" target="3CsJsC3SwKj8XoAtsAgY-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-15" value="IA / BI Externos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
-          <mxGeometry x="620" y="610" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3CsJsC3SwKj8XoAtsAgY-16" value="(4) Envío de datos / análisis" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;fontSize=10" edge="1" parent="1" source="3CsJsC3SwKj8XoAtsAgY-3" target="3CsJsC3SwKj8XoAtsAgY-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="jpb65FowBre1kKXBzvRg" name="Página-21">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -5289,7 +5133,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ptCdDp1p2bhlASZLziFn" name="makro">
-    <mxGraphModel dx="2411" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5393,6 +5237,122 @@
         <mxCell id="6GLcNxbTxP8UglpXnqqT-32" value="Fase 1: Middleware&lt;div&gt;Fase 2: Administración Web&lt;/div&gt;&lt;div&gt;Fase 3: Estandarizar integraciones&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="625" y="23" width="210" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1Mp24f5XJU8S6Y966Hpd" name="makro propuesta">
+    <mxGraphModel dx="2943" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="680" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3KiYAN2l8zITMFy_6vEa-3" target="3KiYAN2l8zITMFy_6vEa-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/API_Management_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="210" width="190" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-5" value="Aplicacion 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-6" value="Aplicación N" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="825" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3KiYAN2l8zITMFy_6vEa-8" target="3KiYAN2l8zITMFy_6vEa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-8" value="Rappi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3KiYAN2l8zITMFy_6vEa-10" target="3KiYAN2l8zITMFy_6vEa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-10" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="449" y="374" width="67" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-11" value="Backend" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-12" value="Aplicacion 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-13" value="Seguridad" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-14" value="Trazabilidad" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-15" value="Analitica" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-16" value="Monitoreo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-17" value="B2C" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_AD_B2C.svg;" vertex="1" parent="1">
+          <mxGeometry x="449" y="80" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.672;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3KiYAN2l8zITMFy_6vEa-3" target="3KiYAN2l8zITMFy_6vEa-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="203" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-19" value="Gobierno" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-20" value="Aplicacion 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3KiYAN2l8zITMFy_6vEa-22" target="3KiYAN2l8zITMFy_6vEa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-22" value="Diddi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-23" value="Productos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="370" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-24" value="Precios" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-25" value="Control de planes consumo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-26" value="Circuit Breaker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-27" value="Versionamiento" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-28" value="Documentacion APIS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-29" value="Logs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-30" value="SOAP -REST" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-31" value="REST-SOAP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KiYAN2l8zITMFy_6vEa-32" value="Fase 1: Middleware&lt;div&gt;Fase 2: Administración Web&lt;/div&gt;&lt;div&gt;Fase 3: Estandarizar integraciones&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="23" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TyC_eBvCt-nRP11g3xxu" name="Página-20">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
