@@ -5366,7 +5366,7 @@
           <mxGeometry x="180" y="40" width="70" height="35" as="geometry" />
         </mxCell>
         <mxCell id="cMUJ-GSW8dFncvMhjCYg-8" value="Integracion" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="220" y="480" width="440" height="170" as="geometry" />
+          <mxGeometry x="250" y="580" width="440" height="300" as="geometry" />
         </mxCell>
         <mxCell id="cMUJ-GSW8dFncvMhjCYg-9" value="Rappi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-8">
           <mxGeometry x="20" y="40" width="70" height="35" as="geometry" />
@@ -5378,7 +5378,10 @@
           <mxGeometry x="180" y="40" width="70" height="35" as="geometry" />
         </mxCell>
         <mxCell id="cMUJ-GSW8dFncvMhjCYg-12" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-8">
-          <mxGeometry x="240" y="90" width="67" height="52" as="geometry" />
+          <mxGeometry x="190" y="110" width="67" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="cMUJ-GSW8dFncvMhjCYg-13" value="Conectores&lt;div&gt;http, rest, sftp, sql&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-8">
+          <mxGeometry x="161" y="190" width="125" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
