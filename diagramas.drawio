@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16" pages="20">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1" pages="20">
   <diagram id="Iev0dwgMZJddHyDEFxUF" name="despliegue abcall">
     <mxGraphModel dx="3580" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -5349,56 +5349,56 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TyC_eBvCt-nRP11g3xxu" name="Página-20">
-    <mxGraphModel dx="518" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cMUJ-GSW8dFncvMhjCYg-3" target="cMUJ-GSW8dFncvMhjCYg-8">
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cMUJ-GSW8dFncvMhjCYg-3" target="cMUJ-GSW8dFncvMhjCYg-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cMUJ-GSW8dFncvMhjCYg-3" value="Terceros / Proveedores " style="swimlane;" vertex="1" parent="1">
+        <mxCell id="cMUJ-GSW8dFncvMhjCYg-3" value="Terceros / Proveedores " style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="40" y="170" width="260" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="cMUJ-GSW8dFncvMhjCYg-5" value="Rappi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-3">
+        <mxCell id="cMUJ-GSW8dFncvMhjCYg-5" value="Rappi" style="rounded=1;whiteSpace=wrap;html=1;" parent="cMUJ-GSW8dFncvMhjCYg-3" vertex="1">
           <mxGeometry x="20" y="40" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="cMUJ-GSW8dFncvMhjCYg-6" value="Didi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-3">
+        <mxCell id="cMUJ-GSW8dFncvMhjCYg-6" value="Didi" style="rounded=1;whiteSpace=wrap;html=1;" parent="cMUJ-GSW8dFncvMhjCYg-3" vertex="1">
           <mxGeometry x="100" y="40" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-1" value="Instaleap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-3">
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-1" value="Instaleap" style="rounded=1;whiteSpace=wrap;html=1;" parent="cMUJ-GSW8dFncvMhjCYg-3" vertex="1">
           <mxGeometry x="180" y="40" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-2" value="Scantech" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-3">
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-2" value="Scantech" style="rounded=1;whiteSpace=wrap;html=1;" parent="cMUJ-GSW8dFncvMhjCYg-3" vertex="1">
           <mxGeometry x="20" y="100" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="cMUJ-GSW8dFncvMhjCYg-8" value="Middleware" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="cMUJ-GSW8dFncvMhjCYg-8" value="Middleware" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="480" y="105" width="340" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="cMUJ-GSW8dFncvMhjCYg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cMUJ-GSW8dFncvMhjCYg-8" source="cMUJ-GSW8dFncvMhjCYg-12" target="cMUJ-GSW8dFncvMhjCYg-13">
+        <mxCell id="cMUJ-GSW8dFncvMhjCYg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="cMUJ-GSW8dFncvMhjCYg-8" source="cMUJ-GSW8dFncvMhjCYg-12" target="cMUJ-GSW8dFncvMhjCYg-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cMUJ-GSW8dFncvMhjCYg-12" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-8">
+        <mxCell id="cMUJ-GSW8dFncvMhjCYg-12" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" parent="cMUJ-GSW8dFncvMhjCYg-8" vertex="1">
           <mxGeometry x="71" y="79" width="67" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="cMUJ-GSW8dFncvMhjCYg-13" value="+ Api Management&lt;div&gt;+ B2B&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-8">
+        <mxCell id="cMUJ-GSW8dFncvMhjCYg-13" value="+ Api Management&lt;div&gt;+ B2B&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="cMUJ-GSW8dFncvMhjCYg-8" vertex="1">
           <mxGeometry x="42" y="175" width="125" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-4" value="Oracle Integration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-8">
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-4" value="Oracle Integration&lt;div&gt;+VPN&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="cMUJ-GSW8dFncvMhjCYg-8" vertex="1">
           <mxGeometry x="240" y="79" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-5" value="Proxy API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMUJ-GSW8dFncvMhjCYg-8">
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-5" value="Proxy API" style="rounded=1;whiteSpace=wrap;html=1;" parent="cMUJ-GSW8dFncvMhjCYg-8" vertex="1">
           <mxGeometry x="240" y="175" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-6" value="Backend MAKRO" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-6" value="Backend MAKRO" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="550" y="570" width="530" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-12" value="Registro Clientes CAP BE&lt;div&gt;PHP+Azure&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-12" value="Registro Clientes CAP BE&lt;div&gt;PHP+Azure&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="5Z7WmrzUM_jumQn6IGGI-6" vertex="1">
           <mxGeometry x="40" y="80" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-13" value="&lt;div&gt;&lt;div&gt;Registro Clientes CAP BE 2&lt;div&gt;PHP Azure&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-13" value="&lt;div&gt;&lt;div&gt;Registro Clientes CAP BE 2&lt;div&gt;PHP Azure&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="5Z7WmrzUM_jumQn6IGGI-6" vertex="1">
           <mxGeometry x="220" y="80" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-14" value="Consulta Pasaportes MBS&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-14" value="Consulta Pasaportes MBS&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="5Z7WmrzUM_jumQn6IGGI-6" vertex="1">
           <mxGeometry x="40" y="140" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
