@@ -5392,13 +5392,13 @@
         <mxCell id="5Z7WmrzUM_jumQn6IGGI-6" value="Backend MAKRO" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="550" y="570" width="530" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-12" value="Registro Clientes CAP BE&lt;div&gt;PHP Azure&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-12" value="Registro Clientes CAP BE&lt;div&gt;PHP+Azure&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
           <mxGeometry x="40" y="80" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5Z7WmrzUM_jumQn6IGGI-13" value="&lt;div&gt;&lt;div&gt;Registro Clientes CAP BE 2&lt;div&gt;PHP Azure&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
           <mxGeometry x="220" y="80" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-14" value="Consulta Pasaportes MBS&lt;div&gt;PHP Azure&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-14" value="Consulta Pasaportes MBS&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
           <mxGeometry x="40" y="140" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
