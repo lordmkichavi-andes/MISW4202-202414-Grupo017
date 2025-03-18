@@ -5349,7 +5349,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TyC_eBvCt-nRP11g3xxu" name="Página-20">
-    <mxGraphModel dx="1129" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="518" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5390,25 +5390,13 @@
           <mxGeometry x="240" y="175" width="70" height="35" as="geometry" />
         </mxCell>
         <mxCell id="5Z7WmrzUM_jumQn6IGGI-6" value="Backend MAKRO" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="400" y="560" width="530" height="440" as="geometry" />
+          <mxGeometry x="550" y="570" width="530" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-12" value="Registro Clientes CAP BE&lt;div&gt;PHP Azure&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
-          <mxGeometry x="40" y="80" width="210" height="60" as="geometry" />
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-12" value="Registro Clientes CAP BE&lt;div&gt;PHP Azure&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
+          <mxGeometry x="40" y="80" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5Z7WmrzUM_jumQn6IGGI-6" source="5Z7WmrzUM_jumQn6IGGI-8" target="5Z7WmrzUM_jumQn6IGGI-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-8" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
-          <mxGeometry x="71" y="79" width="67" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-9" value="+ Api Management&lt;div&gt;+ B2B&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
-          <mxGeometry x="42" y="175" width="125" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-10" value="Oracle Integration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
-          <mxGeometry x="240" y="79" width="70" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="5Z7WmrzUM_jumQn6IGGI-11" value="Proxy API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
-          <mxGeometry x="240" y="175" width="70" height="35" as="geometry" />
+        <mxCell id="5Z7WmrzUM_jumQn6IGGI-13" value="&lt;div&gt;&lt;div&gt;Registro Clientes CAP BE 2&lt;div&gt;PHP Azure&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5Z7WmrzUM_jumQn6IGGI-6">
+          <mxGeometry x="270" y="80" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
