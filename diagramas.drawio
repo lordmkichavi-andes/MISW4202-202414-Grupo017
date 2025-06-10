@@ -5595,8 +5595,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JUiA_N-ZEEltvWiipkXG-1" value="Note" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="250" y="90" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-1" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Se comunica con su madre &lt;/span&gt;varias veces al día&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;, principalmente a través de un sistema dual de &lt;/span&gt;WhatsApp (88%)&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; y &lt;/span&gt;llamadas telefónicas (72%)" style="shape=note;strokeWidth=2;fontSize=14;size=7;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-2" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="80" width="20" height="200" as="geometry" />
@@ -5618,6 +5618,9 @@
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-9" value="&lt;b&gt;Marcela&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-10" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Como la gran mayoría (&lt;/span&gt;84%&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;), &lt;/span&gt;no utiliza ninguna tecnología especializada&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; de cuidado[cite: 1], dependiendo de herramientas de comunicación genéricas para una tarea crítica.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="260" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
