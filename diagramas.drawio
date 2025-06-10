@@ -5595,8 +5595,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JUiA_N-ZEEltvWiipkXG-1" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Se comunica con su madre &lt;/span&gt;varias veces al día&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;, principalmente a través de un sistema dual de &lt;/span&gt;WhatsApp (88%)&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; y &lt;/span&gt;llamadas telefónicas (72%)" style="shape=note;strokeWidth=2;fontSize=14;size=9;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="39" width="280" height="91" as="geometry" />
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-1" value="&lt;span class=&quot;selected&quot;&gt;Claro, la llamo varias veces al día para saber que todo está en orden&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=9;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="39" width="210" height="61" as="geometry" />
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-2" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="-20" width="20" height="300" as="geometry" />
