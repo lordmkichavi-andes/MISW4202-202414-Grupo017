@@ -5628,11 +5628,11 @@
         <mxCell id="JUiA_N-ZEEltvWiipkXG-12" value="&lt;span class=&quot;selected&quot;&gt;Sí, claro que pagaría una suscripción mensual por un servicio que me dé tranquilidad&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=9;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
           <mxGeometry x="243" y="160" width="207" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JUiA_N-ZEEltvWiipkXG-13" value="&lt;span class=&quot;selected&quot;&gt;&lt;b&gt;HACE&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-13" value="&lt;span class=&quot;selected&quot;&gt;&lt;b&gt;SAYS&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="320" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JUiA_N-ZEEltvWiipkXG-14" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Tener la &lt;/span&gt;seguridad&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; de que su madre está bien sin tener que interrumpir constantemente su trabajo o su vida personal.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="420" width="210" height="80" as="geometry" />
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-14" value="&lt;span class=&quot;selected&quot;&gt;No puedo desconectarme del todo, siempre tengo una parte de mi mente pensando en ella&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="420" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-15" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Ser &lt;/span&gt;proactiva en lugar de reactiva&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;, especialmente ante sus mayores miedos: una caída o un problema de salud súbito.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
           <mxGeometry x="180" y="460" width="210" height="80" as="geometry" />
