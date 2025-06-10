@@ -5591,7 +5591,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0AJ1Z00398xg4NSdgirM" name="user persona">
-    <mxGraphModel dx="3226" dy="2117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2291" dy="1531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5629,10 +5629,10 @@
           <mxGeometry x="243" y="160" width="207" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-13" value="&lt;span class=&quot;selected&quot;&gt;&lt;b&gt;SAYS&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="320" width="60" height="30" as="geometry" />
+          <mxGeometry x="360" y="300" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-14" value="&lt;span class=&quot;selected&quot;&gt;No puedo desconectarme del todo, siempre tengo una parte de mi mente pensando en ella&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="420" width="210" height="70" as="geometry" />
+          <mxGeometry x="584" y="30" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-15" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Ser &lt;/span&gt;proactiva en lugar de reactiva&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;, especialmente ante sus mayores miedos: una caída o un problema de salud súbito.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
           <mxGeometry x="180" y="460" width="210" height="80" as="geometry" />
@@ -5643,8 +5643,8 @@
         <mxCell id="JUiA_N-ZEEltvWiipkXG-17" value="Centralizar la información y la coordinación del cuidado para reducir su carga mental y poder compartirla más fácilmente con su pequeño círculo de apoyo." style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
           <mxGeometry x="210" y="580" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="JUiA_N-ZEEltvWiipkXG-18" value="&lt;span class=&quot;selected&quot;&gt;&lt;b&gt;QUIERE&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="380" width="60" height="30" as="geometry" />
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-18" value="&lt;span class=&quot;selected&quot;&gt;&lt;b&gt;DOES&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-19" value="&lt;span class=&quot;selected&quot;&gt;&lt;b&gt;DUELE&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="390" width="60" height="30" as="geometry" />
@@ -5660,6 +5660,24 @@
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-24" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;La &lt;/span&gt;gestión fragmentada&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; de la comunicación (llamar, luego chatear, luego recordar) le genera una inmensa carga mental y es una fuente constante de interrupciones.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
           <mxGeometry x="570" y="620" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-25" value="&lt;span class=&quot;selected&quot;&gt;&lt;b&gt;THINKS&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-27" value="&lt;span class=&quot;selected&quot;&gt;Este sistema de llamar y chatear no es eficiente. Siento que pierdo tiempo y energía.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="584" y="160" width="216" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-28" value="&lt;span class=&quot;selected&quot;&gt;Tiene que haber una forma más inteligente de hacer&amp;nbsp;&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="820" y="170" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-29" value="&lt;span class=&quot;selected&quot;&gt;¿Y si no me contesta el teléfono? Inmediatamente pienso lo peor&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="35" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-30" value="&lt;span class=&quot;selected&quot;&gt;Aunque hable con ella, no sé realmente lo que pasa el resto del día&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="130" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-31" value="Si algo malo pasa, la responsabilidad es mía" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="220" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
