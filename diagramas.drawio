@@ -5591,24 +5591,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0AJ1Z00398xg4NSdgirM" name="user persona">
-    <mxGraphModel dx="1234" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3226" dy="2117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JUiA_N-ZEEltvWiipkXG-1" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Se comunica con su madre &lt;/span&gt;varias veces al día&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;, principalmente a través de un sistema dual de &lt;/span&gt;WhatsApp (88%)&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; y &lt;/span&gt;llamadas telefónicas (72%)" style="shape=note;strokeWidth=2;fontSize=14;size=7;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="40" width="270" height="80" as="geometry" />
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-1" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Se comunica con su madre &lt;/span&gt;varias veces al día&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;, principalmente a través de un sistema dual de &lt;/span&gt;WhatsApp (88%)&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; y &lt;/span&gt;llamadas telefónicas (72%)" style="shape=note;strokeWidth=2;fontSize=14;size=9;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="39" width="280" height="91" as="geometry" />
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-2" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="80" width="20" height="200" as="geometry" />
+          <mxGeometry x="510" y="-20" width="20" height="300" as="geometry" />
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-3" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="360" width="330" height="10" as="geometry" />
+          <mxGeometry x="-170" y="357" width="600" height="10" as="geometry" />
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-4" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="360" width="360" height="10" as="geometry" />
+          <mxGeometry x="610" y="357" width="630" height="10" as="geometry" />
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-5" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="460" width="20" height="230" as="geometry" />
+          <mxGeometry x="510" y="460" width="20" height="340" as="geometry" />
         </mxCell>
         <mxCell id="JUiA_N-ZEEltvWiipkXG-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="440" y="290" width="160" height="160" as="geometry" />
@@ -5619,8 +5619,47 @@
         <mxCell id="JUiA_N-ZEEltvWiipkXG-9" value="&lt;b&gt;Marcela&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="410" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JUiA_N-ZEEltvWiipkXG-10" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Como la gran mayoría (&lt;/span&gt;84%&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;), &lt;/span&gt;no utiliza ninguna tecnología especializada&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; de cuidado[cite: 1], dependiendo de herramientas de comunicación genéricas para una tarea crítica.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
-          <mxGeometry x="60" y="140" width="260" height="100" as="geometry" />
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-10" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Como la gran mayoría (&lt;/span&gt;84%&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;), &lt;/span&gt;no utiliza ninguna tecnología especializada&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; de cuidado[cite: 1], dependiendo de herramientas de comunicación genéricas para una tarea crítica.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=10;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="160" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-11" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Lleva la mayor parte de la carga del cuidado, contando con el apoyo de solo &lt;/span&gt;una o dos personas más (60%)&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;[cite: 1], lo que centraliza el estrés y la responsabilidad en ella.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=10;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="222" y="30" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-12" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Pasa su tiempo en canales digitales, prefiriendo enterarse de nuevos servicios a través de &lt;/span&gt;redes sociales o correo electrónico (72% combinado)" style="shape=note;strokeWidth=2;fontSize=14;size=9;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="243" y="160" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-13" value="&lt;span class=&quot;selected&quot;&gt;&lt;b&gt;HACE&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-14" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Tener la &lt;/span&gt;seguridad&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; de que su madre está bien sin tener que interrumpir constantemente su trabajo o su vida personal.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="420" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-15" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Ser &lt;/span&gt;proactiva en lugar de reactiva&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;, especialmente ante sus mayores miedos: una caída o un problema de salud súbito.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-16" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Sentir que es una &lt;/span&gt;&quot;buena hija&quot;&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; y que le provee el mejor cuidado posible, a pesar de la distancia y la falta de tiempo.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="560" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-17" value="Centralizar la información y la coordinación del cuidado para reducir su carga mental y poder compartirla más fácilmente con su pequeño círculo de apoyo." style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="580" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-18" value="&lt;span class=&quot;selected&quot;&gt;&lt;b&gt;QUIERE&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-19" value="&lt;span class=&quot;selected&quot;&gt;&lt;b&gt;DUELE&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-20" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Siente un nivel de &lt;/span&gt;ansiedad alto o muy alto (como el 70% de los encuestados)&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; en su día a día a causa de esta responsabilidad. Esto no es una molestia, es un dolor crónico.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="550" y="470" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-21" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;Su mayor temor es una &lt;/span&gt;caída (46%)&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; o que su madre sufra de &lt;/span&gt;soledad (30%)&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; [cite: 1] y no poder enterarse a tiempo.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="880" y="440" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-23" value="La sensación de no tener control real y depender de que su madre conteste el teléfono para poder estar tranquila." style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="899" y="590" width="241" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JUiA_N-ZEEltvWiipkXG-24" value="&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt;La &lt;/span&gt;gestión fragmentada&lt;span style=&quot;&quot; class=&quot;selected&quot;&gt; de la comunicación (llamar, luego chatear, luego recordar) le genera una inmensa carga mental y es una fuente constante de interrupciones.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="570" y="620" width="270" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
